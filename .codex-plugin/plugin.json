@@ -1,0 +1,19 @@
+{
+  "name": "pstack-codex",
+  "version": "0.3.0",
+  "description": "Lauren Tan's pstack engineering workflows adapted for Codex, with scoped permissions and concrete verification.",
+  "author": {
+    "name": "pstack-codex contributors; upstream Lauren Tan"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pstack for Codex",
+    "shortDescription": "Evidence-led engineering: 54 skills and 23 playbooks.",
+    "developerName": "Independent port of Lauren Tan's pstack",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Use $pstack-codex:pstack-poteto-mode to complete this task with concrete verification."
+    ]
+  }
+}

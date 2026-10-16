@@ -1,0 +1,14 @@
+# Independent PR queue with separate landing authority
+
+This adapts the ownership protocol to a bounded Codex session. It does not install a cloud fleet, automatic hourly audits, or implicit merge authority.
+
+1. Clarify from existing instructions which items are implementation-only, PR publication, or explicitly authorized landing. Operator-owned gates remain with the operator. A request to state the plan ends at the plan.
+2. Assign independent units to authorized available delegates with one writer per branch, or execute serially. Independent PRs branch from trunk; dependent work uses Autopilot-stack. Each owner keeps a decision trail in the authorized workspace and reports exact head, checks, behavior receipts, and outstanding issues. Record any authorized child agents and their state where a replacement can find them. Do not impose an automatic first push or ready PR deadline.
+3. Use Opening a PR only for authorized publication. A draft is appropriate when readiness or the user requires it. Scoped review triage and drive mode follow Babysit; posting responses remains subject to explicit messaging authorization.
+4. At the code-ready head, verify gates, load-bearing behavior, regression behavior against base, and relevant safety concerns. Repeat full review for new behavior, a redesign, or a large new diff. A minor fix or rebase can use one authorized independent verifier for affected checks and behavior; reuse other evidence only under [Shipping's evidence rules](shipping.md). Report unavailable independent review honestly. Aggregate proven findings into one fix brief, regardless of whether a reviewer called them notes. A defect present on trunk is recorded separately unless the PR copies it, worsens it, or makes it newly reachable.
+5. Only explicitly authorized landing proceeds via Shipping, after current checks and policy gates. An internal coordinator verdict cannot grant external permission or countersign an approval reserved to a human. Do not force-push shared history.
+6. Keep bounded in-session audits of actual artifacts and worker state. A worker waiting for an answer is not stuck; resolve the dependency. Correct missing records without replacing a healthy worker. Before replacing a failed worker, confirm it stopped or isolate its write scope. No unattended schedule is implied. Honor hold/stop across workers and checkpoint the queue at budget exhaustion.
+
+Do not weaken checks to obtain a pass. A proposed budget increase, allowlist entry, or other gate relaxation needs evidence and the approval required by the task and repository. Disclose disabled or soft-failed checks; they do not prove the guarded behavior passed.
+
+Report each item's owner, head, verified state, actual publication/merge, operator gates, and decision trails. For a substantial catch-up, use [pstack-ketchup](../../pstack-ketchup/SKILL.md) when available. It changes the report, not the task's authority.

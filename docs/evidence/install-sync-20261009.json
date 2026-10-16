@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "codex": "0.162.0",
+  "pluginId": "pstack-codex@pstack-local",
+  "oldVersion": "0.1.0",
+  "newVersion": "0.2.0",
+  "codexHome": "/Users/tubakhuym/.codex",
+  "source": "/Users/tubakhuym/projects/prototypes/pstack-codex",
+  "installedPath": "/Users/tubakhuym/.codex/plugins/cache/pstack-local/pstack-codex/0.2.0",
+  "payloadSha256": "c6d7609448532b3ff7b64d2eb76360460bbe7b5e0ac913ef3e4adac2f38b4209",
+  "payloadFiles": 183,
+  "completeSourceCacheBytesAndModesMatch": true,
+  "enabledDiscoveredSkills": 51,
+  "uniqueSkillPaths": true,
+  "newHelpDiscovered": true,
+  "onlyUserConfigChange": "marketplaces.pstack-local.source corrected to actual source directory",
+  "oldVersionCacheRetained": false,
+  "backupRoot": "/Users/tubakhuym/projects/prototypes/pstack-update-20261009-Uejo3x",
+  "discoveryMethods": [
+    "initialize",
+    "skills/list"
+  ],
+  "threadOrTurnStarted": false,
+  "liveWorkflowsTested": false,
+  "freshSessionRequired": true
+}

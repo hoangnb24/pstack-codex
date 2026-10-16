@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack: Ketchup"
+  short_description: "Catch up on chat changes and pending decisions"
+  default_prompt: "Use $pstack-ketchup to catch me up on this chat and decisions that need me."
+policy:
+  allow_implicit_invocation: false

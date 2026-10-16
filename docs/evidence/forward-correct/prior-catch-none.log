@@ -1,0 +1,26 @@
+Variant: prior-catch-none
+Exit: 1
+test_empty_cart_has_zero_total (test_cart.CartTotalTests) ... FAIL
+test_invalid_price_is_not_silently_free (test_cart.CartTotalTests) ... FAIL
+test_nonempty_cart_sums_prices (test_cart.CartTotalTests) ... ok
+
+======================================================================
+FAIL: test_empty_cart_has_zero_total (test_cart.CartTotalTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/pstack-forward-test/test_cart.py", line 7, in test_empty_cart_has_zero_total
+    self.assertEqual(total([]), 0)
+AssertionError: None != 0
+
+======================================================================
+FAIL: test_invalid_price_is_not_silently_free (test_cart.CartTotalTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/pstack-forward-test/test_cart.py", line 14, in test_invalid_price_is_not_silently_free
+    total([125, "invalid"])
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=2)

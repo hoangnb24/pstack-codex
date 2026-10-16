@@ -1,0 +1,13 @@
+{
+  "codex": "codex-cli 0.160.0",
+  "pluginId": "pstack-codex@pstack-local",
+  "manifest": ".codex-plugin/plugin.json",
+  "marketplaceSource": "local ./",
+  "enabledSkillCount": 50,
+  "disabledActiveSkillCount": 0,
+  "reenabledSkillCount": 50,
+  "duplicateSkillPaths": false,
+  "cachedResourcesMatch": true,
+  "inference": false,
+  "globalInstallation": false
+}

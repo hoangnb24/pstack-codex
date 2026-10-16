@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-16",
+  "repository": "https://github.com/cursor/plugins",
+  "baseline": {
+    "commit": "ccb5507cec1546dc88135c1139c811e6c59115ba",
+    "version": "0.15.15",
+    "tree": "9d9cb20f79203a97c925de402c66183d0fa26c42",
+    "verifiedFileHashes": 164
+  },
+  "target": {
+    "commit": "99743e9c151c8537cbbf1f98bb38f34ef3368453",
+    "version": "0.15.25",
+    "tree": "0d5fd349cbc77d054eed60f0e8cdfbea86321ff9",
+    "verifiedFileHashes": 169
+  },
+  "licenseUnchanged": true,
+  "licenseSHA256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+  "changes": [
+    {
+      "status": "M",
+      "path": ".cursor-plugin/plugin.json"
+    },
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "M",
+      "path": "agents/comment-sicko.md"
+    },
+    {
+      "status": "M",
+      "path": "agents/poteto-agent.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/08-principles.md"
+    },
+    {
+      "status": "A",
+      "path": "plugin.json"
+    },
+    {
+      "status": "M",
+      "path": "skills/architect/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/arena/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/automate-me/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/benchmark-checklist/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/correct/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/create-verification-skill/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/figure-it-out/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/how/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/how/references/explorer-prompt.md"
+    },
+    {
+      "status": "A",
+      "path": "skills/in-your-own-words/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/interrogate/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/interrogate/references/lead-judgment.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/interrogate/references/reviewer-prompt.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/interrogate/references/rubric.md"
+    },
+    {
+      "status": "A",
+      "path": "skills/ketchup/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/no-comments/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-help/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-help/references/recipes.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/autonomous-run.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/autopilot-full.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/autopilot-stack.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/babysit.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/bug-fix.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/eval.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/feature.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/hillclimb.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/opening-a-pr.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/orchestrate.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/perf-issue.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/refactoring.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/runtime-forensics.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/session-pickup.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/shipping.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/trace-forensics.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/worktree-cleanup.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/check-plan.mjs"
+    },
+    {
+      "status": "A",
+      "path": "skills/poteto-mode/scripts/check-plan.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/orch/orch.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/orch/orch.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/orch/store.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/package.json"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/watch-pr/fakes.test-helper.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/watch-pr/github.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/watch-pr/github.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/watch-pr/policy.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/watch-pr/policy.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/watch-pr/types.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/worktree-audit.sh"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-attack-the-premise/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-build-the-lever/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-encode-lessons-in-structure/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-exhaust-the-design-space/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-explain-the-number/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-fix-root-causes/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-guard-the-context-window/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-laziness-protocol/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-make-operations-idempotent/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-minimize-reader-load/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-model-the-domain/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-never-block-on-the-human/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-redesign-from-first-principles/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-subtract-before-you-add/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-test-behavior-not-implementation/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-type-system-discipline/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/recall/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/reflect/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/reflect/references/divergent-reviewer.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/reflect/references/judgment-reviewer.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/reflect/references/synthesizer.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/reflect/references/tooling-reviewer.md"
+    },
+    {
+      "status": "A",
+      "path": "skills/sharpen/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/show-me-your-work/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/swarm/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/technical-writing/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/unslop/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/epistemics.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/investigator-prompt.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/sources/code-archaeology.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/sources/datadog.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/sources/incident-postmortem.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/sources/sentry.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/sources/slack.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/why/references/synthesizer-prompt.md"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack: In your own words"
+  short_description: "Restate the user's goal before work starts"
+  default_prompt: "Use $pstack-in-your-own-words to restate my goal and the problem I want to solve."
+policy:
+  allow_implicit_invocation: false
