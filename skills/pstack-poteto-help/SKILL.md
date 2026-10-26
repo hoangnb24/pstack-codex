@@ -29,6 +29,8 @@ The packaged skills preserve explicit-only invocation, except setup's normal dis
 
 Check only state needed for the answer, using permitted read-only access. For verification questions, look for a project `verify-*` skill or existing app harness. If none exists, recommend [create verification skill](../pstack-create-verification-skill/SKILL.md), but do not generate it. Missing browser control or recording is a real proof gap. A screenshot is not a video.
 
+For a race or invariant beyond ordinary test coverage, look for a project skill that runs a formal checker. If none exists, mention [create formal verification skill](../pstack-create-formal-verification-skill/SKILL.md). If its covered code changed after the recorded sync commit, mention [maintain formal verification skill](../pstack-maintain-formal-verification-skill/SKILL.md). Inspect working-tree changes too. Setup may offer these routes once; an offer is not permission to generate or install them.
+
 Extra candidate attempts and review workers cost tokens. Suggest a narrow task, a bounded time/attempt budget, and fewer authorized candidates where the selected skill permits it. Do not promise savings from Cursor model roles or change host settings. A serial pass can reduce delegation, but does not provide independent review.
 
 ## Start a task
@@ -47,12 +49,13 @@ Use poteto mode for a non-trivial execution task that needs its playbook. Use a 
 |---|---|
 | Evidence-led task execution | [poteto-mode](../pstack-poteto-mode/SKILL.md) |
 | Check understanding of the goal before work starts | [in-your-own-words](../pstack-in-your-own-words/SKILL.md) |
-| Improve an assigned task's approach without expanding scope | [sharpen](../pstack-sharpen/SKILL.md) |
+| Rewrite a prompt for a deeper approach without executing its task | [sharpen](../pstack-sharpen/SKILL.md) |
 | Current mechanics, placement, or ownership | [how](../pstack-how/SKILL.md) |
 | Reasons, history, or origin of a number | [why](../pstack-why/SKILL.md) |
 | Plain explanation of a change or subsystem | [teach](../pstack-teach/SKILL.md) |
 | Recent context from accessible, scoped history | [recall](../pstack-recall/SKILL.md) |
-| Changes in this chat and decisions still waiting on the user | [ketchup](../pstack-ketchup/SKILL.md) |
+| Changes in this chat and every pending item, with enough context to decide | [ketchup](../pstack-ketchup/SKILL.md) |
+| The same catch-up as a silent slide video, with pending decisions in text | [ketchup-video](../pstack-ketchup-video/SKILL.md) |
 | Breakage beyond a small diff | [blast-radius](../pstack-blast-radius/SKILL.md) |
 | Types and module design, then implementation | [architect](../pstack-architect/SKILL.md) |
 | Competing candidates and synthesis | [arena](../pstack-arena/SKILL.md) |
@@ -65,6 +68,9 @@ Use poteto mode for a non-trivial execution task that needs its playbook. Use a 
 | Structured technical writing | [technical-writing](../pstack-technical-writing/SKILL.md) |
 | Restate the last reply plainly | [bro](../pstack-bro/SKILL.md) |
 | Build a project-local app verification skill | [create-verification-skill](../pstack-create-verification-skill/SKILL.md) |
+| Formally verify a race or invariant beyond ordinary test coverage | [create-formal-verification-skill](../pstack-create-formal-verification-skill/SKILL.md) |
+| Reconcile formal verification with changed code and distinguish drift from bugs | [maintain-formal-verification-skill](../pstack-maintain-formal-verification-skill/SKILL.md) |
+| Explain model behavior and bug paths, or turn an agreed chart into a TLA+ skeleton | [statechart](../pstack-statechart/SKILL.md) |
 | Audit a verification skill and feature map | [maintain-verification-skill](../pstack-maintain-verification-skill/SKILL.md) |
 | Check whether a performance measurement is credible | [benchmark-checklist](../pstack-benchmark-checklist/SKILL.md) |
 | Design a rigorous run when no narrower playbook fits | [figure-it-out](../pstack-figure-it-out/SKILL.md) |

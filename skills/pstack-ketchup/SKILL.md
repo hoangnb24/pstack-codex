@@ -1,6 +1,6 @@
 ---
 name: pstack-ketchup
-description: "Catch the user up on changes in this chat since their last message. Give a short plain-language summary and enough context for pending user decisions."
+description: "Catch the user up on changes in this chat since their last message. List every pending user decision with enough context to decide from the reply alone."
 ---
 
 # Ketchup
@@ -19,13 +19,15 @@ If an unrequested, unnecessary irreversible step is already waiting on the user,
 
 ## Write the reply
 
-Keep prose well under 150 words, excluding useful visuals. Cut background before action items. Do not repeat facts between prose and visuals.
+Keep the change summary under 100 words when possible. Spend words on decisions, not the story. Let the reply grow with the number of pending items. Never replace items with a count or a link to meet a word limit. Do not repeat facts between prose and visuals.
 
-1. Open with how many things need the user, or say nothing does. If nothing changed and nothing waits, stop.
+1. Open with what needs the user, or say nothing does. If nothing changed and nothing waits, stop.
 2. Show existing screenshots or videos when they explain a visible change and the host can display them. Then include a small diagram only if relationships are clearer that way.
 3. Give one short bullet per requested outcome. State what changed and whether it is done, running, failed, or unverified. Mention relevant bugs found or fixed. Do not call work done when it still needs the user's decision. Keep action-item details out of this summary.
 4. Add at most three short lines of useful context, then one line for remaining work you can do yourself.
-5. List user action items as plain bullets. Give the decision, recommendation, and reason. Then say what happens without an answer. Include prerequisites and irreversible effects. Write "unknown" for unknown consequences and link existing detail.
+5. List every user action item as a plain bullet. Give its name and available link, the decision, recommendation, user-visible effect, supporting evidence, and risk. Include prerequisites and irreversible effects. Write "unknown" for needed facts you cannot establish. A link adds detail; it does not replace the information needed to decide.
+
+When one decision covers several items, state the decision and shared recommendation once. List each item separately, riskiest first, with its effect, evidence, and risk, even when risk is low. State a different recommendation only where needed. Explain the cost of waiting only when it is more than delay, such as lost data or a deadline.
 
 For a real choice, compare the options the work considered, including the current state when relevant. Show each option's benefit and cost once. If screenshots already show the options, put the tradeoffs beside them. Otherwise use a compact comparison only when it helps the decision.
 

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack Statechart"
+  short_description: "Model system behavior and draw statecharts"
+  default_prompt: "Use $pstack-statechart to model and draw this system."
+policy:
+  allow_implicit_invocation: false

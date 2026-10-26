@@ -47,6 +47,8 @@ Before applying any Accepted edit, present the synthesizer's full Accepted/Rejec
 
 Keep Backlog items in the review output. File external issues only when the user has explicitly authorized that action.
 
+Never edit a skill inside `plugins/cache/`. Before approval, show the proposed editable destination. Prefer an existing authorized source checkout. Otherwise propose a project-local `.agents/skills/<skill>/` copy, or a user skill directory only when the user requests that scope. Explain any naming or discovery conflict with the installed plugin before copying. After approval, copy the full required skill resources and edit only that approved source. Do not silently create a second active copy, push, open a PR, or refresh the plugin. A source edit alone does not update its installed cache.
+
 For each approved Accepted item, follow the Routing field exactly:
 
 - Trivial existing-skill edit (a one-line bullet, a tightened sentence, a stale fact corrected): parent does directly.

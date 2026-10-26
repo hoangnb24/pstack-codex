@@ -1,0 +1,228 @@
+{
+  "upstream": "6dbc3ff4b8302a697705f827e9fa92e700d6c6c7",
+  "baseline_upstream": "0148b78c56c72a1b8412055913c79f767095b217",
+  "original_git_base": "adf1ab931a105c9fb8ff6aa14c8e712bedc00825",
+  "baseline_payload": "836f333f1112829a8232a2125eba2c1319b78b8ae6ac963cdcc57bf23277a25b",
+  "candidate_sha256": "f00e02001c79a5374854b167010b466acbe781035fa2970ae93201a1da586006",
+  "files": [
+    {
+      "path": "skills/pstack-statechart/agents/openai.yaml",
+      "mode": "600",
+      "sha256": "2ac7f5c8e06c56f32051c874c66f379adbc5b243784e3558905659642019d303",
+      "disposition": "added Codex metadata/test/evidence"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/bug-states.mjs",
+      "mode": "600",
+      "sha256": "8c138f76542997f4fc8aa00ccb42f5b3510a4bcb475e04e422cf06c77ae6bbf4",
+      "upstream_sha256": "8c138f76542997f4fc8aa00ccb42f5b3510a4bcb475e04e422cf06c77ae6bbf4",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/chart-edges.mjs",
+      "mode": "600",
+      "sha256": "bb1896c1e0eb6b2bfe0f1e5ef71b194a3096c4a6db1879514bcfc3818d3d644a",
+      "upstream_sha256": "bb1896c1e0eb6b2bfe0f1e5ef71b194a3096c4a6db1879514bcfc3818d3d644a",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/chart-parts.mjs",
+      "mode": "600",
+      "sha256": "567b4700cba97881ec129cc9b2ed6cdbe9e1f041819ea37957dd3def5261b754",
+      "upstream_sha256": "567b4700cba97881ec129cc9b2ed6cdbe9e1f041819ea37957dd3def5261b754",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/chart-to-tla.mjs",
+      "mode": "600",
+      "sha256": "e26b0decb4762ee4c05cc96f4ba1454bd87ab6ae49f0f4bde74a29a4b493117d",
+      "upstream_sha256": "e26b0decb4762ee4c05cc96f4ba1454bd87ab6ae49f0f4bde74a29a4b493117d",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/compare-charts.mjs",
+      "mode": "600",
+      "sha256": "1fa3c1aad875d38d6d1702fcbbcdb7592bc9a3dbe871cdbd4f9ddeda1bc859fc",
+      "upstream_sha256": "1fa3c1aad875d38d6d1702fcbbcdb7592bc9a3dbe871cdbd4f9ddeda1bc859fc",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/lib.mjs",
+      "mode": "600",
+      "sha256": "ae8ebe18e09419a63b23465f9a53c9117e04de12a7bc945b1f75ce66a367cc5b",
+      "upstream_sha256": "ae8ebe18e09419a63b23465f9a53c9117e04de12a7bc945b1f75ce66a367cc5b",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/map-view.mjs",
+      "mode": "600",
+      "sha256": "d9ca92ba29a9d5e4143c64826c24b34cc41d5cac28aeee6a25db485e5b2c7d4f",
+      "upstream_sha256": "d9ca92ba29a9d5e4143c64826c24b34cc41d5cac28aeee6a25db485e5b2c7d4f",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/property-loop.mjs",
+      "mode": "600",
+      "sha256": "437b66fa85d45bddc8f743fc96af3f3a358f6c3d4da5d55e23dd04c4468f00e7",
+      "upstream_sha256": "437b66fa85d45bddc8f743fc96af3f3a358f6c3d4da5d55e23dd04c4468f00e7",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/read-check.mjs",
+      "mode": "600",
+      "sha256": "f4124d09512b62c056ca81fcde91d9dd1a4d07a99de950ec945df83f044772a9",
+      "upstream_sha256": "f4124d09512b62c056ca81fcde91d9dd1a4d07a99de950ec945df83f044772a9",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/regions-chart.mjs",
+      "mode": "600",
+      "sha256": "c234623411a2d5368737c8ef4f4012ec92f902340d8fdd527d08d015a448bde9",
+      "upstream_sha256": "c234623411a2d5368737c8ef4f4012ec92f902340d8fdd527d08d015a448bde9",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/render.mjs",
+      "mode": "600",
+      "sha256": "85e8e1254071d12be62e0e203e601a5700d1906837324927e1370486bbd9d5ab",
+      "upstream_sha256": "b813236db10ce50a4d04efa68953eabbee0cdc30e3fa96c03b8a2e1f477f3e57",
+      "disposition": "adapted upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/rule-book.mjs",
+      "mode": "600",
+      "sha256": "d26a8da74d105b5807ef8333172470660853e61069cc2573817ab7811755dde2",
+      "upstream_sha256": "d26a8da74d105b5807ef8333172470660853e61069cc2573817ab7811755dde2",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/second-replay.mjs",
+      "mode": "600",
+      "sha256": "033325ff5440a81a11aebdd485de4e2fd2f703db9f9b84c4fe24bc274d9df285",
+      "upstream_sha256": "033325ff5440a81a11aebdd485de4e2fd2f703db9f9b84c4fe24bc274d9df285",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/snapshot.mjs",
+      "mode": "600",
+      "sha256": "9ae5040255945474f45d09a150cf4659acdff780e18d62f8a084bcb5c79543eb",
+      "upstream_sha256": "9ae5040255945474f45d09a150cf4659acdff780e18d62f8a084bcb5c79543eb",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/spec-text.mjs",
+      "mode": "600",
+      "sha256": "494f56d5577a09f9e93057fb6bfe5e3e74df53644e9992f4452ed7008f6f5aab",
+      "upstream_sha256": "494f56d5577a09f9e93057fb6bfe5e3e74df53644e9992f4452ed7008f6f5aab",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/statechart-help.mjs",
+      "mode": "600",
+      "sha256": "f9fc18130b134623242ae585569ceaedddb9bad26f29236e8d8b6c46236662ab",
+      "upstream_sha256": "ab38345c41028ad76d2866b03b3f5aa2c8303c3223c87dc9979effbeec79e46b",
+      "disposition": "adapted upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/statechart.mjs",
+      "mode": "600",
+      "sha256": "c24a83dda26aec03a3a0e5a961ece983a8283f6c4c66334fd229c2d2e8d7bb36",
+      "upstream_sha256": "c24a83dda26aec03a3a0e5a961ece983a8283f6c4c66334fd229c2d2e8d7bb36",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/band.mmd",
+      "mode": "600",
+      "sha256": "9ae80a75bce87c8126095b6d9de3669cc69ae65d850acd6d4328ea9b8538d5ed",
+      "upstream_sha256": "9ae80a75bce87c8126095b6d9de3669cc69ae65d850acd6d4328ea9b8538d5ed",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/regions.mmd",
+      "mode": "600",
+      "sha256": "53d12de8df0e4269c2fbee7399285ead307952c98bb8f8e2eefeba4492e42e25",
+      "upstream_sha256": "53d12de8df0e4269c2fbee7399285ead307952c98bb8f8e2eefeba4492e42e25",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/statechart.test.mjs",
+      "mode": "600",
+      "sha256": "56c28371800865e076e1f51992e3d4b6cea35dadb2772bfa0b59a022875d8c76",
+      "upstream_sha256": "65b090975ad970f38e7ed06ff3212802705948ce682f0ee90a616a95f874f800",
+      "disposition": "adapted upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/sync.mmd",
+      "mode": "600",
+      "sha256": "cb1f5387058a0f79d6187eb217690588a2e2d384637b4d53cbc4bb050c570757",
+      "upstream_sha256": "cb1f5387058a0f79d6187eb217690588a2e2d384637b4d53cbc4bb050c570757",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/upload.mmd",
+      "mode": "600",
+      "sha256": "bbc1fa70e26cbcbcc7cde5d8fb7eda26df34b6d973053bf13c40b18527ff0e76",
+      "upstream_sha256": "bbc1fa70e26cbcbcc7cde5d8fb7eda26df34b6d973053bf13c40b18527ff0e76",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/tlc-to-chart-args.mjs",
+      "mode": "600",
+      "sha256": "6cfff1104d7024ecb079ac4c6fa539279e2b537824e01a1c8eb3c7f8e9320ffd",
+      "upstream_sha256": "6cfff1104d7024ecb079ac4c6fa539279e2b537824e01a1c8eb3c7f8e9320ffd",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/tlc-to-chart.mjs",
+      "mode": "600",
+      "sha256": "2fc9c866ed1217cd5f107ec059eb9df2d32268c1f582929321a0a4cdbb26b15a",
+      "upstream_sha256": "2fc9c866ed1217cd5f107ec059eb9df2d32268c1f582929321a0a4cdbb26b15a",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/tlc-tools.mjs",
+      "mode": "600",
+      "sha256": "078dccc77c71a2e42e8ce8caaa19116355125035ca837a1cfe8a0ccace313044",
+      "upstream_sha256": "50fba780bb36edeb20804964f2e93f8c5fa85b6fe1e0e1e8d32e4b933eb69e84",
+      "disposition": "adapted upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/ways-in.mjs",
+      "mode": "600",
+      "sha256": "4728ad85dbd12d192c6bfb5c4374ef3f63ce8d61e03aa120f159dfc607b2af06",
+      "upstream_sha256": "4728ad85dbd12d192c6bfb5c4374ef3f63ce8d61e03aa120f159dfc607b2af06",
+      "disposition": "unchanged upstream"
+    },
+    {
+      "path": "skills/pstack-statechart/SKILL.md",
+      "mode": "600",
+      "sha256": "21b7250837b9d90c7ceeaf55e2649b019239ab300ef30d63e42c8559fc101eb0",
+      "upstream_sha256": "b1c544782b1527ba09e63311e4faa4c277c86aa33b0506590f8082b7b4bea505",
+      "disposition": "adapted upstream"
+    },
+    {
+      "path": "tests/statechart/HANDOFF.md",
+      "mode": "600",
+      "sha256": "cdd17f6f53cb13f9b198c3696baf14e39d0b97ba599618e210bf69e2ee30a959",
+      "disposition": "added Codex metadata/test/evidence"
+    },
+    {
+      "path": "tests/statechart/portable.tap",
+      "mode": "600",
+      "sha256": "99ee2b836998d57fa898b39aec5bfda4ad4c5719e7d19aa75e829af1ae6705e9",
+      "disposition": "added Codex metadata/test/evidence"
+    },
+    {
+      "path": "tests/statechart/safety.tap",
+      "mode": "600",
+      "sha256": "8451999adf49b3df6c95ec82d77c2f22d1bd4391cd3622dba88cd5858a26efaf",
+      "disposition": "added Codex metadata/test/evidence"
+    },
+    {
+      "path": "tests/statechart/safety.test.mjs",
+      "mode": "600",
+      "sha256": "d460b65591dbbe8272e595051e44bbea2001dd36f617498df5f51df96bea26fb",
+      "disposition": "added Codex metadata/test/evidence"
+    }
+  ]
+}

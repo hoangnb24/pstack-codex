@@ -1,6 +1,6 @@
 {
   "name": "pstack-codex",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "description": "Lauren Tan's pstack engineering workflows adapted for Codex, with scoped permissions and concrete verification.",
   "author": {
     "name": "pstack-codex contributors; upstream Lauren Tan"
@@ -9,7 +9,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "pstack for Codex",
-    "shortDescription": "Evidence-led engineering: 54 skills and 23 playbooks.",
+    "shortDescription": "Evidence-led engineering: 58 skills and 23 playbooks.",
     "developerName": "Independent port of Lauren Tan's pstack",
     "category": "Productivity",
     "defaultPrompt": [

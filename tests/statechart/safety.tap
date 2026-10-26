@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: missing TLC never invokes bootstrap tools or changes an existing output
+ok 1 - missing TLC never invokes bootstrap tools or changes an existing output
+  ---
+  duration_ms: 33.949959
+  type: 'test'
+  ...
+# Subtest: from-chart still produces portable skeletons without installing TLC
+ok 2 - from-chart still produces portable skeletons without installing TLC
+  ---
+  duration_ms: 61.867167
+  type: 'test'
+  ...
+# Subtest: missing PNG renderer never installs packages or creates a cache
+ok 3 - missing PNG renderer never installs packages or creates a cache
+  ---
+  duration_ms: 66.408167
+  type: 'test'
+  ...
+# Subtest: explicit trusted renderer modules load without cache writes
+ok 4 - explicit trusted renderer modules load without cache writes
+  ---
+  duration_ms: 28.435041
+  type: 'test'
+  ...
+# Subtest: invalid renderer exports fail before any input or cache write
+ok 5 - invalid renderer exports fail before any input or cache write
+  ---
+  duration_ms: 30.79
+  type: 'test'
+  ...
+# Subtest: a failing explicit Java binary leaves published output unchanged
+ok 6 - a failing explicit Java binary leaves published output unchanged
+  ---
+  duration_ms: 203.480125
+  type: 'test'
+  ...
+# Subtest: trusted mapping code executes while converting an existing graph
+ok 7 - trusted mapping code executes while converting an existing graph
+  ---
+  duration_ms: 43.666167
+  type: 'test'
+  ...
+# Subtest: simulated TLC output exercises owned-folder replacement without a toolchain
+ok 8 - simulated TLC output exercises owned-folder replacement without a toolchain
+  ---
+  duration_ms: 246.837917
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 754.13725

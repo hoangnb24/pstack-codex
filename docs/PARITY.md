@@ -6,7 +6,7 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 |---|---|---|
 | `in-your-own-words` | [`pstack-in-your-own-words`](../skills/pstack-in-your-own-words/SKILL.md) | Adapted: restate the goal before action; no task expansion. |
 | `ketchup` | [`pstack-ketchup`](../skills/pstack-ketchup/SKILL.md) | Adapted: current-chat catch-up; unavailable history remains a gap. |
-| `sharpen` | [`pstack-sharpen`](../skills/pstack-sharpen/SKILL.md) | Adapted: improve the approach without taking over user decisions. |
+| `sharpen` | [`pstack-sharpen`](../skills/pstack-sharpen/SKILL.md) | Adapted: return a deeper prompt, not task execution; preserve user choices. |
 | `architect` | [`pstack-architect`](../skills/pstack-architect/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `arena` | [`pstack-arena`](../skills/pstack-arena/SKILL.md) | Adapted: authorized task-agent candidates; no guaranteed multi-model diversity; serial fallback disclosed. |
 | `automate-me` | [`pstack-automate-me`](../skills/pstack-automate-me/SKILL.md) | Adapted: task-scoped history; draft project-local skill only. |
@@ -15,6 +15,7 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 | `bro` | [`pstack-bro`](../skills/pstack-bro/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `correct` | [`pstack-correct`](../skills/pstack-correct/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `create-verification-skill` | [`pstack-create-verification-skill`](../skills/pstack-create-verification-skill/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
+| `create-formal-verification-skill` | [`pstack-create-formal-verification-skill`](../skills/pstack-create-formal-verification-skill/SKILL.md) | Adapted: code-grounded property, falsification, bounded proof, project-local rerun skill; no product fixes or unapproved tool installs. |
 | `figure-it-out` | [`pstack-figure-it-out`](../skills/pstack-figure-it-out/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `how` | [`pstack-how`](../skills/pstack-how/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `interrogate` | [`pstack-interrogate`](../skills/pstack-interrogate/SKILL.md) | Adapted: adversarial review lenses; independence and model coverage disclosed. |
@@ -58,6 +59,10 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 | `typescript-best-practices` | [`pstack-typescript-best-practices`](../skills/pstack-typescript-best-practices/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `unslop` | [`pstack-unslop`](../skills/pstack-unslop/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `why` | [`pstack-why`](../skills/pstack-why/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
+
+| `maintain-formal-verification-skill` | [`pstack-maintain-formal-verification-skill`](../skills/pstack-maintain-formal-verification-skill/SKILL.md) | Adapted: reconcile proof coverage with source drift; blocked checks do not advance sync. |
+| `statechart` | [`pstack-statechart`](../skills/pstack-statechart/SKILL.md) | Adapted: TLA+/Mermaid conversion and bug paths; trusted local tools only, no automatic dependency installation. |
+| `ketchup-video` | [`pstack-ketchup-video`](../skills/pstack-ketchup-video/SKILL.md) | Adapted: local visual catch-up from current evidence; no automatic renderer install or upload; retain text decisions. |
 
 ## Playbooks
 

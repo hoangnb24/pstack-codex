@@ -1,6 +1,6 @@
 # File inventory
 
-230 source/evidence files, including this inventory. Plugin 0.3.0 contains 54 skills and 23 playbooks. Backups, frozen candidate and upstream checkout are outside this package.
+285 source/evidence files, including this inventory. Plugin 0.5.0 contains 58 skills and 23 playbooks. Backups, frozen candidates, toolchain, runtime test artifacts, and upstream checkout are outside this package.
 
 ```text
 .agents/plugins/marketplace.json
@@ -31,8 +31,12 @@ docs/PLUGIN.md
 docs/SKILL-PORT.md
 docs/VALIDATION.md
 docs/evidence/delta-disposition-20261016.md
+docs/evidence/delta-disposition-20261022.md
+docs/evidence/delta-disposition-20261024.md
 docs/evidence/discovery-20261009.json
 docs/evidence/discovery-20261016.json
+docs/evidence/discovery-20261022.json
+docs/evidence/discovery-20261024.json
 docs/evidence/discovery.json
 docs/evidence/forward-benny/input.json
 docs/evidence/forward-benny/report.md
@@ -47,12 +51,24 @@ docs/evidence/forward-pr/report.md
 docs/evidence/forward-pr/status-fixture.json
 docs/evidence/install-sync-20261009.json
 docs/evidence/install-sync-20261016.json
+docs/evidence/install-sync-20261022.json
+docs/evidence/install-sync-20261024.json
 docs/evidence/plugin-smoke-20261009.json
 docs/evidence/plugin-smoke-20261016.json
+docs/evidence/plugin-smoke-20261022.json
+docs/evidence/plugin-smoke-20261024.json
 docs/evidence/plugin-smoke.json
+docs/evidence/statechart-dependencies-20261024.json
+docs/evidence/statechart-model-checks-20261024.json
+docs/evidence/statechart-payload-20261024.json
+docs/evidence/statechart-verification-20261024.json
 docs/evidence/update-payload-20261016.json
+docs/evidence/update-payload-20261022.json
+docs/evidence/update-payload-20261024.json
 docs/evidence/update-payload.json
 docs/evidence/upstream-20261016.json
+docs/evidence/upstream-20261022.json
+docs/evidence/upstream-20261024.json
 skills/pstack-architect/SKILL.md
 skills/pstack-architect/agents/openai.yaml
 skills/pstack-architect/references/design-red-flags.md
@@ -70,6 +86,8 @@ skills/pstack-bro/SKILL.md
 skills/pstack-bro/agents/openai.yaml
 skills/pstack-correct/SKILL.md
 skills/pstack-correct/agents/openai.yaml
+skills/pstack-create-formal-verification-skill/SKILL.md
+skills/pstack-create-formal-verification-skill/agents/openai.yaml
 skills/pstack-create-verification-skill/SKILL.md
 skills/pstack-create-verification-skill/agents/openai.yaml
 skills/pstack-create-verification-skill/references/feature-map-example/README.md
@@ -89,8 +107,12 @@ skills/pstack-interrogate/references/code-quality-review.md
 skills/pstack-interrogate/references/lead-judgment.md
 skills/pstack-interrogate/references/reviewer-prompt.md
 skills/pstack-interrogate/references/rubric.md
+skills/pstack-ketchup-video/SKILL.md
+skills/pstack-ketchup-video/agents/openai.yaml
 skills/pstack-ketchup/SKILL.md
 skills/pstack-ketchup/agents/openai.yaml
+skills/pstack-maintain-formal-verification-skill/SKILL.md
+skills/pstack-maintain-formal-verification-skill/agents/openai.yaml
 skills/pstack-maintain-verification-skill/SKILL.md
 skills/pstack-maintain-verification-skill/agents/openai.yaml
 skills/pstack-make-bot-ui/SKILL.md
@@ -198,6 +220,34 @@ skills/pstack-show-me-your-work/SKILL.md
 skills/pstack-show-me-your-work/agents/openai.yaml
 skills/pstack-show-me-your-work/references/decision-log-template.tsv
 skills/pstack-show-me-your-work/scripts/log.sh
+skills/pstack-statechart/SKILL.md
+skills/pstack-statechart/agents/openai.yaml
+skills/pstack-statechart/scripts/bug-states.mjs
+skills/pstack-statechart/scripts/chart-edges.mjs
+skills/pstack-statechart/scripts/chart-parts.mjs
+skills/pstack-statechart/scripts/chart-to-tla.mjs
+skills/pstack-statechart/scripts/compare-charts.mjs
+skills/pstack-statechart/scripts/lib.mjs
+skills/pstack-statechart/scripts/map-view.mjs
+skills/pstack-statechart/scripts/property-loop.mjs
+skills/pstack-statechart/scripts/read-check.mjs
+skills/pstack-statechart/scripts/regions-chart.mjs
+skills/pstack-statechart/scripts/render.mjs
+skills/pstack-statechart/scripts/rule-book.mjs
+skills/pstack-statechart/scripts/second-replay.mjs
+skills/pstack-statechart/scripts/snapshot.mjs
+skills/pstack-statechart/scripts/spec-text.mjs
+skills/pstack-statechart/scripts/statechart-help.mjs
+skills/pstack-statechart/scripts/statechart.mjs
+skills/pstack-statechart/scripts/test/band.mmd
+skills/pstack-statechart/scripts/test/regions.mmd
+skills/pstack-statechart/scripts/test/statechart.test.mjs
+skills/pstack-statechart/scripts/test/sync.mmd
+skills/pstack-statechart/scripts/test/upload.mmd
+skills/pstack-statechart/scripts/tlc-to-chart-args.mjs
+skills/pstack-statechart/scripts/tlc-to-chart.mjs
+skills/pstack-statechart/scripts/tlc-tools.mjs
+skills/pstack-statechart/scripts/ways-in.mjs
 skills/pstack-swarm/SKILL.md
 skills/pstack-swarm/agents/openai.yaml
 skills/pstack-tdd/SKILL.md
@@ -228,6 +278,11 @@ skills/pstack-why/references/synthesizer-prompt.md
 tests/helpers/helpers.test.mjs
 tests/helpers/orch.test.ts
 tests/helpers/refresh-20261016.md
+tests/statechart/HANDOFF.md
+tests/statechart/manifest.json
+tests/statechart/portable.tap
+tests/statechart/safety.tap
+tests/statechart/safety.test.mjs
 tests/test_packaging.py
 tools/smoke_discovery.py
 tools/smoke_plugin.py

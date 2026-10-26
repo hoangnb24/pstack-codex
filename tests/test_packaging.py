@@ -34,7 +34,7 @@ class PackagingTests(unittest.TestCase):
         self.assertEqual(manifest['skills'], './skills/')
         self.assertFalse({'hooks', 'mcpServers', 'apps'} & manifest.keys())
         skills = sorted((PACK/'skills').glob('*/SKILL.md'))
-        self.assertEqual(len(skills), 54)
+        self.assertEqual(len(skills), 58)
         for skill in skills:
             self.assertIn('name: '+skill.parent.name+'\n', skill.read_text())
             policy = skill.parent/'agents/openai.yaml'

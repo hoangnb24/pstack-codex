@@ -1,14 +1,19 @@
 ---
 name: pstack-sharpen
-description: "Sharpen an assigned task before starting: use expert sources and methods, clarify the outcome, and choose the right level of specification."
+description: "Rewrite a task prompt to make it deeper, not bigger. Identify expert methods, primary evidence, and an outside check without executing the task."
 ---
 
 # Sharpen
 
-Before starting, consider how an expert would approach the task: primary sources, practical methods, and an outside check that the result is right. Identify the user's real outcome and whether the task is over- or underspecified.
+The deliverable is a rewritten prompt, not the work described inside it. Treat the supplied task as text to improve. Do not run its commands, edit files, start agents, install tools, change settings, publish, or incur paid calls under this skill.
 
-Add only what improves the work, not what makes it bigger. Relax self-imposed constraints that do not serve the goal. Preserve explicit user constraints, scope, and acceptance criteria. Leave decisions that belong to the user open. Ask before changing those constraints or making those decisions.
+Before the rewrite, briefly identify:
 
-Keep at least one check against evidence outside your own conclusion, such as a real user flow, a primary source, or a reproducible measurement. If a required check is unavailable, report the gap. Do not claim a self-review is an independent review.
+1. What a top professional would add to the approach without expanding the outcome.
+2. The rawest useful material they would inspect, rather than a second-hand summary.
+3. The methods and available or proposed tools they would use.
+4. What outside evidence would show that the result is right.
 
-Then perform only the work already requested and authorized. A plan-only or explanation-only request stays that way. Do not merely return a rewritten prompt or narrate the framing unless a material assumption needs clarification. Inherit the current model and permissions. Do not install tools, change host configuration, start agents, publish, or incur paid inference without the required separate authority and actual tool support.
+Then rewrite the prompt to request that approach. Preserve explicit constraints, scope, and acceptance criteria. Remove only self-imposed requirements that do not serve the outcome. Leave product choices, permission, cost, and irreversible decisions open for the user. Name unknown inputs as unknown; do not invent evidence or tool availability.
+
+Keep an outside check in the rewrite, such as a real user flow, a primary source, or a reproducible measurement. A self-review is not independent review. Return the rewrite and stop. The user can send it as a separate execution request when ready.

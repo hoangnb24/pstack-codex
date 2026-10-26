@@ -4,6 +4,10 @@ Historical report for the 0.15.9 port. The 0.15.15 refresh adds [pstack-poteto-h
 
 Scope: 49 upstream skill directories excluding poteto-mode, all their references, and show-me-your-work/scripts/log.sh. Source attribution: Lauren Tan, MIT; repository root must retain upstream LICENSE. No global skill installation or Codex configuration changes performed.
 
+## Current additions — upstream 0.15.32
+
+The current port is 0.5.0 with 58 skills. New entries are `pstack-maintain-formal-verification-skill`, `pstack-statechart`, and `pstack-ketchup-video`. Formal workflows now track dirty source snapshots. Sharpen returns a rewritten prompt without execution. Reflect preserves editable-source ownership and does not edit installed caches. Setup offers optional formal verification. Statechart ships all 21 scripts with automatic dependency installation removed. See [parity](PARITY.md) and [validation](VALIDATION.md) for current limits.
+
 ## Coverage
 
 “Ported” retains upstream substantive workflow with namespacing, valid Codex metadata, relative-reference updates and task-scope boundaries. “Adapted” changes host-specific execution. Availability is conditional on tools actually exposed by the target Codex session.
@@ -18,6 +22,7 @@ Scope: 49 upstream skill directories excluding poteto-mode, all their references
 | bro | pstack-bro | Ported | Original evidence/principle content retained within authorized scope. |
 | correct | pstack-correct | Adapted | Structural correction retained; no automatic git init, commits, new CI, or instruction table. |
 | create-verification-skill | pstack-create-verification-skill | Adapted | Outputs project-local .agents/skills; real launch/doctor/drive/evidence/cleanup contract retained. |
+| create-formal-verification-skill | pstack-create-formal-verification-skill | Adapted | Code-grounded property checks, isolated falsification, explicit proof bounds, project-local rerun skill. |
 | figure-it-out | pstack-figure-it-out | Adapted | Scientific workflow retained; scope and conditional delegation bound execution. |
 | how | pstack-how | Adapted | Runtime tracing templates retained; current task-agent tool or inline passes. |
 | interrogate | pstack-interrogate | Adapted | Review rubric and lead judgment retained; no hardcoded family/model seats or model-config PR. |

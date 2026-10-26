@@ -1,0 +1,862 @@
+TAP version 13
+# Subtest: a transition on a composite leaves from every state inside it
+ok 1 - a transition on a composite leaves from every state inside it
+  ---
+  duration_ms: 1.931084
+  type: 'test'
+  ...
+# Subtest: the deepest source wins when a composite and a state inside it share a label
+ok 2 - the deepest source wins when a composite and a state inside it share a label
+  ---
+  duration_ms: 0.40675
+  type: 'test'
+  ...
+# Subtest: a top-level composite split by -- makes one region per part
+ok 3 - a top-level composite split by -- makes one region per part
+  ---
+  duration_ms: 0.212709
+  type: 'test'
+  ...
+# Subtest: a rule's sentence is the comment lines right above it, and a state key ignores field order
+ok 4 - a rule's sentence is the comment lines right above it, and a state key ignores field order
+  ---
+  duration_ms: 0.176209
+  type: 'test'
+  ...
+# Subtest: a rule defined in a module that the spec extends, directly or through another module, keeps its sentence and the step that breaks it
+ok 5 - a rule defined in a module that the spec extends, directly or through another module, keeps its sentence and the step that breaks it
+  ---
+  duration_ms: 34.742875
+  type: 'test'
+  ...
+# Subtest: a rule that the spec pulls in through an unnamed INSTANCE with substitutions keeps its sentence and the step that breaks it
+ok 6 - a rule that the spec pulls in through an unnamed INSTANCE with substitutions keeps its sentence and the step that breaks it
+  ---
+  duration_ms: 32.512166
+  type: 'test'
+  ...
+# Subtest: rules reached through nested EXTENDS and INSTANCE keep their sentences and read the spec's variables behind each substitution
+ok 7 - rules reached through nested EXTENDS and INSTANCE keep their sentences and read the spec's variables behind each substitution
+  ---
+  duration_ms: 2.334833
+  type: 'test'
+  ...
+# Subtest: a LOCAL INSTANCE or LOCAL definition stays inside the module that declares it, and a public name that starts with LOCAL does not
+ok 8 - a LOCAL INSTANCE or LOCAL definition stays inside the module that declares it, and a public name that starts with LOCAL does not
+  ---
+  duration_ms: 0.648125
+  type: 'test'
+  ...
+# Subtest: a rule that reads a CONSTANT reads the spec's variables that WITH puts in its place
+ok 9 - a rule that reads a CONSTANT reads the spec's variables that WITH puts in its place
+  ---
+  duration_ms: 0.78775
+  type: 'test'
+  ...
+# Subtest: an action's condition on a variable that the action does not change needs a file and line
+ok 10 - an action's condition on a variable that the action does not change needs a file and line
+  ---
+  duration_ms: 0.850584
+  type: 'test'
+  ...
+# Subtest: a rule reads the variables its helpers read, and not the ones its actions only change or leave unchanged
+ok 11 - a rule reads the variables its helpers read, and not the ones its actions only change or leave unchanged
+  ---
+  duration_ms: 0.312333
+  type: 'test'
+  ...
+# Subtest: a property is checked only in the initial states when no definition it reaches has a temporal operator
+ok 12 - a property is checked only in the initial states when no definition it reaches has a temporal operator
+  ---
+  duration_ms: 1.589125
+  type: 'test'
+  ...
+# Subtest: the legend is not part of the machine
+ok 13 - the legend is not part of the machine
+  ---
+  duration_ms: 0.05925
+  type: 'test'
+  ...
+# Subtest: the parser refuses charts it cannot read
+ok 14 - the parser refuses charts it cannot read
+  ---
+  duration_ms: 0.277125
+  type: 'test'
+  ...
+# Subtest: the parser reads class shorthand, repeated descriptions, and states first named inside a composite
+ok 15 - the parser reads class shorthand, repeated descriptions, and states first named inside a composite
+  ---
+  duration_ms: 0.074875
+  type: 'test'
+  ...
+# Subtest: TLC values, states, graphs, and traces parse
+ok 16 - TLC values, states, graphs, and traces parse
+  ---
+  duration_ms: 0.620291
+  type: 'test'
+  ...
+# Subtest: a rule broken by a start state is a counterexample of one state
+ok 17 - a rule broken by a start state is a counterexample of one state
+  ---
+  duration_ms: 0.239542
+  type: 'test'
+  ...
+# Subtest: TLC output from a run that failed or stopped early is refused
+ok 18 - TLC output from a run that failed or stopped early is refused
+  ---
+  duration_ms: 0.130709
+  type: 'test'
+  ...
+# Subtest: a rule that TLC finds broken keeps its paths after any error that TLC then stops on, with a warning
+ok 19 - a rule that TLC finds broken keeps its paths after any error that TLC then stops on, with a warning
+  ---
+  duration_ms: 0.296417
+  type: 'test'
+  ...
+# Subtest: a step that changes nothing keeps a state unsettled, and a quote in a reader label survives the chart
+ok 20 - a step that changes nothing keeps a state unsettled, and a quote in a reader label survives the chart
+  ---
+  duration_ms: 29.530833
+  type: 'test'
+  ...
+# Subtest: a map keys on the bare action name when TLC 1.8.0 writes each step with its parameters
+ok 21 - a map keys on the bare action name when TLC 1.8.0 writes each step with its parameters
+  ---
+  duration_ms: 63.5785
+  type: 'test'
+  ...
+# Subtest: --cover names a layered state with an empty detail by its outer label alone
+ok 22 - --cover names a layered state with an empty detail by its outer label alone
+  ---
+  duration_ms: 32.711834
+  type: 'test'
+  ...
+# Subtest: a layered chart draws a state with an empty detail by its outer label alone, outside any box
+ok 23 - a layered chart draws a state with an empty detail by its outer label alone, outside any box
+  ---
+  duration_ms: 33.916666
+  type: 'test'
+  ...
+# Subtest: a box's shared step stays on each state when a plain state outside the box has the box's name
+ok 24 - a box's shared step stays on each state when a plain state outside the box has the box's name
+  ---
+  duration_ms: 31.99225
+  type: 'test'
+  ...
+# Subtest: --flat draws a layered chart with no boxes, naming each state by its label and detail
+ok 25 - --flat draws a layered chart with no boxes, naming each state by its label and detail
+  ---
+  duration_ms: 29.879458
+  type: 'test'
+  ...
+# Subtest: a layered chart and its --cover lists treat a blank state label or detail as absent
+ok 26 - a layered chart and its --cover lists treat a blank state label or detail as absent
+  ---
+  duration_ms: 31.066542
+  type: 'test'
+  ...
+# Subtest: a large graph with a thousand bugs draws its overview and a bug chart in seconds
+ok 27 - a large graph with a thousand bugs draws its overview and a bug chart in seconds
+  ---
+  duration_ms: 317.2705
+  type: 'test'
+  ...
+# Subtest: chart-to-tla writes one action per label and one invariant per never line
+ok 28 - chart-to-tla writes one action per label and one invariant per never line
+  ---
+  duration_ms: 28.095958
+  type: 'test'
+  ...
+# Subtest: chart-to-tla refuses a never line that names no state
+ok 29 - chart-to-tla refuses a never line that names no state
+  ---
+  duration_ms: 25.959834
+  type: 'test'
+  ...
+# Subtest: a never line names a state exactly, or every state inside a composite
+ok 30 - a never line names a state exactly, or every state inside a composite
+  ---
+  duration_ms: 27.522916
+  type: 'test'
+  ...
+# Subtest: compare reads parallel regions as one machine, so a guard across regions shows
+ok 31 - compare reads parallel regions as one machine, so a guard across regions shows
+  ---
+  duration_ms: 57.206292
+  type: 'test'
+  ...
+# Subtest: a %% when line guards a step on the other region's states, and [words] are only its text
+ok 32 - a %% when line guards a step on the other region's states, and [words] are only its text
+  ---
+  duration_ms: 58.952791
+  type: 'test'
+  ...
+# Subtest: a label with a guarded and an unguarded move in one region writes both moves
+ok 33 - a label with a guarded and an unguarded move in one region writes both moves
+  ---
+  duration_ms: 33.431042
+  type: 'test'
+  ...
+# Subtest: compare reads a one-region chart as the machine its steps reach, with the steps that keep the state
+ok 34 - compare reads a one-region chart as the machine its steps reach, with the steps that keep the state
+  ---
+  duration_ms: 59.337292
+  type: 'test'
+  ...
+# Subtest: a -- outside a composite is refused, not read as one region
+ok 35 - a -- outside a composite is refused, not read as one region
+  ---
+  duration_ms: 111.582584
+  type: 'test'
+  ...
+# Subtest: compare refuses a chart it cannot read, or an ACTUAL chart that is not drawn for comparison
+ok 36 - compare refuses a chart it cannot read, or an ACTUAL chart that is not drawn for comparison
+  ---
+  duration_ms: 129.2635
+  type: 'test'
+  ...
+# Subtest: an edge lists every step, writes shared leading words once, and the chart renders at its natural width
+ok 37 - an edge lists every step, writes shared leading words once, and the chart renders at its natural width
+  ---
+  duration_ms: 118.153666
+  type: 'test'
+  ...
+# Subtest: statechart.mjs writes the spec next to the chart, keeps it on the next run, and stops without TLC
+ok 38 - statechart.mjs writes the spec next to the chart, keeps it on the next run, and stops without TLC
+  ---
+  duration_ms: 184.033084
+  type: 'test'
+  ...
+# Subtest: statechart.mjs writes no output folder when it refuses the input
+ok 39 - statechart.mjs writes no output folder when it refuses the input
+  ---
+  duration_ms: 151.378667
+  type: 'test'
+  ...
+# Subtest: statechart.mjs does not use an output folder that has files that it did not write
+ok 40 - statechart.mjs does not use an output folder that has files that it did not write
+  ---
+  duration_ms: 65.334292
+  type: 'test'
+  ...
+# Subtest: statechart.mjs exits 2 and names a helper script that cannot start
+ok 41 - statechart.mjs exits 2 and names a helper script that cannot start
+  ---
+  duration_ms: 32.6925
+  type: 'test'
+  ...
+# Subtest: statechart.mjs names the chart it refuses and the argument it does not know
+ok 42 - statechart.mjs names the chart it refuses and the argument it does not know
+  ---
+  duration_ms: 411.134125
+  type: 'test'
+  ...
+# Subtest: statechart.mjs prints its help with -h or --help and points at it for an argument it does not know, and each inner script refuses that argument
+ok 43 - statechart.mjs prints its help with -h or --help and points at it for an argument it does not know, and each inner script refuses that argument
+  ---
+  duration_ms: 318.149083
+  type: 'test'
+  ...
+# Subtest: statechart.mjs shows why java cannot start TLC
+ok 44 - statechart.mjs shows why java cannot start TLC # SKIP cannot find TLC
+  ---
+  duration_ms: 0.033416
+  type: 'test'
+  ...
+# Subtest: from-chart checks the agreed chart and draws it back unchanged
+ok 45 - from-chart checks the agreed chart and draws it back unchanged # SKIP cannot find TLC
+  ---
+  duration_ms: 0.021333
+  type: 'test'
+  ...
+# Subtest: from-chart counts a self-loop, so a spec that drops it does not draw the chart back
+ok 46 - from-chart counts a self-loop, so a spec that drops it does not draw the chart back # SKIP cannot find TLC
+  ---
+  duration_ms: 0.017167
+  type: 'test'
+  ...
+# Subtest: from-chart draws a chart with no transitions back unchanged
+ok 47 - from-chart draws a chart with no transitions back unchanged # SKIP cannot find TLC
+  ---
+  duration_ms: 0.016
+  type: 'test'
+  ...
+# Subtest: TLC reads a label with a guarded and an unguarded move in one region
+ok 48 - TLC reads a label with a guarded and an unguarded move in one region # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014833
+  type: 'test'
+  ...
+# Subtest: from-chart finds the design bug, and from-spec with the fix marks it fixed
+ok 49 - from-chart finds the design bug, and from-spec with the fix marks it fixed # SKIP cannot find TLC
+  ---
+  duration_ms: 0.015
+  type: 'test'
+  ...
+# Subtest: a second model with the module name of the spec, in its own folder, keeps its own TLC files
+ok 50 - a second model with the module name of the spec, in its own folder, keeps its own TLC files # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014042
+  type: 'test'
+  ...
+# Subtest: from-spec on a lock protocol names every step that leads into the bug, not only the shortest trace
+ok 51 - from-spec on a lock protocol names every step that leads into the bug, not only the shortest trace # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014208
+  type: 'test'
+  ...
+# Subtest: a story does not count the steps into a bug when TLC names them only after the whole next-state action
+ok 52 - a story does not count the steps into a bug when TLC names them only after the whole next-state action # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014334
+  type: 'test'
+  ...
+# Subtest: a story says its path is the shortest only when more than one step leads into the bug
+ok 53 - a story says its path is the shortest only when more than one step leads into the bug # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014
+  type: 'test'
+  ...
+# Subtest: a story says which step into the bug keeps the state, so that no chart draws it
+ok 54 - a story says which step into the bug keeps the state, so that no chart draws it # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014084
+  type: 'test'
+  ...
+# Subtest: --png exits 2 unless every chart renders, even with --expect-broken, and keeps the files it wrote
+ok 55 - --png exits 2 unless every chart renders, even with --expect-broken, and keeps the files it wrote # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013459
+  type: 'test'
+  ...
+# Subtest: render writes a PNG at twice the chart's size, next to the chart or at --out
+ok 56 - render writes a PNG at twice the chart's size, next to the chart or at --out # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.013875
+  type: 'test'
+  ...
+# Subtest: a chart too big to draw at twice its size draws at about 100 million pixels
+ok 57 - a chart too big to draw at twice its size draws at about 100 million pixels # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.014125
+  type: 'test'
+  ...
+# Subtest: a PNG fills a state with its theme's group color, and a state that breaks a rule with the theme's wrong fill and border
+ok 58 - a PNG fills a state with its theme's group color, and a state that breaks a rule with the theme's wrong fill and border # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.014292
+  type: 'test'
+  ...
+# Subtest: a PNG draws a state that breaks a rule in some cases, one reached only after a bug, and one that breaks a rule only with the fix, in its theme's colors
+ok 59 - a PNG draws a state that breaks a rule in some cases, one reached only after a bug, and one that breaks a rule only with the fix, in its theme's colors # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.013666
+  type: 'test'
+  ...
+# Subtest: a PNG draws no edge over a group's title band
+ok 60 - a PNG draws no edge over a group's title band # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.01425
+  type: 'test'
+  ...
+# Subtest: each label fits its box in the font it is drawn in, and a wider font gets a wider wrap, so lines break where the chart breaks them
+ok 61 - each label fits its box in the font it is drawn in, and a wider font gets a wider wrap, so lines break where the chart breaks them # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.014166
+  type: 'test'
+  ...
+# Subtest: a font that resvg cannot read keeps Pele's widths, so the chart keeps every label
+ok 62 - a font that resvg cannot read keeps Pele's widths, so the chart keeps every label # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.035417
+  type: 'test'
+  ...
+# Subtest: a bold or italic face that resvg cannot read is measured in its regular face, so the chart keeps every label
+ok 63 - a bold or italic face that resvg cannot read is measured in its regular face, so the chart keeps every label # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.015791
+  type: 'test'
+  ...
+# Subtest: a PNG puts parallel regions side by side and the legend above them
+ok 64 - a PNG puts parallel regions side by side and the legend above them # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.014958
+  type: 'test'
+  ...
+# Subtest: a renderer that cannot load exits 2 and leaves its existing files unchanged
+ok 65 - a renderer that cannot load exits 2 and leaves its existing files unchanged
+  ---
+  duration_ms: 29.3465
+  type: 'test'
+  ...
+# Subtest: a chart too long for Pele exits 2, writes no PNG, and says how to get one
+ok 66 - a chart too long for Pele exits 2, writes no PNG, and says how to get one # SKIP existing Pele/resvg renderer unavailable; no install attempted
+  ---
+  duration_ms: 0.028417
+  type: 'test'
+  ...
+# Subtest: from-spec checks each PROPERTY in its own TLC run, and names the counterexample of a broken one
+ok 67 - from-spec checks each PROPERTY in its own TLC run, and names the counterexample of a broken one # SKIP cannot find TLC
+  ---
+  duration_ms: 0.017584
+  type: 'test'
+  ...
+# Subtest: from-spec names the reader states that a broken PROPERTY's counterexample loops through, without a state twice in a row and without the states before the loop
+ok 68 - from-spec names the reader states that a broken PROPERTY's counterexample loops through, without a state twice in a row and without the states before the loop # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014959
+  type: 'test'
+  ...
+# Subtest: from-spec checks a rule that the config lists as both PROPERTY and INVARIANT once, as the INVARIANT, and charts its bug
+ok 69 - from-spec checks a rule that the config lists as both PROPERTY and INVARIANT once, as the INVARIANT, and charts its bug # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014125
+  type: 'test'
+  ...
+# Subtest: from-spec reports a broken PROPERTY in each form that TLC reports it in
+ok 70 - from-spec reports a broken PROPERTY in each form that TLC reports it in # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014291
+  type: 'test'
+  ...
+# Subtest: from-spec reports a broken refinement of an instanced module in its output, the stories, and the summary
+ok 71 - from-spec reports a broken refinement of an instanced module in its output, the stories, and the summary # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01375
+  type: 'test'
+  ...
+# Subtest: from-spec explains an invariant and a property that name rules of a named INSTANCE with substitutions in the instanced module's words
+ok 72 - from-spec explains an invariant and a property that name rules of a named INSTANCE with substitutions in the instanced module's words # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013417
+  type: 'test'
+  ...
+# Subtest: a state reached only after a bug gets its own color, and the fix edge leaves the state before the changed step
+ok 73 - a state reached only after a bug gets its own color, and the fix edge leaves the state before the changed step # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012792
+  type: 'test'
+  ...
+# Subtest: a rule that the second model does not check reads not checked, and a rule it checks reads unchanged
+ok 74 - a rule that the second model does not check reads not checked, and a rule it checks reads unchanged # SKIP cannot find TLC
+  ---
+  duration_ms: 0.015333
+  type: 'test'
+  ...
+# Subtest: from-spec writes a mapping to fill in, then draws each bug in every view the mapping has
+ok 75 - from-spec writes a mapping to fill in, then draws each bug in every view the mapping has # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01225
+  type: 'test'
+  ...
+# Subtest: a rule broken by a start state marks that state wrong
+ok 76 - a rule broken by a start state marks that state wrong # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012625
+  type: 'test'
+  ...
+# Subtest: a screen that a clean path reaches is marked wrong in some cases when a state under it breaks a rule after a bug
+ok 77 - a screen that a clean path reaches is marked wrong in some cases when a state under it breaks a rule after a bug # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014541
+  type: 'test'
+  ...
+# Subtest: a bug that ends on the start screen's label marks that screen wrong in some cases, and a screen reached only after the bug gets its own color
+ok 78 - a bug that ends on the start screen's label marks that screen wrong in some cases, and a screen reached only after the bug gets its own color # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013084
+  type: 'test'
+  ...
+# Subtest: a bug story numbers the step into the bug and each step that changes what the rule reads, and names the steps it hides
+ok 79 - a bug story numbers the step into the bug and each step that changes what the rule reads, and names the steps it hides # SKIP cannot find TLC
+  ---
+  duration_ms: 0.022833
+  type: 'test'
+  ...
+# Subtest: a story of a bug that only the spec has numbers a step that changes what the spec's rule reads, skips the variables that the spec lacks, and a step that the spec lacks cannot happen in the spec
+ok 80 - a story of a bug that only the spec has numbers a step that changes what the spec's rule reads, skips the variables that the spec lacks, and a step that the spec lacks cannot happen in the spec # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01575
+  type: 'test'
+  ...
+# Subtest: a bug that only the fixed model has is numbered after the current bugs and drawn as breaking a rule only with the fix
+ok 81 - a bug that only the fixed model has is numbered after the current bugs and drawn as breaking a rule only with the fix # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012417
+  type: 'test'
+  ...
+# Subtest: with --fixed, a state that breaks a rule only with the fix has its own status, legend line, and count
+ok 82 - with --fixed, a state that breaks a rule only with the fix has its own status, legend line, and count # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013083
+  type: 'test'
+  ...
+# Subtest: only --cover trims the overview, and it lists what it leaves out and counts every state
+ok 83 - only --cover trims the overview, and it lists what it leaves out and counts every state # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012833
+  type: 'test'
+  ...
+# Subtest: states of one context sit in one box, and an arrow from the box's border stands for the same step from each
+ok 84 - states of one context sit in one box, and an arrow from the box's border stands for the same step from each # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012417
+  type: 'test'
+  ...
+# Subtest: from-spec --against compares the code with the spec on the parts both have, and --expect-broken sets the exit code
+ok 85 - from-spec --against compares the code with the spec on the parts both have, and --expect-broken sets the exit code # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014125
+  type: 'test'
+  ...
+# Subtest: from-spec --against stops when the mapping reads what the spec lacks through a spread, a later state, a field of another type, or a field some states lack
+ok 86 - from-spec --against stops when the mapping reads what the spec lacks through a spread, a later state, a field of another type, or a field some states lack # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01575
+  type: 'test'
+  ...
+# Subtest: a map reads a tuple from 1, as in TLA+, stops when it reads index 0, and keeps length, array methods, spread, and JSON
+ok 87 - a map reads a tuple from 1, as in TLA+, stops when it reads index 0, and keeps length, array methods, spread, and JSON # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012584
+  type: 'test'
+  ...
+# Subtest: a map's in and hasOwnProperty see a tuple's indexes from 1, and asking for index 0 stops the run
+ok 88 - a map's in and hasOwnProperty see a tuple's indexes from 1, and asking for index 0 stops the run # SKIP cannot find TLC
+  ---
+  duration_ms: 0.018292
+  type: 'test'
+  ...
+# Subtest: a map's Object.keys and Object.entries list a tuple's indexes from 1
+ok 89 - a map's Object.keys and Object.entries list a tuple's indexes from 1 # SKIP cannot find TLC
+  ---
+  duration_ms: 0.011542
+  type: 'test'
+  ...
+# Subtest: a map that spreads a tuple into an object gets its items at keys from 1
+ok 90 - a map that spreads a tuple into an object gets its items at keys from 1 # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012417
+  type: 'test'
+  ...
+# Subtest: a map that hands a tuple to concat stops the run and names the tuple it wrote
+ok 91 - a map that hands a tuple to concat stops the run and names the tuple it wrote # SKIP cannot find TLC
+  ---
+  duration_ms: 0.021834
+  type: 'test'
+  ...
+# Subtest: a map flattens nested tuples with flat and flatMap, and flattening an array that holds a tuple stops the run
+ok 92 - a map flattens nested tuples with flat and flatMap, and flattening an array that holds a tuple stops the run # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013
+  type: 'test'
+  ...
+# Subtest: a map flattens a set of tuples with flat and flatMap
+ok 93 - a map flattens a set of tuples with flat and flatMap # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013083
+  type: 'test'
+  ...
+# Subtest: a map's structuredClone copies tuples that still read and write from 1
+ok 94 - a map's structuredClone copies tuples that still read and write from 1 # SKIP cannot find TLC
+  ---
+  duration_ms: 0.02175
+  type: 'test'
+  ...
+# Subtest: from-spec --against draws a step that step() does not name by its action in the developer and layered views
+ok 95 - from-spec --against draws a step that step() does not name by its action in the developer and layered views # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012542
+  type: 'test'
+  ...
+# Subtest: from-spec --against compares a rule's variable of another type without blaming the mapping
+ok 96 - from-spec --against compares a rule's variable of another type without blaming the mapping # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012292
+  type: 'test'
+  ...
+# Subtest: from-spec --against stops when the mapping reads a field that one model has as a number and the other as a string
+ok 97 - from-spec --against stops when the mapping reads a field that one model has as a number and the other as a string # SKIP cannot find TLC
+  ---
+  duration_ms: 0.011917
+  type: 'test'
+  ...
+# Subtest: from-spec --against stops when the mapping reads a field that is a record in some of the spec's states and not in others
+ok 98 - from-spec --against stops when the mapping reads a field that is a record in some of the spec's states and not in others # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014042
+  type: 'test'
+  ...
+# Subtest: from-spec --against checks the fields of a record that is a record in only some of the spec's states
+ok 99 - from-spec --against checks the fields of a record that is a record in only some of the spec's states # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012375
+  type: 'test'
+  ...
+# Subtest: tlc-to-chart stops when the mapping reads a field of another type that only a trace of the second model has
+ok 100 - tlc-to-chart stops when the mapping reads a field of another type that only a trace of the second model has # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01175
+  type: 'test'
+  ...
+# Subtest: from-spec --against names the group when the mapping groups a state of the spec by a field that state lacks
+ok 101 - from-spec --against names the group when the mapping groups a state of the spec by a field that state lacks # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012417
+  type: 'test'
+  ...
+# Subtest: from-chart checks a chart whose regions guard each other, and draws it back unchanged
+ok 102 - from-chart checks a chart whose regions guard each other, and draws it back unchanged # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012334
+  type: 'test'
+  ...
+# Subtest: from-spec draws parallel regions only when they combine back into TLC's graph, and boxes otherwise
+ok 103 - from-spec draws parallel regions only when they combine back into TLC's graph, and boxes otherwise # SKIP cannot find TLC
+  ---
+  duration_ms: 0.011292
+  type: 'test'
+  ...
+# Subtest: from-spec draws parallel regions whose arrows together make a step back to the same state, which the overview leaves out
+ok 104 - from-spec draws parallel regions whose arrows together make a step back to the same state, which the overview leaves out # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01575
+  type: 'test'
+  ...
+# Subtest: the mapping's guard words show on an arrow only when every model step behind it has them
+ok 105 - the mapping's guard words show on an arrow only when every model step behind it has them # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013416
+  type: 'test'
+  ...
+# Subtest: the mapping's timer() writes after N s on timer steps, and refuses a value that is not seconds
+ok 106 - the mapping's timer() writes after N s on timer steps, and refuses a value that is not seconds # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012458
+  type: 'test'
+  ...
+# Subtest: group() fills each state with its group's color, and the legend lists only the groups the chart draws
+ok 107 - group() fills each state with its group's color, and the legend lists only the groups the chart draws # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012417
+  type: 'test'
+  ...
+# Subtest: the mapping cannot hide a broken rule, and refuses a status name, a dark or bad color, or a group that is not a name
+ok 108 - the mapping cannot hide a broken rule, and refuses a status name, a dark or bad color, or a group that is not a name # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012875
+  type: 'test'
+  ...
+# Subtest: the fix changes a bug only at the first step that the reader sees differently
+ok 109 - the fix changes a bug only at the first step that the reader sees differently # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012541
+  type: 'test'
+  ...
+# Subtest: a step that the fix cannot take keeps its own loop when the fix keeps another bug on the same state
+ok 110 - a step that the fix cannot take keeps its own loop when the fix keeps another bug on the same state # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013291
+  type: 'test'
+  ...
+# Subtest: the replay on the fix skips only the steps that the story hides, so a step that the fix stops cannot happen
+ok 111 - the replay on the fix skips only the steps that the story hides, so a step that the fix stops cannot happen # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012458
+  type: 'test'
+  ...
+# Subtest: the replay takes only the trace's own steps, matches a step by its words between the same two states, and quotes the second model's words
+ok 112 - the replay takes only the trace's own steps, matches a step by its words between the same two states, and quotes the second model's words # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012375
+  type: 'test'
+  ...
+# Subtest: the replay says which hidden step goes elsewhere in the fix, and when the rule holds on the same states and steps
+ok 113 - the replay says which hidden step goes elsewhere in the fix, and when the rule holds on the same states and steps # SKIP cannot find TLC
+  ---
+  duration_ms: 0.034917
+  type: 'test'
+  ...
+# Subtest: a step the reader does not see breaks the rule, and the fix shows it on another screen
+ok 114 - a step the reader does not see breaks the rule, and the fix shows it on another screen # SKIP cannot find TLC
+  ---
+  duration_ms: 0.0145
+  type: 'test'
+  ...
+# Subtest: each looping step on a bug path keeps its own label, a null cause groups bugs by end state, and the mapping names the key's colors
+ok 115 - each looping step on a bug path keeps its own label, a null cause groups bugs by end state, and the mapping names the key's colors # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014209
+  type: 'test'
+  ...
+# Subtest: a rule that stays broken reports only the step that broke it
+ok 116 - a rule that stays broken reports only the step that broke it # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014583
+  type: 'test'
+  ...
+# Subtest: from-spec warns when steps carry the name of the whole next-state action
+ok 117 - from-spec warns when steps carry the name of the whole next-state action # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013958
+  type: 'test'
+  ...
+# Subtest: a rerun without --png removes the chart.png of an earlier run
+ok 118 - a rerun without --png removes the chart.png of an earlier run # SKIP cannot find TLC
+  ---
+  duration_ms: 0.015375
+  type: 'test'
+  ...
+# Subtest: a run whose Node is killed mid-TLC leaves the output folder as it was, and a rerun charts its own spec
+ok 119 - a run whose Node is killed mid-TLC leaves the output folder as it was, and a rerun charts its own spec # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014083
+  type: 'test'
+  ...
+# Subtest: a run whose spec changes while it reads it leaves the output folder, and the run that read the new spec charts it
+ok 120 - a run whose spec changes while it reads it leaves the output folder, and the run that read the new spec charts it # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013917
+  type: 'test'
+  ...
+# Subtest: a run whose inputs get new times and a new inode but the same content still charts them
+ok 121 - a run whose inputs get new times and a new inode but the same content still charts them # SKIP cannot find TLC
+  ---
+  duration_ms: 0.032208
+  type: 'test'
+  ...
+# Subtest: runs in PID namespaces that hide which namespace they are in chart only their own spec
+ok 122 - runs in PID namespaces that hide which namespace they are in chart only their own spec # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013833
+  type: 'test'
+  ...
+# Subtest: a file that is put in the output folder during a run stays, and the run exits 2
+ok 123 - a file that is put in the output folder during a run stays, and the run exits 2 # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013709
+  type: 'test'
+  ...
+# Subtest: a run whose rename fails after it moves the output folder aside puts the folder back, or says where it is
+ok 124 - a run whose rename fails after it moves the output folder aside puts the folder back, or says where it is # SKIP cannot find TLC
+  ---
+  duration_ms: 0.01375
+  type: 'test'
+  ...
+# Subtest: a run on a filesystem that cannot rename copies its files into place
+ok 125 - a run on a filesystem that cannot rename copies its files into place # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014625
+  type: 'test'
+  ...
+# Subtest: a run that cannot rename replaces a folder that another run makes before its copy, and keeps one that another run makes during its copy
+ok 126 - a run that cannot rename replaces a folder that another run makes before its copy, and keeps one that another run makes during its copy # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013167
+  type: 'test'
+  ...
+# Subtest: a run that cannot rename stops when another run removes its folder during its copy and makes an empty one in its place, and keeps that folder
+ok 127 - a run that cannot rename stops when another run removes its folder during its copy and makes an empty one in its place, and keeps that folder # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014625
+  type: 'test'
+  ...
+# Subtest: a run that cannot rename keeps the folder that another run puts in place of its folder as soon as the run makes it
+ok 128 - a run that cannot rename keeps the folder that another run puts in place of its folder as soon as the run makes it # SKIP cannot find TLC
+  ---
+  duration_ms: 0.015417
+  type: 'test'
+  ...
+# Subtest: a run whose input changes before --png renders stops before it renders, and keeps its files
+ok 129 - a run whose input changes before --png renders stops before it renders, and keeps its files # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013209
+  type: 'test'
+  ...
+# Subtest: a spec or a module it EXTENDS that changes during a run and changes back gets the results of the files that the run started with
+ok 130 - a spec or a module it EXTENDS that changes during a run and changes back gets the results of the files that the run started with # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013209
+  type: 'test'
+  ...
+# Subtest: a module that the spec EXTENDS or a file that the map imports, changed during a run, stops the run with exit 2
+ok 131 - a module that the spec EXTENDS or a file that the map imports, changed during a run, stops the run with exit 2 # SKIP cannot find TLC
+  ---
+  duration_ms: 0.014041
+  type: 'test'
+  ...
+# Subtest: a copy keeps the folders of its input under the snapshot folder, on a Windows drive or share too
+ok 132 - a copy keeps the folders of its input under the snapshot folder, on a Windows drive or share too
+  ---
+  duration_ms: 0.203458
+  type: 'test'
+  ...
+# Subtest: a rule that TLC finds broken before TLC stops on an error is broken, and the run draws the paths TLC printed
+ok 133 - a rule that TLC finds broken before TLC stops on an error is broken, and the run draws the paths TLC printed # SKIP cannot find TLC
+  ---
+  duration_ms: 0.015167
+  type: 'test'
+  ...
+# Subtest: each TLC run writes the standard modules in its own temp folder, so overlapping runs cannot rewrite them under each other
+ok 134 - each TLC run writes the standard modules in its own temp folder, so overlapping runs cannot rewrite them under each other # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013583
+  type: 'test'
+  ...
+# Subtest: a run that TLC stops on an error keeps TLC's output and writes no output folder
+ok 135 - a run that TLC stops on an error keeps TLC's output and writes no output folder # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013542
+  type: 'test'
+  ...
+# Subtest: a state graph too large for one string prints the rule results, keeps TLC's output, and draws no chart
+ok 136 - a state graph too large for one string prints the rule results, keeps TLC's output, and draws no chart # SKIP cannot find TLC
+  ---
+  duration_ms: 0.012584
+  type: 'test'
+  ...
+# Subtest: a graph dump that grows past one string is stopped, and the rule results stay
+ok 137 - a graph dump that grows past one string is stopped, and the rule results stay # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013292
+  type: 'test'
+  ...
+# Subtest: TLC output that grows past one string stops TLC, and the command exits 2
+ok 138 - TLC output that grows past one string stops TLC, and the command exits 2 # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013125
+  type: 'test'
+  ...
+# Subtest: the rule results print before the graph dump, and stay when TLC stops on an error in the dump
+ok 139 - the rule results print before the graph dump, and stay when TLC stops on an error in the dump # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013
+  type: 'test'
+  ...
+# Subtest: an error after TLC runs keeps TLC's output, and the message names its folder
+ok 140 - an error after TLC runs keeps TLC's output, and the message names its folder # SKIP cannot find TLC
+  ---
+  duration_ms: 0.016041
+  type: 'test'
+  ...
+# Subtest: runs of two specs that overlap on one output folder all finish, and the folder always holds one run's files
+ok 141 - runs of two specs that overlap on one output folder all finish, and the folder always holds one run's files # SKIP cannot find TLC
+  ---
+  duration_ms: 0.013333
+  type: 'test'
+  ...
+# Subtest: no file in scripts/ passes 1000 lines
+ok 142 - no file in scripts/ passes 1000 lines
+  ---
+  duration_ms: 0.775083
+  type: 'test'
+  ...
+1..142
+# tests 142
+# suites 0
+# pass 46
+# fail 0
+# cancelled 0
+# skipped 96
+# todo 0
+# duration_ms 3170.0795

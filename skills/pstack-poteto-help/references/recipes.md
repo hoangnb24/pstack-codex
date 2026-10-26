@@ -5,8 +5,9 @@ Replace placeholders with actual paths, fixtures, revisions, and done checks. Th
 ## Understand
 
 - `$pstack-codex:pstack-in-your-own-words Restate what you understand from <long or messy request>. Do not start work.`
-- `$pstack-codex:pstack-sharpen <task, scope, and done checks>. Improve the approach without expanding scope or publishing.`
+- `$pstack-codex:pstack-sharpen <prompt, scope, and done checks>. Return a deeper prompt without doing its task or expanding scope.`
 - `$pstack-codex:pstack-ketchup Catch me up on this chat and decisions that need me. Keep this read-only.`
+- `$pstack-codex:pstack-ketchup-video Catch me up using the existing artifacts. Render locally outside the repo with available tools. Keep every pending decision in text.`
 - `$pstack-codex:pstack-poteto-mode Read this supplied report. Restate the underlying issue plainly. Do not change code.`
 - `$pstack-codex:pstack-poteto-mode Investigate <symptom>. Report known facts, sources, and hypotheses. Do not change code.`
 - `$pstack-codex:pstack-how Explain <subsystem> using traced source paths. Do not change code.`
@@ -37,6 +38,9 @@ The app recipe does not install a verification skill. Its local skill path must 
 
 ## Review and delivery
 
+- `$pstack-codex:pstack-create-formal-verification-skill Check <property> in <module>, including overlapping retries. Keep product code unchanged and label proof bounds.`
+- `$pstack-codex:pstack-maintain-formal-verification-skill Reconcile <project verify skill> with changes to its covered code. Report drift separately from bugs. Do not fix product code.`
+- `$pstack-codex:pstack-statechart Explain <existing model> with reader-facing states and bug paths. Use a scratch copy and available local tools; do not install dependencies.`
 - `$pstack-codex:pstack-interrogate Review <base>...<head> for real defects and regressions. Do not change files. Report evidence and dismissals. Use permitted independent reviewers only if available; otherwise label a single-agent review.`
 - `$pstack-codex:pstack-swarm Check every package under <dir> with its existing check script at <revision>. Use authorized agents on disjoint slices if available, otherwise check serially. Return one report with uncovered slices. Do not edit code or publish.`
 - `$pstack-codex:pstack-benchmark-checklist Vet this <claimed speedup> from <receipts>. Report whether the measurement represents the intended work. Do not post anything.`

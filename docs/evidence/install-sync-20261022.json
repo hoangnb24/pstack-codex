@@ -1,0 +1,18 @@
+{
+  "pluginId": "pstack-codex@pstack-local",
+  "version": "0.4.0",
+  "upstream": "0.15.27",
+  "installedPath": "/Users/tubakhuym/.codex/plugins/cache/pstack-local/pstack-codex/0.4.0",
+  "enabled": true,
+  "source": "/Users/tubakhuym/projects/prototypes/pstack-codex",
+  "payloadSha256": "836f333f1112829a8232a2125eba2c1319b78b8ae6ac963cdcc57bf23277a25b",
+  "payloadFiles": 191,
+  "payloadBytesAndModesMatch": true,
+  "enabledSkills": 55,
+  "uniqueCachePaths": true,
+  "configUnchanged": true,
+  "configSha256": "7facca35a77b0ffa4c6600f055e8529158d2505b53eec3b8fe2e6cd3e716f689",
+  "oldCacheRetained": false,
+  "recoveryRoot": "/Users/tubakhuym/projects/prototypes/pstack-update-20261022-XnRr0f",
+  "inference": false
+}

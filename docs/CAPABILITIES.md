@@ -1,6 +1,6 @@
 # Codex capability map
 
-Current refresh: upstream 0.15.25 at `99743e9c151c8537cbbf1f98bb38f34ef3368453`, plugin 0.3.0. Three new instruction-only skills cover goal playback, approach refinement and current-chat catch-up. Updated core workflows preserve the capability boundaries below. The helper parser now handles fenced examples correctly. No forge discovery, watcher, scheduler or new service is installed. Current acceptance and installation are tracked in [validation](VALIDATION.md).
+Current refresh: upstream 0.15.32 at `6dbc3ff4b8302a697705f827e9fa92e700d6c6c7`, plugin 0.5.0. New skills cover statecharts, formal-verification maintenance, and silent catch-up videos. Statechart adds local scripts but no automatic Java, TLC, npm, or renderer installation. Existing helper and host-permission boundaries remain. Sharpen returns a rewritten prompt without executing it. Reflect edits only approved source locations, never cache. No forge discovery, watcher, scheduler, or new service is installed. Current acceptance and installation are tracked in [validation](VALIDATION.md).
 
 Original audit: 2026-10-04. Delta reviewed: 2026-10-09, Lauren Tan's pstack 0.15.15 at `ccb5507cec1546dc88135c1139c811e6c59115ba` (MIT). This map covers the guide, both agent definitions, and the dormant Benny pack. The refresh adds help but does not add a cloud, model-routing or automation runtime. See [delta disposition](VALIDATION.md#delta-disposition). The port distinguishes a procedure from an installed or verified runtime capability.
 

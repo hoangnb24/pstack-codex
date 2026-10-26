@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-24",
+  "plugin": "pstack-codex@pstack-local",
+  "version": "0.5.0",
+  "codex": "0.164.0",
+  "installed_path": "/Users/tubakhuym/.codex/plugins/cache/pstack-local/pstack-codex/0.5.0",
+  "source_payload": "4b4268bf59191dc216483335f0ab8874d20256f113a7ed992c96d7c613ade73b",
+  "installed_payload": "4b4268bf59191dc216483335f0ab8874d20256f113a7ed992c96d7c613ade73b",
+  "payload_files": 223,
+  "bytes_modes_match": true,
+  "changed_payload_paths": [
+    "skills/pstack-statechart/scripts/test/statechart.test.mjs"
+  ],
+  "production_adapters_changed": false,
+  "config_unchanged": true,
+  "config_sha256": "b0ce5e9f57db31dd7f22633abf5a920acd3031ca52cab008c5970217f2fa1db1",
+  "real_discovery": {
+    "enabled_skills": 58,
+    "unique_cache_paths": true,
+    "inference": false
+  },
+  "tests": {
+    "combined_node": {
+      "total": 154,
+      "passed": 145,
+      "failed": 0,
+      "skipped": 9
+    },
+    "packaging": {
+      "passed": 5,
+      "failed": 0
+    },
+    "bun_helpers": {
+      "passed": 4,
+      "expectations": 28,
+      "failed": 0
+    },
+    "skill_validation": true,
+    "standalone_discovery": 58,
+    "temporary_native_smoke": [
+      58,
+      0,
+      58
+    ]
+  },
+  "skip_reasons": [
+    "ok 61 - each label fits its box in the font it is drawn in, and a wider font gets a wider wrap, so lines break where the chart breaks them # SKIP needs two of DejaVu Sans, Liberation Sans, Noto Sans, and Inter",
+    "ok 62 - a font that resvg cannot read keeps Pele's widths, so the chart keeps every label # SKIP cannot find a Type 1 font",
+    "ok 63 - a bold or italic face that resvg cannot read is measured in its regular face, so the chart keeps every label # SKIP needs Nimbus Sans with an OpenType regular face and Type 1 bold and italic faces",
+    "ok 122 - runs in PID namespaces that hide which namespace they are in chart only their own spec # SKIP cannot make a PID namespace, or cannot compile a readlink preload",
+    "ok 124 - a run whose rename fails after it moves the output folder aside puts the folder back, or says where it is # SKIP requires Linux LD_PRELOAD and a compilable rename injector",
+    "ok 125 - a run on a filesystem that cannot rename copies its files into place # SKIP requires Linux LD_PRELOAD and a compilable rename injector",
+    "ok 126 - a run that cannot rename replaces a folder that another run makes before its copy, and keeps one that another run makes during its copy # SKIP requires Linux LD_PRELOAD and a compilable rename injector",
+    "ok 127 - a run that cannot rename stops when another run removes its folder during its copy and makes an empty one in its place, and keeps that folder # SKIP requires Linux LD_PRELOAD and a compilable rename injector",
+    "ok 128 - a run that cannot rename keeps the folder that another run puts in place of its folder as soon as the run makes it # SKIP requires Linux LD_PRELOAD and a compilable rename injector"
+  ],
+  "evidence_root": "/Users/tubakhuym/projects/prototypes/pstack-statechart-check-20261024-qwQ5eM",
+  "evidence_files_sha256": {
+    "full-suite.tap": "fb5b1be67bcc60ec9a259852f367058fd6cf511cadae3cc8beba48adf619b4e5",
+    "full-suite-probe-fixed.tap": "d058be022b19e5001d5e672bf19517ec4e322ba873b3fbcb6e1dc3d1b9ccbbc2",
+    "canonical-path-check.tap": "28b0ccf0274544285c9a7a48b4f8906e2c1ef1ba83efce96b547106a14b35fa8",
+    "portability-check.tap": "d3c6944e45709ce16ecf7840d2c896253dc017a6563ce63365c78db77b9e5e9f",
+    "full-suite-portable.tap": "03b49f15976686f55f7d0f669f499b5733a030cde3ecdd23b1c43756e1b9c9c1",
+    "renderer-package-lock.json": "d1a0b02e62739be0e3e33b50310eaafd25f4ee447a71fc3a9bc4785c22916a66",
+    "launcher": "f5e9ada00be6d85f1546f18184fa19384902a7ced93f1452c449eb461df0fd6e",
+    "env.sh": "1a964b87a7149056ac70438e517c36a26e1f6baf0daf1259e296a72753ba56fe",
+    "Safe.tla": "23cdd099eff749376dbeb1642b49cdbf329219e0021866e39fee8eb937ff274e",
+    "Safe.cfg": "53ad36719bf5e8de7cf0697a5a22e4a3c8a4ec2d6163fd0787c156cfb41a5a8a",
+    "Safe.map.mjs": "ad941fc1d4537565a91b9c116d92a1d31a161bb71f9fa3c38dbee01754369d25",
+    "Unsafe.tla": "a4ac8f32c99e8ac36c2f1c7e01ef9422923ea2913fef5642de1521970d44c2e9",
+    "Unsafe.cfg": "53ad36719bf5e8de7cf0697a5a22e4a3c8a4ec2d6163fd0787c156cfb41a5a8a",
+    "Unsafe.map.mjs": "ad941fc1d4537565a91b9c116d92a1d31a161bb71f9fa3c38dbee01754369d25"
+  },
+  "historical_failed_run": {
+    "file": "full-suite-probe-fixed.tap",
+    "passed": 133,
+    "failed": 17,
+    "skipped": 4
+  },
+  "rollback_source": "/Users/tubakhuym/projects/prototypes/pstack-statechart-check-20261024-qwQ5eM/source-before-probe-fix",
+  "rollback_cache": "/Users/tubakhuym/projects/prototypes/pstack-statechart-check-20261024-qwQ5eM/cache-before-probe-fix"
+}

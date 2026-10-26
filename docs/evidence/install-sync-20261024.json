@@ -1,0 +1,21 @@
+{
+  "codex": "codex-cli 0.164.0",
+  "plugin": "pstack-codex@pstack-local",
+  "version": "0.5.0",
+  "installed_path": "/Users/tubakhuym/.codex/plugins/cache/pstack-local/pstack-codex/0.5.0",
+  "source": "/Users/tubakhuym/projects/prototypes/pstack-codex",
+  "payload_sha256": "f749a746b16ad449ab048931cfb539405b041e5ced98eb23f4f4afa7c4c6f970",
+  "payload_files": 223,
+  "bytes_and_modes_match": true,
+  "enabled_skill_count": 58,
+  "unique_cache_paths": true,
+  "config_unchanged": true,
+  "config_sha256": "b0ce5e9f57db31dd7f22633abf5a920acd3031ca52cab008c5970217f2fa1db1",
+  "old_cache_exists": false,
+  "backup_root": "/Users/tubakhuym/projects/prototypes/pstack-update-20261024-kuXw9u",
+  "discovery_methods": [
+    "initialize",
+    "skills/list"
+  ],
+  "inference": false
+}
