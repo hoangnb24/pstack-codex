@@ -41,7 +41,7 @@ The app recipe does not install a verification skill. Its local skill path must 
 - `$pstack-codex:pstack-create-formal-verification-skill Check <property> in <module>, including overlapping retries. Keep product code unchanged and label proof bounds.`
 - `$pstack-codex:pstack-maintain-formal-verification-skill Reconcile <project verify skill> with changes to its covered code. Report drift separately from bugs. Do not fix product code.`
 - `$pstack-codex:pstack-statechart Explain <existing model> with reader-facing states and bug paths. Use a scratch copy and available local tools; do not install dependencies.`
-- `$pstack-codex:pstack-interrogate Review <base>...<head> for real defects and regressions. Do not change files. Report evidence and dismissals. Use permitted independent reviewers only if available; otherwise label a single-agent review.`
+- `$pstack-codex:pstack-interrogate Review <base>...<head> for real defects and regressions. Keep the source unchanged. Report run-proven findings and the Dropped list with reasons. Use permitted independent reviewers only if available; otherwise label a single-agent review.`
 - `$pstack-codex:pstack-swarm Check every package under <dir> with its existing check script at <revision>. Use authorized agents on disjoint slices if available, otherwise check serially. Return one report with uncovered slices. Do not edit code or publish.`
 - `$pstack-codex:pstack-benchmark-checklist Vet this <claimed speedup> from <receipts>. Report whether the measurement represents the intended work. Do not post anything.`
 - Local PR preparation: `$pstack-codex:pstack-poteto-mode Prepare a PR description for <base>...<head> with verification evidence. Do not commit, push, or create a PR.`
@@ -57,7 +57,7 @@ Offer publication or landing recipes only when they match the question. Even an 
 - `$pstack-codex:pstack-poteto-mode Continue <scoped task> in this session for at most <budget>. Done means <checks>. Keep a decision log at <path>. Do not commit or publish. Stop at missing required capability or permission and leave a resume note. Do not create a scheduler or background watcher.`
 - `$pstack-codex:pstack-show-me-your-work Summarize the existing decision log at <path>. Highlight attention items and missing proof. Do not change anything.`
 - `$pstack-codex:pstack-poteto-mode Plan an independent queue for <items>. Show scope, checks, and publication/landing gates before execution. Do not start the queue.`
-- `$pstack-codex:pstack-poteto-mode Build a dependent stack for <items> within <paths>, but do not publish or land it. Stop at <budget> and report local delivery separately from proposed PRs.`
+- `$pstack-codex:pstack-poteto-mode Build <items> within <paths>, but do not publish or land them. Stack a change only on a change it depends on. Stop at <budget> and report local delivery separately from proposed PRs.`
 - `$pstack-codex:pstack-poteto-mode Pause safely. Preserve unrelated work and leave a checkpoint at <path>. Do not commit or publish.`
 - `$pstack-codex:pstack-reflect Propose lessons from this session that would change future decisions. Show proposed skill edits for approval; do not apply them yet.`
 - `$pstack-codex:pstack-correct Agents repeatedly make <mistake> in <scope>. Inspect supplied or scoped local evidence first. Propose a structural prevention and its proof. Do not change code yet.`

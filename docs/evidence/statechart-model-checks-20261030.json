@@ -1,0 +1,47 @@
+{
+  "entry": "/Users/tubakhuym/.local/bin/pstack-statechart",
+  "label": "installed",
+  "renderer": "Pele 1.8.0; Resvg 2.6.2",
+  "models": [
+    {
+      "name": "Safe",
+      "command": [
+        "/Users/tubakhuym/.local/bin/pstack-statechart",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/models/Safe.tla",
+        "--view",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/models/view.mjs",
+        "--out",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/installed-Safe"
+      ],
+      "exit": 0,
+      "report": "# Safe\n\nTLC reached 2 states and 2 steps. The chart draws 2 states and 1 arrows.\nThe chart does not draw 1 steps that stay in one chart state.\n\n## Rules that hold\nCapacity, NoDeadlock\n",
+      "files": {
+        "chart.mmd": "22044d76d5995ad7715cdba0af066d3cbb8b847c455176d726ca3da0790745d8",
+        "report.md": "d7ad01f21ebd755919e8fb162cf9d547fd45a69cb543411d8d63049f22b5e2dc",
+        "tlc.out": "d56fdf325b554e43fd3109b8fe551c46452cd2bb72c40caadb4749e36a91fb0a",
+        "chart.svg": "3f3e42354c707fca99e0f3aecfb6d19f7356997e08041e0b61b995bd7a230224",
+        "chart.png": "13fdb1f88ec5e99a3d6ed01f7f3926b97b5809c722a81d93fcb398b547e38e3a"
+      }
+    },
+    {
+      "name": "Unsafe",
+      "command": [
+        "/Users/tubakhuym/.local/bin/pstack-statechart",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/models/Unsafe.tla",
+        "--view",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/models/view.mjs",
+        "--out",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/installed-Unsafe"
+      ],
+      "exit": 1,
+      "report": "# Unsafe\n\nTLC reached 3 states and 3 steps. The chart draws 3 states and 2 arrows.\nThe chart does not draw 1 steps that stay in one chart state.\n\n## Capacity breaks\nThe shortest path has 2 steps:\n0. 0 reservations\n1. Accept a reservation: 1 reservations\n2. Accept a reservation: 2 reservations\n\n## Rules that hold\nNoDeadlock\n",
+      "files": {
+        "chart.mmd": "4ec0fa88a082dfce96e4939546e26c84db00a1aa76c1d0f179cab0fc7819df63",
+        "report.md": "569b34491c435aa73310bea839f2019f649fa2da38a30c27ce97af67e357613b",
+        "tlc.out": "5741ec205ef275447df61ecdc80a2c5d4760767c0707f77f60999d35f5676df0",
+        "chart.svg": "8f5af7b6d906bf789e07bda2b7b362cf0b47ae9dff475205ffee6a99e79ab0a0",
+        "chart.png": "0e5c2972f689902115784334ea657a113be7e3d6dd7f1a14299e069de6dd6732"
+      }
+    }
+  ]
+}

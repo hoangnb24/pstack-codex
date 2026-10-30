@@ -55,12 +55,12 @@ Use poteto mode for a non-trivial execution task that needs its playbook. Use a 
 | Plain explanation of a change or subsystem | [teach](../pstack-teach/SKILL.md) |
 | Recent context from accessible, scoped history | [recall](../pstack-recall/SKILL.md) |
 | Changes in this chat and every pending item, with enough context to decide | [ketchup](../pstack-ketchup/SKILL.md) |
-| The same catch-up as a silent slide video, with pending decisions in text | [ketchup-video](../pstack-ketchup-video/SKILL.md) |
+| The same catch-up as a subtitled slide video, with pending decisions in text | [ketchup-video](../pstack-ketchup-video/SKILL.md) |
 | Breakage beyond a small diff | [blast-radius](../pstack-blast-radius/SKILL.md) |
 | Types and module design, then implementation | [architect](../pstack-architect/SKILL.md) |
 | Competing candidates and synthesis | [arena](../pstack-arena/SKILL.md) |
 | Partitioned coverage or declared races | [swarm](../pstack-swarm/SKILL.md) |
-| Adversarial diff review, without auto-fixes | [interrogate](../pstack-interrogate/SKILL.md) |
+| Adversarial diff review with run-proven findings, without auto-fixes | [interrogate](../pstack-interrogate/SKILL.md) |
 | Cheap local failing-test path | [tdd](../pstack-tdd/SKILL.md) |
 | TypeScript code rules | [typescript-best-practices](../pstack-typescript-best-practices/SKILL.md) |
 | Review redundant comments, preserving necessary contracts | [no-comments](../pstack-no-comments/SKILL.md) |
@@ -70,7 +70,7 @@ Use poteto mode for a non-trivial execution task that needs its playbook. Use a 
 | Build a project-local app verification skill | [create-verification-skill](../pstack-create-verification-skill/SKILL.md) |
 | Formally verify a race or invariant beyond ordinary test coverage | [create-formal-verification-skill](../pstack-create-formal-verification-skill/SKILL.md) |
 | Reconcile formal verification with changed code and distinguish drift from bugs | [maintain-formal-verification-skill](../pstack-maintain-formal-verification-skill/SKILL.md) |
-| Explain model behavior and bug paths, or turn an agreed chart into a TLA+ skeleton | [statechart](../pstack-statechart/SKILL.md) |
+| Explain a checked TLA+ model and shortest paths to states that break a rule | [statechart](../pstack-statechart/SKILL.md) |
 | Audit a verification skill and feature map | [maintain-verification-skill](../pstack-maintain-verification-skill/SKILL.md) |
 | Check whether a performance measurement is credible | [benchmark-checklist](../pstack-benchmark-checklist/SKILL.md) |
 | Design a rigorous run when no narrower playbook fits | [figure-it-out](../pstack-figure-it-out/SKILL.md) |
@@ -104,7 +104,7 @@ Playbooks are files inside poteto mode, not separately registered skills. Use `$
 | Take over this branch | [Session pickup](../pstack-poteto-mode/playbooks/session-pickup.md): reconcile accessible evidence; do not redo finished work |
 | Pause safely | [Pause safely](../pstack-poteto-mode/playbooks/pause-safely.md): checkpoint and stop within existing permission |
 | Full autopilot on an independent queue | [Autopilot-full](../pstack-poteto-mode/playbooks/autopilot-full.md): publication and landing remain separately scoped |
-| Stack these changes, do not ship | [Autopilot-stack](../pstack-poteto-mode/playbooks/autopilot-stack.md): reviewable chain without landing |
+| Autopilot these changes, do not merge | [Autopilot-stack](../pstack-poteto-mode/playbooks/autopilot-stack.md): reviewable changes without landing; stack only dependencies |
 | Run the eval playbook | [Eval](../pstack-poteto-mode/playbooks/eval.md): actual blind/independent coverage must be reported |
 | Plan this migration, do not implement | [Multi-phase plan](../pstack-poteto-mode/playbooks/multi-phase-plan.md): plan is the deliverable |
 | Write a skill for this workflow | [Authoring a skill](../pstack-poteto-mode/playbooks/authoring-a-skill.md): available skill-creator and validation, no global install |

@@ -1,0 +1,87 @@
+{
+  "base": "39e57f3e922f65d52926eed89fe3526701b87379",
+  "upstream": "4dd1d05818d19792e7cd6e818f1667f95f7e1dbe",
+  "upstreamBase": "6dbc3ff4b8302a697705f827e9fa92e700d6c6c7",
+  "records": [
+    {
+      "path": "skills/pstack-arena/SKILL.md",
+      "mode": "644",
+      "sha256": "e5984a78ee581e2bd5a1a6f22ca4d54c4e701d5ef84b100af9fef742e204d756"
+    },
+    {
+      "path": "skills/pstack-interrogate/SKILL.md",
+      "mode": "644",
+      "sha256": "04af2e65bb52ebde5db77f5896b5f9ee9ff62f9ea34e3d95abe4abb45871fb1e"
+    },
+    {
+      "path": "skills/pstack-interrogate/references/code-quality-review.md",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-interrogate/references/lead-judgment.md",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-interrogate/references/reviewer-prompt.md",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-interrogate/references/rubric.md",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-poteto-mode/SKILL.md",
+      "mode": "644",
+      "sha256": "5a2fdf150ebb26255f66e8ee1659142e14281a82869b1134cdc00a873b53e545"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/autopilot-full.md",
+      "mode": "644",
+      "sha256": "422ec118352d23c9da592af525336a8c277b78bfdb0d6d3ea3a40198be941aec"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/autopilot-stack.md",
+      "mode": "644",
+      "sha256": "e1fba3f8f043f8c566992e2f67af718e88f92c0ac846f6a0d08963bc261dac7e"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/multi-phase-plan.md",
+      "mode": "644",
+      "sha256": "54d5e33a78f3c72c698f6429d05fed4e8e9e6ee7acae5e79be83b206e38189a1"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/orchestrate.md",
+      "mode": "644",
+      "sha256": "a62fd5462c65c3fcf4a8f823af2d04778ba6cffa1e4cd0cc758821adf6af22a6"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/README.md",
+      "mode": "644",
+      "sha256": "8e43a262c73b5acd93319f89ec776c18e901144f31caa33c232d646c9fecc004"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/orch/orch.ts",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/orch/store.ts",
+      "deleted": true
+    },
+    {
+      "path": "tests/helpers/orch.test.ts",
+      "deleted": true
+    }
+  ],
+  "verification": {
+    "environment": "macOS; Node v22.22.3; system python3",
+    "helperTests": "node --test tests/helpers/helpers.test.mjs: 4 passed, 0 failed",
+    "diffCheck": "git diff --check: passed",
+    "validators": "quick_validate.py on all three skills: blocked, ModuleNotFoundError: No module named yaml; no install attempted",
+    "behavior": "No independent agent evaluation or runtime orchestration trial performed"
+  },
+  "limits": [
+    "Outside-scope metadata/docs callers need integration",
+    "No commits, publication, installation, configuration, or user ledger writes",
+    "Read-only inspection of omitted platform features is not runtime parity"
+  ]
+}

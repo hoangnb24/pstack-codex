@@ -61,7 +61,7 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 | `why` | [`pstack-why`](../skills/pstack-why/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 
 | `maintain-formal-verification-skill` | [`pstack-maintain-formal-verification-skill`](../skills/pstack-maintain-formal-verification-skill/SKILL.md) | Adapted: reconcile proof coverage with source drift; blocked checks do not advance sync. |
-| `statechart` | [`pstack-statechart`](../skills/pstack-statechart/SKILL.md) | Adapted: TLA+/Mermaid conversion and bug paths; trusted local tools only, no automatic dependency installation. |
+| `statechart` | [`pstack-statechart`](../skills/pstack-statechart/SKILL.md) | Adapted: check TLA+ models, draw Mermaid charts, and explain shortest violation paths; trusted local tools only, no automatic dependency installation. |
 | `ketchup-video` | [`pstack-ketchup-video`](../skills/pstack-ketchup-video/SKILL.md) | Adapted: local visual catch-up from current evidence; no automatic renderer install or upload; retain text decisions. |
 
 ## Playbooks

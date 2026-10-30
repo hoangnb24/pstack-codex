@@ -51,7 +51,7 @@ After all candidates finish, use an authorized read-only judge task agent if ava
 
 Read every candidate end to end before picking.
 
-Score each candidate against the rubric criterion by criterion, not on holistic feel. Compare against the cross-judge. Agreement on the base confirms the pick. Disagreement means one of you is biased or the rubric was ambiguous. Read both rationales before deciding.
+Score each candidate against the rubric criterion by criterion, not on holistic feel. Compare against the cross-judge when one ran. If no judge ran, record that limit. Agreement supports the pick but does not prove correctness. Resolve disagreement from the artifacts and rubric, not a vote.
 
 Pick the base on which candidate a future maintainer can extend most easily without breaking invariants. Prefer the cleaner boundary or smaller API when two feel tied, per the Laziness Protocol.
 
@@ -75,4 +75,4 @@ If verification surfaces a problem the arena did not catch, either Phase A was w
 
 ## Outputs
 
-One synthesized artifact. One short synthesis note alongside, naming the base, the grafts (with source candidate), the rejections, the dropouts if any, and the verification result.
+One synthesized artifact. One short synthesis note alongside, naming the base, the judge's verdict or absence, the grafts (with source candidate), the rejections, the dropouts if any, and the verification result. Identify the exact verified candidate. Report unavailable seats without inventing model or agent fallbacks.

@@ -1,0 +1,101 @@
+{
+  "payload_sha256": "76b9e23f7fd04d3b2c25f82b9b19f27321c28ff16be44e911e6571d5732bef51",
+  "environment": {
+    "platform": "macOS arm64",
+    "node": "22.22.3",
+    "bun": "1.3.14",
+    "codex": "0.166.0",
+    "java": "17.0.20",
+    "tlc": "1.7.4",
+    "pele": "1.8.0",
+    "resvg": "2.6.2",
+    "mermaid": "11.16.0",
+    "jsdom": "20.0.3",
+    "fast_check_tested": "4.10.0"
+  },
+  "tests": [
+    {
+      "path": "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/integration-suite.tap",
+      "sha256": "1f15685831de4f44be978538f17089c1952a8fe405c59ccc0c395bcb39fad3f4",
+      "counts": {
+        "tests": 367,
+        "pass": 367,
+        "fail": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "path": "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/statechart-evidence-PBpyuf/safety.tap",
+      "sha256": "2e16122e482b6571e5f6264d3761a466c25919040cef98a68226599d1aec748b",
+      "counts": {
+        "tests": 4,
+        "pass": 4,
+        "fail": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "path": "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/statechart-evidence-PBpyuf/suite.tap",
+      "sha256": "016d2fcaa92bd088cbf4c0c45bfca3d938ae53ceef02b6d7b6ab1fc7574cddda",
+      "counts": {
+        "tests": 359,
+        "pass": 285,
+        "fail": 0,
+        "skipped": 74
+      }
+    },
+    {
+      "path": "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/statechart-evidence-PBpyuf/render.tap",
+      "sha256": "ecd9d95364d8e67f4607b28d980fd5a986b3c61adf15624632a92f6e259279e7",
+      "counts": {
+        "tests": 74,
+        "pass": 74,
+        "fail": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "path": "/Users/tubakhuym/projects/prototypes/pstack-update-20261030-sA8cu8/statechart-evidence-PBpyuf/differential.tap",
+      "sha256": "4d6d4ca826de5ec3f526761fea5b5fda324cd6613e2ab02e0ea5848e2d7ab301",
+      "counts": {
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "packaging": {
+    "passed": 5,
+    "log_sha256": "699b2480defa395e0411950e5d9665e5aa9ff98140128e35e7b3d6a0e449b0f3"
+  },
+  "skill_validation": {
+    "passed": 58,
+    "python": "/usr/bin/python3",
+    "log_sha256": "896e53c143834cb571aae74e5a05192eede54a086936015a874388d41d79e0a2"
+  },
+  "launcher": {
+    "path": "/Users/tubakhuym/.local/bin/pstack-statechart",
+    "sha256": "0844756cc7f7e6e19c425998054cefd7d486eb3faf014b033f41250bed54ab67",
+    "cache_version": "0.6.0",
+    "dependency_env_cleared_before_model_runs": true
+  },
+  "rendering": {
+    "source_corrected_and_installed_png_bytes_match": true,
+    "installed_pngs_visually_inspected": true,
+    "failed_raw_and_background_only_pngs_retained": true,
+    "method": "Pele SVG; resolve light-theme CSS variables; Resvg PNG"
+  },
+  "limits": [
+    "Exact fast-check 4.5.3 pin untested",
+    "No live workflow or external service test",
+    "Bounded synthetic models only",
+    "No hostile concurrent filesystem mutation proof",
+    "Linux and Deno not tested"
+  ],
+  "reproduction_helpers": {
+    "check-models.mjs": "265dfc7f49a79e3e540f8bc06d4e322681b120f44cec47fbf4529558327dda30",
+    "png.mjs": "7c614b64248b4081506cdbf003d5325b13c60fbe813f313b9c64cd83ae15f797",
+    "install-check.py": "62778366a80fceaa1a1bd5079a24d85b4774057f91801ce66dad21fb42a11a20"
+  }
+}

@@ -9,6 +9,7 @@ Adapted from Lauren Tan's MIT-licensed pstack. Read the matching playbook before
 
 ## Operating contract
 
+- Start substantial tasks by restating the user's goal, problem, and smallest expected change. Do not wait for confirmation when intent is clear. If evidence refutes the requested change, show it and stop the affected work. Include that goal in delegate briefs and final reports.
 - Establish intent, affected data shape, and observable acceptance before changing logic. Investigate how the existing system works before selecting a design. Prototype empirical forks cheaply; ask about genuine preferences that experiments cannot answer.
 - Preserve the user's scope. Continue authorized reversible work. Unrelated discoveries become follow-ups. A request to investigate or plan does not authorize implementation. A request to implement does not automatically request a PR, publication, merge, messages, deployment, or global configuration changes. Honor authorization already given without asking again.
 - Use the host's existing sandbox, approval policy, available tools, and model. Never enable bypass modes, install software, or change credentials to satisfy this skill. A broad autonomy request does not erase explicit stop conditions or host controls.
@@ -51,7 +52,7 @@ Read only the matching playbook and needed references. Cross-skill names below r
 - [Drive one scoped task to a predicate](playbooks/autonomous-run.md).
 - [Coordinate a bounded multi-unit program](playbooks/orchestrate.md).
 - [Independent PR queue with separate landing authority](playbooks/autopilot-full.md).
-- [Build a reviewable dependent stack without landing](playbooks/autopilot-stack.md).
+- [Build a verified PR queue without landing](playbooks/autopilot-stack.md).
 - [Resume from authorized prior evidence](playbooks/session-pickup.md).
 - [Checkpoint and stop work](playbooks/pause-safely.md).
 - [Deliver an executable plan without executing it](playbooks/multi-phase-plan.md).
@@ -93,7 +94,7 @@ Read the leaf skill in full for any principle you apply. Each entry names when i
 - **Fix Root Causes** ([principle-fix-root-causes](../pstack-principle-fix-root-causes/SKILL.md)). Debugging. Trace each symptom back to the first place the system went wrong and fix it there. A guard is a fix only when the state it handles is legitimate.
 - **Sequence Work into Verifiable Units** ([principle-sequence-verifiable-units](../pstack-principle-sequence-verifiable-units/SKILL.md)). Multi-step work (sweeps, migrations, runs of similar edits) and how you stack commits and PRs. Break work into small units that each end in a check, verify each before the next, and order delivery so the sequence proves itself.
 - **Test Behavior, Not Implementation** ([principle-test-behavior-not-implementation](../pstack-principle-test-behavior-not-implementation/SKILL.md)). Writing, changing, or keeping a test. Assert what users can observe. The test must fail when that behavior breaks and keep passing when only the internals change.
-- **Explain the Number** ([principle-explain-the-number](../pstack-principle-explain-the-number/SKILL.md)). Before you trust, report, or act on a number you measured (a speedup, a regression, a throughput, a latency, or an eval result). Find what limits it, and rule out that it measured something other than the work you think.
+- **Explain the Number** ([principle-explain-the-number](../pstack-principle-explain-the-number/SKILL.md)). Before measuring, and before trusting, reporting, or acting on a measured number. Find what limits it, and rule out measuring something other than the intended work.
 
 **Delegation**
 

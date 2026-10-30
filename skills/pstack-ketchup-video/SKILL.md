@@ -1,11 +1,11 @@
 ---
 name: pstack-ketchup-video
-description: "Catch the user up on this chat with a short silent slide video and a complete text list of pending decisions. Use when explicitly asked for a ketchup video."
+description: "Catch the user up on this chat with a short subtitled slide video and a complete text list of pending decisions. Use when explicitly asked for a ketchup video."
 ---
 
 # Ketchup video
 
-Follow [ketchup](../pstack-ketchup/SKILL.md), with a short silent video instead of its change summary and visuals. Start at the last user message before this invocation, not before an earlier ketchup request. If that history is unavailable, state the coverage gap. Keep every pending decision in text under the video.
+Follow [ketchup](../pstack-ketchup/SKILL.md), with a short subtitled video instead of its change summary and visuals. Start at the last user message before this invocation, not before an earlier ketchup request. If that history is unavailable, state the coverage gap. Keep every pending decision in text under the video.
 
 ## Scope
 
@@ -21,10 +21,13 @@ Use short plain labels on the things they name. Do not repeat information across
 
 ## Render and inspect
 
-1. Render a silent landscape video, such as MP4, from the slides. Make each frame the slide itself, edge to edge. Do not record the screen to create it.
-2. Hold each slide for at least one second per three added words, long enough to read its labels. Words already inside a screenshot do not count toward that minimum.
-3. Inspect at least one extracted frame from every slide in the rendered file. Check its actual timing, readability, ordering, and transitions. A source slide or successful render command alone does not prove the video is readable.
-4. If a slide is unreadable, fix it and render and inspect again. Keep the final artifact in the declared scratch location so the user can open it.
+Give each slide one short subtitle, about ten words. Explain its point using only what the slide shows; do not just repeat its labels. Put it in a separate strip below the slide. Use the same strip height throughout. Keep the subtitle readable at chat size and clear of the slide content.
+
+1. Render a silent landscape video, such as MP4, from the slides. Each frame contains the edge-to-edge slide above its subtitle strip. Burn the subtitle into every frame of that slide. Do not record the screen to create it.
+2. Hold each slide for at least one second per three added words. Count its subtitle and each word absent from the preceding slide, including changed labels. Count all words on the first slide. Exclude words inside screenshots. The hold excludes transitions.
+3. Inspect at least one extracted frame from every slide at chat size. Check subtitle readability, ordering, and overlap. A source slide or successful render command alone does not prove readability.
+4. Measure each hold by matching rendered frames to the slide. Do not use a still-frame detector, which can count faint fade frames as still. Compare added word counts with those measured holds.
+5. If a slide is unreadable, fix it and render and inspect again. Keep the final artifact in the declared scratch location so the user can open it.
 
 ## Reply
 

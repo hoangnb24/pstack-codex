@@ -11,4 +11,8 @@ This adapts the ownership protocol to a bounded Codex session. It does not insta
 
 Do not weaken checks to obtain a pass. A proposed budget increase, allowlist entry, or other gate relaxation needs evidence and the approval required by the task and repository. Disclose disabled or soft-failed checks; they do not prove the guarded behavior passed.
 
+Before verification, reconcile the intended base. A known concurrent change to the same files needs affected checks on the resulting candidate, even without a conflict. Keep completed units and their receipts in authorized durable workspace storage before starting dependent work; publication is not implied. Scale repeat review to changed behavior. A wording-only change needs accuracy review, not an unrelated runtime verifier. Required checks and exact-candidate acceptance still apply.
+
+Block on demonstrated user-facing defects, failed required gates, or shipped documentation made wrong by the change. Record unrelated base defects and optional improvements as follow-ups. Missing required verification remains a gap and prevents a clean claim; the blocking rule is not permission to waive it.
+
 Report each item's owner, head, verified state, actual publication/merge, operator gates, and decision trails. For a substantial catch-up, use [pstack-ketchup](../../pstack-ketchup/SKILL.md) when available. It changes the report, not the task's authority.
