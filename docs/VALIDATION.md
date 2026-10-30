@@ -1,6 +1,6 @@
 # Validation performed
 
-## Accepted and installed upstream 0.15.36 update — 2026-10-30
+## Accepted, installed, and published upstream 0.15.36 update — 2026-10-30
 
 Target the exact upstream commit `4dd1d05818d19792e7cd6e818f1667f95f7e1dbe`, version 0.15.36. Baseline is upstream 0.15.32, port 0.5.0, payload `4b4268bf59191dc216483335f0ab8874d20256f113a7ed992c96d7c613ade73b`. Source and installed cache match all 223 payload files. Local `main` and fetched `origin/main` both start at `39e57f3e922f65d52926eed89fe3526701b87379`; the source was clean.
 
@@ -39,6 +39,8 @@ The supported installer removed cache 0.5.0. Its complete recoverable copy remai
 Both models passed again through that launcher with dependency variables initially unset: Safe exited 0; Unsafe exited 1 and reported `0 → 1 → 2`. Their installed PNGs match the corrected source images byte-for-byte and were inspected again. [Commands, reports, and hashes](evidence/statechart-model-checks-20261030.json). Run `/Users/tubakhuym/.local/bin/pstack-statechart Model.tla --out New-output-folder`; old `from-spec` and `--png` arguments are not supported. Rendering remains a separate step with CSS resolution as documented.
 
 Usable downstream inputs are the installed 58-skill pack, accepted source, pinned upstream provenance, checked launcher, and retained reproduction evidence. Start a fresh session for the new skill paths; existing sessions were not restarted. No blocking decision remains. Exact fast-check 4.5.3, Linux/Deno, live workflows, broader model fidelity, and hostile concurrent filesystem mutation remain unverified. No tags, release, deployment, model setting, default Java, shell startup, or unrelated config changes occurred. All actionable responses are closed. The accepted update and coupled evidence may now be committed and pushed normally to the authorized `origin/main`.
+
+Publication confirmed: `efe0dd03dc4c5c7c11873fb6fc8faf76938992e3` (`feat(pstack): port upstream 0.15.36 as 0.6.0`) was pushed with `git push origin main`. `git ls-remote origin refs/heads/main` returned that exact commit. The working tree was clean before this confirmation. The final inventory contains 670 existing package files, and every staged payload hash matched the accepted 597-file receipt before commit. No symlinks, binary additions, or credential-pattern matches were found in the publication checks. This documentation-only follow-up records completed publication; payload and installation remain unchanged. All scopes are closed. No unresolved decision blocks use of the installed update.
 
 ## Publication of accepted 0.5.0 update — 2026-10-26
 
