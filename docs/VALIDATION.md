@@ -1,6 +1,6 @@
 # Validation performed
 
-## Accepted and installed upstream 0.15.42 — 2026-11-16
+## Accepted, installed, and published upstream 0.15.42 — 2026-11-16
 
 The daily update owns integration from port HEAD `989d5bfd5acd1520394456056c5b6f31b145e575`, upstream `4dd1d05818d19792e7cd6e818f1667f95f7e1dbe`, to exact upstream `bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7`. The upstream pstack tree changed from `4719e1c4b4c43bac85d4206a8b41dd2899769c1c` to `ca1f48a4c8565485745aab0e6ce6145b176c4bf8`. The delta contains 59 paths. No previous installation or publication is pending. The existing daily schedule remains active at 08:00 Asia/Ho_Chi_Minh; no duplicate schedule was created.
 
@@ -39,6 +39,10 @@ The launcher now pins cache 0.6.1, SHA-256 `ff1b14c5ff15dd02559d64c081c091f4fe42
 All three Droid links were rechecked after installation and remain correct, unchanged, with 58 pstack and two existing external readable skills. Start fresh Codex and Droid sessions to ensure new instructions load; no existing session was restarted. Fourteen retired source references are recoverable from Git and `source-before`. The installer removed the prior versioned cache; verified `install-before` and `launcher-before` support rollback through the supported CLI.
 
 Publication is ready. Fetch verified `origin` at `git@github.com:hoangnb24/pstack-codex.git`; local `main` and `origin/main` were both `989d5bfd5acd1520394456056c5b6f31b145e575` with ahead/behind 0/0. Only source, tests, and public evidence may be staged. Preserve all `.DS_Store` files and the two unrelated skill symlinks outside publication. Backups, scratch snapshots, toolchains, private config, and session transcripts stay outside the repository.
+
+Publication confirmed: `a73256b61acd090df04fb11d3646be4389c4ad6d` (`fix(pstack): sync upstream 0.15.42 as 0.6.1`) was normal-pushed to `origin/main`. `git ls-remote origin refs/heads/main` matched local HEAD exactly; ahead/behind was 0/0. Before committing, all 584 staged payload blobs matched the accepted hashes. The 669-file package scan found no recognized credential patterns; no backups, toolchains, symlinks, or private transcripts were staged. This is a bounded scan, not an exhaustive security audit.
+
+All update stages and scopes are closed. No installation or publication of the accepted payload remains pending. This documentation-only follow-up records the verified push and leaves payload/cache identity unchanged. Remaining unrelated untracked paths: `.DS_Store`, `automations/.DS_Store`, `docs/.DS_Store`, `skills/.DS_Store`, `tests/.DS_Store`, `skills/3d-mesh-optimization`, and `skills/verify-3d-mesh`. Preserve them on future runs. The existing daily schedule continues at 08:00 Asia/Ho_Chi_Minh. Next run must compare upstream to the current `UPSTREAM.json`, not repeat completed stages.
 
 ## Accepted, installed, and published upstream 0.15.36 update — 2026-10-30
 
