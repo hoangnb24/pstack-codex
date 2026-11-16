@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-16",
+  "base": "4dd1d05818d19792e7cd6e818f1667f95f7e1dbe",
+  "target": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+  "baseVersion": "0.15.36",
+  "targetVersion": "0.15.42",
+  "baseTree": "4719e1c4b4c43bac85d4206a8b41dd2899769c1c",
+  "targetTree": "ca1f48a4c8565485745aab0e6ce6145b176c4bf8",
+  "baselineHashesVerified": 573,
+  "targetHashesVerified": 560,
+  "licenseUnchanged": true,
+  "delta": [
+    {
+      "status": "M",
+      "path": "pstack/.cursor-plugin/plugin.json"
+    },
+    {
+      "status": "M",
+      "path": "pstack/README.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/agents/comment-sicko.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/automations/benny/FOR_AGENTS.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/automations/benny/skills/setup-benny/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/automations/benny/skills/triage-issue-reports/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/docs/guide/01-setup.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/docs/guide/02-poteto-mode.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/docs/guide/03-understand.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/docs/guide/04-design.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/docs/guide/10-recipes-and-pitfalls.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/docs/harness/claude-code.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/plugin.json"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/architect/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/arena/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/blast-radius/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/how/SKILL.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/how/references/explainer-prompt.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/how/references/explorer-prompt.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/no-comments/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-help/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/bug-fix.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/feature.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/hillclimb.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/investigation.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/multi-phase-plan.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/perf-issue.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/poteto-mode/playbooks/refactoring.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/recall/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/reflect/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/reflect/references/synthesizer.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/setup-pstack/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/sharpen/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/backends/mermaid.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/run.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/test/chart.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/test/cli.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/test/corpus.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/test/corpus/Login/chart.mmd"
+    },
+    {
+      "status": "A",
+      "path": "pstack/skills/statechart/scripts/test/drawn.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/test/labels.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/statechart/scripts/test/render.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/swarm/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/teach/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "pstack/skills/why/SKILL.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/epistemics.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/investigator-prompt.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/source-playbook.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/code-archaeology.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/databricks.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/datadog.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/incident-postmortem.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/linear.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/notion.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/sentry.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/sources/slack.md"
+    },
+    {
+      "status": "D",
+      "path": "pstack/skills/why/references/synthesizer-prompt.md"
+    }
+  ]
+}

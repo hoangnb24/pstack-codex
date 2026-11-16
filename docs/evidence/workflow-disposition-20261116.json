@@ -1,0 +1,202 @@
+[
+  {
+    "upstream_status": "M",
+    "path": "automations/benny/FOR_AGENTS.md",
+    "disposition": "Retain local setup instructions. They already omit the how dependency and prohibit Cursor/global writes; dormant prerequisites and isolation remain."
+  },
+  {
+    "upstream_status": "M",
+    "path": "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "automations/benny/skills/setup-benny/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "automations/benny/skills/triage-issue-reports/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-architect/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-arena/SKILL.md",
+    "disposition": "Retain inherited-model candidates and read-only judge. Vendor/family selection and replacement slugs are unsupported here; do not claim diversity."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-blast-radius/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-how/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-how/references/explainer-prompt.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-how/references/explorer-prompt.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-no-comments/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-help/SKILL.md",
+    "disposition": "Retain Codex-native help and capability routing. It already avoids the obsolete Cursor portability claim."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/SKILL.md",
+    "disposition": "Retain outcome-led source grounding and host-authorized delegation. No mandatory how gate or per-role registry exists. Keep bounded execution and no hidden CLI inference."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/bug-fix.md",
+    "disposition": "Retain hypothesis elimination, runtime mechanism proof and scoped history inspection. No mandatory how invocation or model slug remains."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/feature.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/hillclimb.md",
+    "disposition": "Retain realistic workload, baseline and bounded measurement. No how dependency or worker model registry remains."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/investigation.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/multi-phase-plan.md",
+    "disposition": "Retain proportional unit/live/perf evidence, same-surface comparisons and authorization gates. No mandatory how document or Cursor model/default lane machinery remains."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/perf-issue.md",
+    "disposition": "Retain architecture-grounded hypotheses, same-workload measurements and correctness gates. No how dependency or configured model remains."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-poteto-mode/playbooks/refactoring.md",
+    "disposition": "Retain behavior pin and caller migration before structure moves. No mandatory how invocation or worker model remains. Preserve required compatibility."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-recall/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-reflect/SKILL.md",
+    "disposition": "Retain inherited-model reviewer passes; upstream tooling model slug does not apply."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-reflect/references/synthesizer.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-setup-pstack/SKILL.md",
+    "disposition": "Retain model-neutral readiness inspection. Do not migrate model defaults or write global settings; project preferences require a request."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-sharpen/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-swarm/SKILL.md",
+    "disposition": "Retain inherited workers, explicit race capability checks and serial fallback; do not install upstream model slugs."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-teach/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "M",
+    "path": "skills/pstack-why/SKILL.md",
+    "disposition": "Adapted upstream delta while preserving namespace, permission boundaries and existing local fixes."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/epistemics.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/investigator-prompt.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/source-playbook.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/code-archaeology.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/databricks.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/datadog.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/incident-postmortem.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/linear.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/notion.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/sentry.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/sources/slack.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  },
+  {
+    "upstream_status": "D",
+    "path": "skills/pstack-why/references/synthesizer-prompt.md",
+    "disposition": "Deleted obsolete reference after caller audit."
+  }
+]

@@ -1,6 +1,6 @@
 # pstack for Codex
 
-An independent Mac-friendly port of Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/4dd1d05818d19792e7cd6e818f1667f95f7e1dbe/pstack), pinned upstream version 0.15.36, plugin version 0.6.0. Licensed under MIT; see [LICENSE](LICENSE) and [UPSTREAM.json](UPSTREAM.json). Not an official Cursor or OpenAI release.
+An independent Mac-friendly port of Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7/pstack), pinned upstream version 0.15.42, plugin version 0.6.1. Licensed under MIT; see [LICENSE](LICENSE) and [UPSTREAM.json](UPSTREAM.json). Not an official Cursor or OpenAI release.
 
 The source is separate from the installed plugin cache. Editing it does not update an installation automatically. All skill names start with `pstack-` to avoid collisions with existing skills such as `tdd`. The local installation and refresh evidence are recorded in [validation](docs/VALIDATION.md).
 
@@ -8,7 +8,14 @@ The source is separate from the installed plugin cache. Editing it does not upda
 
 The pack is one native plugin, `pstack-codex@pstack-local`, with 58 skills and 23 playbooks. See [installation and toggle instructions](docs/PLUGIN.md). Plugin invocation is `$pstack-codex:pstack-poteto-mode`. For guidance without starting work, use `$pstack-codex:pstack-poteto-help`. Do not combine plugin installation with standalone skill copies.
 
-New in 0.6.0:
+Changed in 0.6.1:
+
+- Statechart fixes arrows at parent-state boundaries and preserves useful SANY parser errors. Its CLI remains compatible with 0.6.0.
+- `how` uses one read-only explanation pass. `why` starts with commits and PR discussions, separates author intent from inference, and reports gaps. Ordinary workflows trace code directly instead of invoking `how` as a prerequisite.
+- `sharpen` asks the rewritten prompt to settle testable choices with experiments. Product and preference choices remain with the user. It still rewrites only.
+- All 58 skills remain available. No new dependency, model setting, or external-action permission is added.
+
+Introduced in 0.6.0:
 
 - Statechart uses a TypeScript pipeline to check TLA+ models and explain shortest violation paths. The former `from-spec`, `from-chart`, and audit commands are not the new CLI. See [the current skill](skills/pstack-statechart/SKILL.md) for its commands and local prerequisites.
 - Interrogate keeps run-proven findings and explains dropped claims. Orchestration uses smaller task briefs. Autopilot-stack leaves merging to the user and stacks only dependent changes.

@@ -1,0 +1,104 @@
+{
+  "automations/benny/skills/reproduce-and-fix-issues/SKILL.md": {
+    "sha256": "ddc163efe9b20eb8823665332615f484ceba0b0eacf86672c387118ba3e51be9",
+    "mode": "644"
+  },
+  "automations/benny/skills/setup-benny/SKILL.md": {
+    "sha256": "5393a9d90cf030e5b2df56afb1ddd0c94169a569c9a86a57c843bb7985c06dce",
+    "mode": "644"
+  },
+  "automations/benny/skills/triage-issue-reports/SKILL.md": {
+    "sha256": "7fd8d1a4fa55ac8e374b87c5f6074587d45037c55f220c1de2a9026b0c0b8b5e",
+    "mode": "644"
+  },
+  "skills/pstack-architect/SKILL.md": {
+    "sha256": "6fb339ad4a16334baeff9026a5c70db518942cb4e739188b2e42e5eb84615726",
+    "mode": "644"
+  },
+  "skills/pstack-blast-radius/SKILL.md": {
+    "sha256": "15fc5b5b4da5334ae3a04b10981840db21c0bd5b6328f58e231f4607f8a16d72",
+    "mode": "644"
+  },
+  "skills/pstack-how/SKILL.md": {
+    "sha256": "a29fcb31986dcc9702327c2c7bd3bda3ac2b78d158196efeaf08125053516279",
+    "mode": "644"
+  },
+  "skills/pstack-how/references/explainer-prompt.md": {
+    "deleted": true
+  },
+  "skills/pstack-how/references/explorer-prompt.md": {
+    "deleted": true
+  },
+  "skills/pstack-no-comments/SKILL.md": {
+    "sha256": "7345a19b0765bbef91f4a256b7b451e30da4ab0af1cd98c98cf88970ab56427b",
+    "mode": "644"
+  },
+  "skills/pstack-no-comments/references/comment-reviewer.md": {
+    "sha256": "7a69da267a0d9dc564b19239842f9d951f380f44c227f10f2ef713cf597c2800",
+    "mode": "644"
+  },
+  "skills/pstack-poteto-mode/playbooks/feature.md": {
+    "sha256": "4a8a328943f554ccc9d7d29c2e74ea942b51b1a052c1fc61ac7ad10551d6e7dd",
+    "mode": "644"
+  },
+  "skills/pstack-poteto-mode/playbooks/investigation.md": {
+    "sha256": "06c37b03e34796faa651d87e3c32ad124068a7e17b2a635d95eb5c8aea13555d",
+    "mode": "644"
+  },
+  "skills/pstack-recall/SKILL.md": {
+    "sha256": "72f3beb8ff683dc80356e257148b3c68aab1758ee5210cfe19980e0e630a689b",
+    "mode": "644"
+  },
+  "skills/pstack-reflect/references/synthesizer.md": {
+    "sha256": "ddb735733d05b5fb1b530237ed9fee94ec8f60a4c58b5efd6e78ee535997e9c1",
+    "mode": "644"
+  },
+  "skills/pstack-sharpen/SKILL.md": {
+    "sha256": "e6df1afba6a3a7808080034d9a49934e18342611457b5846748c264beb053f75",
+    "mode": "600"
+  },
+  "skills/pstack-teach/SKILL.md": {
+    "sha256": "04de0f86fe782ac926fa42b8f6e34af1bd62095fbc1c13db6c7584eb175232cb",
+    "mode": "644"
+  },
+  "skills/pstack-why/SKILL.md": {
+    "sha256": "14951f36e94819dcc18372b20e4b3fa53e62fbc5e2dbaab85ef813e45244e314",
+    "mode": "644"
+  },
+  "skills/pstack-why/references/epistemics.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/investigator-prompt.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/source-playbook.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/code-archaeology.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/databricks.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/datadog.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/incident-postmortem.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/linear.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/notion.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/sentry.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/sources/slack.md": {
+    "deleted": true
+  },
+  "skills/pstack-why/references/synthesizer-prompt.md": {
+    "deleted": true
+  }
+}

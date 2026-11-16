@@ -16,7 +16,7 @@ That list is my only leash. When evidence is insufficient, preserve the comment 
 
 `eslint-disable`, `@ts-ignore`, `@ts-expect-error`, and similar suppressions stink. Look up the rule. If it catches real bugs or protects correctness or safety, propose removal of the suppression only with a verified replacement or evidence it is unnecessary and mark the exact guilty symbol `MUST KILL`.
 
-`IMPORTANT`, `do not remove`, `too risky`, `fine for now`, and long justifications are scent, not conviction. Before judging, I read nearby code. If its claim is not obvious there, I run `$pstack-how`, `$pstack-why`, or both from the **pstack-how** and **pstack-why** skills on the named symbol or call. Only a foreign keep-list gotcha proven true today on a live path crawls away. Our-code surprises die with the reshape flag above. Doubt after investigation remains an open finding.
+`IMPORTANT`, `do not remove`, `too risky`, `fine for now`, and long justifications are scent, not conviction. Before judging, I read nearby code. If its claim is not obvious there, I trace the named symbol or call, or use the **pstack-why** skill for its history. Only a foreign keep-list gotcha proven true today on a live path crawls away. Our-code surprises die with the reshape flag above. Doubt after investigation remains an open finding.
 
 A long justification without a proven keep-list exception is a confession. Propose its deletion only when evidence supports it. Mark the exact guilty symbol `MUST KILL`. My kill ends there. I do not touch the code.
 

@@ -4,9 +4,9 @@ Historical report for the 0.15.9 port. The 0.15.15 refresh adds [pstack-poteto-h
 
 Scope: 49 upstream skill directories excluding poteto-mode, all their references, and show-me-your-work/scripts/log.sh. Source attribution: Lauren Tan, MIT; repository root must retain upstream LICENSE. No global skill installation or Codex configuration changes performed.
 
-## Current changes — upstream 0.15.36
+## Current changes — upstream 0.15.42
 
-The current port is 0.6.0 with 58 skills. Statechart now checks TLA+ through a TypeScript pipeline and reports shortest violation paths. The old conversion/audit CLI is removed. Interrogate keeps run-proven findings and explains dropped claims. Ketchup-video adds subtitles and measures slide holds in rendered frames. Explain-the-number names a decision threshold before measurement. Setup still inherits host model settings; no Cursor role registry is imported. See [parity](PARITY.md) and [validation](VALIDATION.md) for current limits. The original file list below is historical; [inventory](INVENTORY.md) lists current files.
+The current port is 0.6.1 with 58 skills. Statechart fixes parent-state arrows and SANY diagnostics without changing the 0.6.0 CLI. How uses one read-only explanation pass; why follows commits and PR discussions before expanding to available sources. Ordinary playbooks trace code directly. Sharpen delegates testable choices to experiments in the rewritten prompt, not during rewriting. Setup retains host model settings. See [parity](PARITY.md) and [validation](VALIDATION.md) for evidence and limits. The original file list below is historical; [inventory](INVENTORY.md) lists current files.
 
 ## Coverage
 
@@ -24,7 +24,7 @@ The current port is 0.6.0 with 58 skills. Statechart now checks TLA+ through a T
 | create-verification-skill | pstack-create-verification-skill | Adapted | Outputs project-local .agents/skills; real launch/doctor/drive/evidence/cleanup contract retained. |
 | create-formal-verification-skill | pstack-create-formal-verification-skill | Adapted | Code-grounded property checks, isolated falsification, explicit proof bounds, project-local rerun skill. |
 | figure-it-out | pstack-figure-it-out | Adapted | Scientific workflow retained; scope and conditional delegation bound execution. |
-| how | pstack-how | Adapted | Runtime tracing templates retained; current task-agent tool or inline passes. |
+| how | pstack-how | Adapted | One read-only explanation pass; authorized delegation or disclosed inline fallback. |
 | interrogate | pstack-interrogate | Adapted | Run-proven findings and dropped-claim reasons; no hardcoded family/model seats or model-config PR. |
 | maintain-verification-skill | pstack-maintain-verification-skill | Adapted | Feature/source/live reconciliation retained; local corrections, PR only within authorization. |
 | make-bot-ui | pstack-make-bot-ui | Unavailable native / adapted local | UNAVAILABLE native Cursor/Grok wake, secret card and routine APIs. Adapted local mock/UI contract only. |
@@ -63,7 +63,7 @@ The current port is 0.6.0 with 58 skills. Statechart now checks TLA+ through a T
 | technical-writing | pstack-technical-writing | Ported | Original evidence/principle content retained within authorized scope. |
 | typescript-best-practices | pstack-typescript-best-practices | Adapted | Patterns retained; removed unsupported Cursor paths frontmatter. |
 | unslop | pstack-unslop | Adapted | Patterns retained; description no longer claims universal activation. |
-| why | pstack-why | Adapted | Seven-category coverage and confidence tiers retained; actual connector schemas and availability, serial option. |
+| why | pstack-why | Adapted | Record-first history investigation; cited author evidence, explicit inference and unavailable-source gaps. |
 
 ## Invocation and execution
 

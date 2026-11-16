@@ -1,0 +1,132 @@
+{
+  "payload": "b2e32b01badfb25922d7901a9ca0feb8faf01b3d5f35363bb920b280ebbd9ec7",
+  "environment": {
+    "codex": "0.169.0",
+    "node": "22.22.3",
+    "platform": "macOS arm64",
+    "java": "17",
+    "TLC": "1.7.4",
+    "Pele": "1.8.0",
+    "fastCheck": "4.10.0",
+    "dependenciesInstalled": false
+  },
+  "packaging": {
+    "passed": 5,
+    "failed": 0
+  },
+  "skills": {
+    "validated": 58,
+    "failed": 0
+  },
+  "discovery": {
+    "standalone": 58,
+    "nativeEnabled": 58,
+    "nativeDisabled": 0,
+    "nativeReenabled": 58,
+    "errors": 0,
+    "inference": false
+  },
+  "runtime": {
+    "uniqueChecksCoveredAcrossRecoveredRuns": 381,
+    "fullCleanSingleRun": false,
+    "initialIntegration": {
+      "passed": 372,
+      "failed": 2,
+      "skipped": 0,
+      "causes": [
+        "wrong test cwd omitted scratch-only fast-check link",
+        "relative symlink fixture under /var resolves through /private/var"
+      ]
+    },
+    "correctedDependencyRun": {
+      "passed": 380,
+      "failed": 1,
+      "skipped": 0
+    },
+    "physicalTmpdirCliRerun": {
+      "passed": 126,
+      "failed": 0,
+      "skipped": 0
+    },
+    "resolution": "Use existing modules in scratch and TMPDIR at recovery/integrated-tmp. All tested payload bytes match the clean candidate."
+  },
+  "models": {
+    "SafeExit": 0,
+    "UnsafeExit": 1,
+    "unsafePath": "0 -> 1 -> 2",
+    "imagesInspected": [
+      "Safe",
+      "Unsafe",
+      "Login"
+    ]
+  },
+  "limits": [
+    "Exact fast-check 4.5.3 and Pele 1.9.0 untested",
+    "No production-model fidelity claim",
+    "No live connector/Benny workflow",
+    "No proof existing sessions reloaded",
+    "Credential pattern scans are bounded"
+  ],
+  "logs": {
+    "integrated.tap": {
+      "sha256": "60c02dff7996f87c495aa557f02dbeb98cbe4d5df3a5aa8546c2cec42137a306",
+      "summary": [
+        "# tests 374",
+        "# pass 372",
+        "# fail 2",
+        "# skipped 0",
+        "# duration_ms 131861.307291"
+      ]
+    },
+    "integrated-corrected.tap": {
+      "sha256": "08910e64d2e952f02139fa1cd1919afe619d5e7a0c7ef9c1f1ee11b2307a3deb",
+      "summary": [
+        "# tests 381",
+        "# pass 380",
+        "# fail 1",
+        "# skipped 0",
+        "# duration_ms 129213.167125"
+      ]
+    },
+    "cli-corrected.tap": {
+      "sha256": "eed48d7c01b876e1ecaaa21195904ce38224eeaed396e79603d479b89d3b32a1",
+      "summary": [
+        "# tests 126",
+        "# pass 126",
+        "# fail 0",
+        "# skipped 0",
+        "# duration_ms 43001.8425"
+      ]
+    },
+    "statechart-NDtXfW/suite.tap": {
+      "sha256": "0654eb0ac53aaa882506076ddd45a3fffe44b5d3d73ed3b5ea2e1cca4b5496dc",
+      "summary": [
+        "# tests 366",
+        "# pass 290",
+        "# fail 76",
+        "# skipped 0",
+        "# duration_ms 128127.259"
+      ]
+    },
+    "statechart-NDtXfW/recovered.tap": {
+      "sha256": "aa8265ef6805eab3557dc64e403a82355bb4880d504a903ee8a6ecc94e339893",
+      "summary": [
+        "# tests 83",
+        "# pass 83",
+        "# fail 0",
+        "# skipped 0",
+        "# duration_ms 56083.696583"
+      ]
+    },
+    "statechart-NDtXfW/safety.tap": {
+      "sha256": "ce6f53f7bdc2322dfba09a2c5f3464ef343e71d3efbf88b5777d0b1cec0fff84",
+      "summary": [
+        "# tests 4",
+        "# pass 4",
+        "# fail 0",
+        "# skipped 0",
+        "# duration_ms 3939.641291"
+      ]
+    }
+  }
+}

@@ -11,7 +11,7 @@ Read [RUN-MODES.md](../../RUN-MODES.md) and [FOR_AGENTS.md](../../FOR_AGENTS.md)
 
 Use the user-selected target repository. Copy the complete source pack to `.agents/automations/benny/` only when that copy is authorized. Preserve all destination-only files and inspect conflicts without dropping local edits. Verify both operational files, all references and templates exist. Never enable a Cursor plugin, edit `.cursor/settings.json`, install global skills, or alter Codex permissions.
 
-The shared project pstack dependencies are `how`, `why`, `tdd`, `unslop`, `principle-separate-before-serializing-shared-state`, `principle-minimize-reader-load`, `principle-guard-the-context-window`, `principle-sequence-verifiable-units`, `principle-fix-root-causes`, and `principle-prove-it-works`. With the project's chosen installation policy, verify discovery through an available read-only Codex skill listing in a fresh project scope. Record each resolved path and reject user-scoped substitutes. If unavailable, report discovery unverified; do not claim installation. Operational Benny files stay outside `.agents/skills`.
+The shared project pstack dependencies are `why`, `tdd`, `unslop`, `principle-separate-before-serializing-shared-state`, `principle-minimize-reader-load`, `principle-guard-the-context-window`, `principle-sequence-verifiable-units`, `principle-fix-root-causes`, and `principle-prove-it-works`. With the project's chosen installation policy, verify discovery through an available read-only Codex skill listing in a fresh project scope. Record each resolved path and reject user-scoped substitutes. If unavailable, report discovery unverified; do not claim installation. Operational Benny files stay outside `.agents/skills`.
 
 ## Configure without secrets
 

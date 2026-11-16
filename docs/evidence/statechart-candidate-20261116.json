@@ -1,0 +1,64 @@
+{
+  "base": "989d5bfd5acd1520394456056c5b6f31b145e575",
+  "upstream": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+  "candidate_sha256": "82f0998c526b501a0b13e231b4fe0e365c07cb3238d50c006e409626e61d3bb3",
+  "full_manifest_sha256": "8cf4568cb4e5c0931253f64a3885550c9f50de5a6915570ae7bc4c04b81384ac",
+  "verifiedFileCount": 414,
+  "files": [
+    {
+      "path": "skills/pstack-statechart/scripts/backends/mermaid.ts",
+      "mode": "600",
+      "sha256": "ce293d34ce3928d93329bd6d1a889d5722620008dae4339add79ef226c3f9b88",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/run.ts",
+      "mode": "600",
+      "sha256": "ad9f4c9b038bc7d02adeb1cd80842866051f7cec4c66d6283c7832355de73a7d",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/chart.test.ts",
+      "mode": "600",
+      "sha256": "e5c4bb0dcb9bcb570066d427ee768b2eb01aea87aa3bd9136c8e92459f513ae4",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/cli.test.ts",
+      "mode": "600",
+      "sha256": "fdd3154882a0c4505868973a9de133b3f5d2140f0ca9e0a9dcfd7b2cc55871df",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/corpus/Login/chart.mmd",
+      "mode": "600",
+      "sha256": "2aba56af645f56e371a87c22908e110ab259bed055a979d348220209d89b9862",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/corpus.test.ts",
+      "mode": "600",
+      "sha256": "b280d27ca7c33bb9a8df2fbbd6d59c5b8c41e3ceaad0c7c73fba4ce9af85824b",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/drawn.ts",
+      "mode": "600",
+      "sha256": "369ac67009b9ddfa19e080b9f99e2eeb59fc3616c2b374a92b5b1e653df55919",
+      "disposition": "added"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/labels.ts",
+      "mode": "600",
+      "sha256": "12c8403517b423ea7af0ed5c5d788ff872f9ba127ca11555ae128076a27a83ca",
+      "disposition": "modified"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/render.test.ts",
+      "mode": "600",
+      "sha256": "f35fdc9a8ab6851790b9b7af280baf831273261b6adca4ed8f010b38799e4f59",
+      "disposition": "modified"
+    }
+  ],
+  "deleted": []
+}

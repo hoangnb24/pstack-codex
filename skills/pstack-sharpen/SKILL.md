@@ -14,6 +14,6 @@ Before the rewrite, briefly identify:
 3. The methods and available or proposed tools they would use.
 4. What outside evidence would show that the result is right.
 
-Then rewrite the prompt to request that approach. Preserve explicit constraints, scope, and acceptance criteria. Remove only self-imposed requirements that do not serve the outcome. Leave product choices, permission, cost, and irreversible decisions open for the user. Name unknown inputs as unknown; do not invent evidence or tool availability.
+Then rewrite the prompt to request that approach. Preserve explicit constraints, scope, and acceptance criteria. Remove only self-imposed requirements that do not serve the outcome. Ask the executing agent to prototype choices that an authorized, bounded experiment can settle, then recommend an option from observed evidence. This rewrite does not authorize execution. Leave product and preference choices that experiments cannot settle, permission, cost, and irreversible decisions open for the user. Name unknown inputs as unknown; do not invent evidence or tool availability.
 
 Keep an outside check in the rewrite, such as a real user flow, a primary source, or a reproducible measurement. A self-review is not independent review. Return the rewrite and stop. The user can send it as a separate execution request when ready.

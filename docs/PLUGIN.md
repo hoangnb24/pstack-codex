@@ -1,10 +1,12 @@
 # One native Codex plugin
 
-The source root is one native plugin, `pstack-codex@pstack-local`, using the `.codex-plugin/plugin.json` compatibility manifest. Its local marketplace is `.agents/plugins/marketplace.json`, with one entry pointing to `./`. The manifest registers only `./skills/`; no MCP, apps, hooks, credentials or background services are added. Benny stays dormant. Source plugin version: 0.6.0. See validation for the tested CLI and installation state.
+The source root is one native plugin, `pstack-codex@pstack-local`, using the `.codex-plugin/plugin.json` compatibility manifest. Its local marketplace is `.agents/plugins/marketplace.json`, with one entry pointing to `./`. The manifest registers only `./skills/`; no MCP, apps, hooks, credentials or background services are added. Benny stays dormant. Source plugin version: 0.6.1. See validation for the tested CLI and installation state.
 
 ## Existing local installation
 
-The 2026-10-30 refresh installed and enabled 0.6.0 from upstream 0.15.36. All 597 payload files match source by bytes and modes; discovery found 58 enabled skills. The launcher points to cache 0.6.0 and passed real TLC checks. Config is unchanged. See [validation](VALIDATION.md) and the [receipt](evidence/install-sync-20261030.json). This version changes the statechart CLI and removes bundled ledger commands. Existing ledger data is not migrated or deleted. Statechart uses available local dependencies; it never installs them.
+The 2026-11-16 refresh installed and enabled 0.6.1 from upstream 0.15.42. All 584 payload files match the accepted source by bytes and modes; real discovery found 58 enabled skills. The launcher pins cache 0.6.1 and passed Safe/Unsafe model checks and inspected PNG output. Config and all three Droid links are unchanged. See [validation](VALIDATION.md) and the [receipt](evidence/install-sync-20261116.json). This update preserves the 0.6.0 CLI. Start fresh sessions for the new instructions; existing sessions were not restarted.
+
+Earlier installation: the 2026-10-30 refresh installed and enabled 0.6.0 from upstream 0.15.36. All 597 payload files matched source by bytes and modes; discovery found 58 enabled skills. The launcher then pointed to cache 0.6.0 and passed real TLC checks. Config was unchanged. See [validation](VALIDATION.md) and the [receipt](evidence/install-sync-20261030.json). This version changed the statechart CLI and removed bundled ledger commands. Existing ledger data is not migrated or deleted. Statechart uses available local dependencies; it never installs them.
 
 Earlier installation: the 2026-10-24 refresh installed and enabled 0.5.0 at `/Users/tubakhuym/.codex/plugins/cache/pstack-local/pstack-codex/0.5.0`, based on upstream 0.15.32. All 223 payload files matched source by bytes and modes. Real discovery returned 58 enabled skills. User config bytes were unchanged. See the [historical receipt](evidence/install-sync-20261024.json).
 
@@ -29,6 +31,8 @@ codex plugin list --marketplace pstack-local --json
 The installed CLI uses `plugin add`, not `plugin install`. A version change replaces the old cache with a new versioned cache. CLI 0.162.0 does not retain the old cache. Back up source, existing cache and relevant config before refreshing. Verify the returned installed path and compare it with the accepted source. Start a fresh Codex session after the sync; existing sessions can retain earlier skill paths and loaded instructions. Do not restart unrelated sessions.
 
 For an existing marketplace whose source moved, change only its existing `marketplaces.pstack-local.source` path. `marketplace add` refuses a duplicate name with a different source. Do not remove other marketplaces or rewrite the complete user configuration. Then run `plugin add pstack-codex@pstack-local` to refresh this plugin.
+
+If unrelated files or external symlinks exist inside the source, do not install that mixed tree. Freeze only the inspected package files outside the repository, verify their hashes and modes, and test the candidate first. The supported process-only override is `codex -c 'marketplaces.pstack-local.source="<accepted-candidate-path>"' plugin add pstack-codex@pstack-local --json`. Select the real `CODEX_HOME` explicitly. Verify that the persistent marketplace source, plugin enabled state, and unrelated config bytes remain unchanged. Do not move user files or edit the installed cache manually.
 
 Invoke the namespaced plugin skill:
 
@@ -79,7 +83,7 @@ enabled = false
 
 `true` enables it. Edit the existing table rather than duplicating it. This config mechanism was actually tested through three fresh app-server sessions: **50 enabled skills → 0 active skills → 50 enabled skills**. No custom toggle script or per-skill disabling is needed. A project `.codex/config.toml` override applies only to a trusted project; the user-level plugin setting controls its default state.
 
-Plugin enabled state is separate from `agents/openai.yaml` implicit invocation. Version 0.6.0 preserves all 57 existing explicit-only policies; setup retains normal discovery. No model or permission changes are needed.
+Plugin enabled state is separate from `agents/openai.yaml` implicit invocation. Version 0.6.1 preserves all 57 existing explicit-only policies; setup retains normal discovery. No model or permission changes are needed.
 
 ## Reproduce without touching user configuration
 
@@ -92,6 +96,8 @@ The test uses a temporary home and empty workspace. It installs the native local
 To remove an installation when authorized, use `codex plugin remove pstack-codex@pstack-local`; inspect `codex plugin remove --help` before use. Removing the source marketplace is separate. Source modifications require refreshing the cached plugin; this package has no automatic updater.
 
 ## Rollback this refresh
+
+For the 2026-11-16 refresh, recovery root `/Users/tubakhuym/projects/prototypes/pstack-update-20261116-83ZHPM` retains `source-before`, `install-before`, and `launcher-before` for 0.6.0. Preserve later work. To restore the previous plugin through the supported CLI, use a process-only marketplace source override pointing to the verified `install-before` package. Verify its 597-file accepted payload before restoring `launcher-before`. Keep the existing toolchain and unrelated configuration. Private config backups and recovery artifacts must stay outside publication.
 
 For the 2026-10-24 refresh, recovery root `/Users/tubakhuym/projects/prototypes/pstack-update-20261024-kuXw9u` contains verified `source-before` and `install-before` copies of 0.4.0. Preserve later edits before restoring the intended source. Then use the supported `plugin add` command and compare against the backup. Do not edit the cache manually or restore unrelated configuration.
 

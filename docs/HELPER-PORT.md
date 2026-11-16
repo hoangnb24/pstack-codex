@@ -1,6 +1,6 @@
 # Helper port report
 
-Current 0.6.0 change: upstream 0.15.36 removes the orchestration ledger runtime. The port removes its adapted `orch.ts`, `store.ts`, and coupled test. Existing user ledger data remains untouched. Use the existing project tracker for ownership and evidence. `check-plan` and worktree-audit helpers remain. The report below describes the historical implementation, not currently available ledger commands.
+Historical 0.6.0 change (unchanged in 0.6.1): upstream 0.15.36 removes the orchestration ledger runtime. The port removes its adapted `orch.ts`, `store.ts`, and coupled test. Existing user ledger data remains untouched. Use the existing project tracker for ownership and evidence. `check-plan` and worktree-audit helpers remain. The report below describes the historical implementation, not currently available ledger commands.
 
 Historical report for the 0.15.9 port. The 0.15.15 upstream delta changes only a verifier label in an upstream test, not helper runtime behavior. Adapted helpers remain unchanged. Current rerun evidence and acceptance are in [validation](VALIDATION.md); pending integration statements below are historical.
 

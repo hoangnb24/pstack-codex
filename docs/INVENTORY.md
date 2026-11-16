@@ -1,6 +1,6 @@
 # Package inventory
 
-670 source/evidence files, including this inventory. Plugin 0.6.0 contains 58 skills and 23 playbooks. Backups, frozen candidates, toolchain, test dependency links, and upstream checkout are outside this package.
+669 source/evidence files, including this inventory. Plugin 0.6.1 contains 58 skills and 23 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
 
 ```text
 .agents/plugins/marketplace.json
@@ -34,11 +34,13 @@ docs/evidence/delta-disposition-20261016.md
 docs/evidence/delta-disposition-20261022.md
 docs/evidence/delta-disposition-20261024.md
 docs/evidence/delta-disposition-20261030.md
+docs/evidence/delta-disposition-20261116.md
 docs/evidence/discovery-20261009.json
 docs/evidence/discovery-20261016.json
 docs/evidence/discovery-20261022.json
 docs/evidence/discovery-20261024.json
 docs/evidence/discovery-20261030.json
+docs/evidence/discovery-20261116.json
 docs/evidence/discovery.json
 docs/evidence/forward-benny/input.json
 docs/evidence/forward-benny/report.md
@@ -56,15 +58,19 @@ docs/evidence/install-sync-20261016.json
 docs/evidence/install-sync-20261022.json
 docs/evidence/install-sync-20261024.json
 docs/evidence/install-sync-20261030.json
+docs/evidence/install-sync-20261116.json
 docs/evidence/plugin-smoke-20261009.json
 docs/evidence/plugin-smoke-20261016.json
 docs/evidence/plugin-smoke-20261022.json
 docs/evidence/plugin-smoke-20261024.json
 docs/evidence/plugin-smoke-20261030.json
+docs/evidence/plugin-smoke-20261116.json
 docs/evidence/plugin-smoke.json
 docs/evidence/statechart-candidate-20261030.json
+docs/evidence/statechart-candidate-20261116.json
 docs/evidence/statechart-dependencies-20261024.json
 docs/evidence/statechart-handoff-20261030.md
+docs/evidence/statechart-handoff-20261116.md
 docs/evidence/statechart-model-checks-20261024.json
 docs/evidence/statechart-model-checks-20261030.json
 docs/evidence/statechart-payload-20261024.json
@@ -73,14 +79,20 @@ docs/evidence/update-payload-20261016.json
 docs/evidence/update-payload-20261022.json
 docs/evidence/update-payload-20261024.json
 docs/evidence/update-payload-20261030.json
+docs/evidence/update-payload-20261116.json
 docs/evidence/update-payload.json
 docs/evidence/upstream-20261016.json
 docs/evidence/upstream-20261022.json
 docs/evidence/upstream-20261024.json
 docs/evidence/upstream-20261030.json
+docs/evidence/upstream-20261116.json
 docs/evidence/verification-20261030.json
+docs/evidence/verification-20261116.json
 docs/evidence/workflow-candidate-20261030.json
+docs/evidence/workflow-candidate-20261116.json
 docs/evidence/workflow-disposition-20261030.md
+docs/evidence/workflow-disposition-20261116.json
+docs/evidence/workflow-handoff-20261116.md
 skills/pstack-architect/SKILL.md
 skills/pstack-architect/agents/openai.yaml
 skills/pstack-architect/references/design-red-flags.md
@@ -109,8 +121,6 @@ skills/pstack-figure-it-out/SKILL.md
 skills/pstack-figure-it-out/agents/openai.yaml
 skills/pstack-how/SKILL.md
 skills/pstack-how/agents/openai.yaml
-skills/pstack-how/references/explainer-prompt.md
-skills/pstack-how/references/explorer-prompt.md
 skills/pstack-in-your-own-words/SKILL.md
 skills/pstack-in-your-own-words/agents/openai.yaml
 skills/pstack-interrogate/SKILL.md
@@ -621,6 +631,7 @@ skills/pstack-statechart/scripts/test/corpus/UserNoDeadlock/verdict-1.out
 skills/pstack-statechart/scripts/test/corpus/UserNoDeadlock/verdict-2.exit
 skills/pstack-statechart/scripts/test/corpus/UserNoDeadlock/verdict-2.out
 skills/pstack-statechart/scripts/test/differential.test.ts
+skills/pstack-statechart/scripts/test/drawn.ts
 skills/pstack-statechart/scripts/test/grid/Grid.cfg
 skills/pstack-statechart/scripts/test/grid/Grid.tla
 skills/pstack-statechart/scripts/test/grid/sany.out
@@ -649,18 +660,6 @@ skills/pstack-unslop/SKILL.md
 skills/pstack-unslop/agents/openai.yaml
 skills/pstack-why/SKILL.md
 skills/pstack-why/agents/openai.yaml
-skills/pstack-why/references/epistemics.md
-skills/pstack-why/references/investigator-prompt.md
-skills/pstack-why/references/source-playbook.md
-skills/pstack-why/references/sources/code-archaeology.md
-skills/pstack-why/references/sources/databricks.md
-skills/pstack-why/references/sources/datadog.md
-skills/pstack-why/references/sources/incident-postmortem.md
-skills/pstack-why/references/sources/linear.md
-skills/pstack-why/references/sources/notion.md
-skills/pstack-why/references/sources/sentry.md
-skills/pstack-why/references/sources/slack.md
-skills/pstack-why/references/synthesizer-prompt.md
 tests/helpers/helpers.test.mjs
 tests/helpers/refresh-20261016.md
 tests/statechart/HANDOFF.md

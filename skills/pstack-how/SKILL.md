@@ -13,31 +13,6 @@ For every delegation step below, first check that task agents are available and 
 
 # How
 
-Explore the codebase to answer "how does X work?" questions. Produce architectural explanations at the level of a senior engineer onboarding onto a subsystem, enough to build a working mental model, not so much that it reads like annotated source code.
+Explore the codebase to answer how the target works. State your interpretation if scope is unclear. Explore and explain in one pass, inline or with one permitted read-only agent.
 
-All delegated roles inherit the current model and receive read-only task briefs. Read-only is a task constraint, not a fabricated tool parameter. Report actual agent and source coverage; do not claim model diversity.
-
-## 1. Assess complexity
-
-If the scope is ambiguous, state your interpretation and explore. The user can redirect.
-
-- **Simple:** a single module, utility, or narrow question. Use one explainer, or work inline, to explore and explain in one pass. Build the prompt from [explainer-prompt.md](references/explainer-prompt.md) without explorer findings. Go to step 4.
-- **Complex:** a subsystem spanning files or services, a cross-cutting feature, or an architectural overview. Go to step 2.
-
-When in doubt, take the simple path.
-
-## 2. Explore (complex only)
-
-Split the question into 2 to 4 distinct angles. Use [explorer-prompt.md](references/explorer-prompt.md) with each angle filled in. Run permitted explorers in parallel, or cover the angles serially when delegation is unavailable.
-
-## 3. Synthesize (complex only)
-
-Once all exploration results are available, use one permitted explainer or work inline. Fill [explainer-prompt.md](references/explainer-prompt.md) with all findings and explicit gaps.
-
-## 4. Present
-
-Present the explanation. Light edits for clarity or conversation context are fine. Preserve evidence and uncertainty.
-
-## Output format
-
-Use the sections in the explainer prompt, dropping those that do not apply: Overview, Key Concepts, How It Works, Where Things Live, Gotchas.
+Cite concrete files and symbols. Explain architecture and runtime flow. Include one input/output example. Separate observed behavior, assumptions, and untested paths. Report verification and source gaps. Do not write files or change external state.

@@ -1,6 +1,6 @@
 # Codex capability map
 
-Current refresh: upstream 0.15.36 at `4dd1d05818d19792e7cd6e818f1667f95f7e1dbe`, plugin 0.6.0. Statechart uses a TypeScript model-checking pipeline; old chart-to-TLA+ and audit commands are no longer advertised. Interrogate requires run-proven findings. Autopilot-stack leaves merging to the user and stacks only dependent changes. Catch-up videos add subtitles and frame-based timing checks. No automatic Java, TLC, npm, or renderer installation is included. Existing host-permission boundaries remain. No forge discovery, watcher, scheduler, or new service is installed. Current acceptance and installation are tracked in [validation](VALIDATION.md).
+Current refresh: upstream 0.15.42 at `bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7`, plugin 0.6.1. Statechart fixes parent-state arrows and parser diagnostics. How and why simplify explanation and history research; ordinary workflows trace code directly. No automatic dependency installer, model setting, watcher, service, or permission expansion is added. Current acceptance and installation are tracked in [validation](VALIDATION.md).
 
 Original audit: 2026-10-04. Delta reviewed: 2026-10-09, Lauren Tan's pstack 0.15.15 at `ccb5507cec1546dc88135c1139c811e6c59115ba` (MIT). This map covers the guide, both agent definitions, and the dormant Benny pack. The refresh adds help but does not add a cloud, model-routing or automation runtime. See [delta disposition](VALIDATION.md#delta-disposition). The port distinguishes a procedure from an installed or verified runtime capability.
 
