@@ -1,0 +1,293 @@
+{
+  "baseline": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+  "target": "3fa33bb0f927bea2ccacd48a3cfda95145fb6bae",
+  "baselineFilesVerified": 560,
+  "targetFiles": 551,
+  "targetTree": "71d8e1d1d718e2149dc43b2535618064f29cba6b",
+  "licenseUnchanged": true,
+  "delta": [
+    {
+      "status": "M",
+      "path": ".cursor-plugin/plugin.json"
+    },
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "M",
+      "path": "agents/poteto-agent.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/01-setup.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/02-poteto-mode.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/04-design.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/05-build-and-clean.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/06-verify-and-ship.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/07-overnight.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/guide/09-make-it-yours.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/harness/claude-code.md"
+    },
+    {
+      "status": "M",
+      "path": "plugin.json"
+    },
+    {
+      "status": "M",
+      "path": "skills/architect/SKILL.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/architect/references/design-red-flags.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/architect/references/rationale-template.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/architect/references/runner-prompt.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/arena/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/automate-me/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/benchmark-checklist/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/figure-it-out/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/no-comments/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-help/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/autonomous-run.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/autopilot-full.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/autopilot-stack.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/babysit.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/bug-fix.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/eval.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/feature.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/hillclimb.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/opening-a-pr.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/poteto-mode/playbooks/orchestrate.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/perf-issue.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/refactoring.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/runtime-forensics.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/session-pickup.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/shipping.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/trace-forensics.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/playbooks/worktree-cleanup.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/poteto-mode/scripts/check-plan.mjs"
+    },
+    {
+      "status": "D",
+      "path": "skills/poteto-mode/scripts/check-plan.test.ts"
+    },
+    {
+      "status": "M",
+      "path": "skills/poteto-mode/scripts/package.json"
+    },
+    {
+      "status": "A",
+      "path": "skills/poteto-mode/worker.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-attack-the-premise/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-boundary-discipline/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-build-the-lever/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-explain-the-number/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-fix-root-causes/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-foundational-thinking/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-make-operations-idempotent/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-minimize-reader-load/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-model-the-domain/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-prove-it-works/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-separate-before-serializing-shared-state/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-sequence-verifiable-units/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-test-behavior-not-implementation/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/principle-type-system-discipline/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/recall/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/reflect/SKILL.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/reflect/references/divergent-reviewer.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/reflect/references/judgment-reviewer.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/reflect/references/synthesizer.md"
+    },
+    {
+      "status": "D",
+      "path": "skills/reflect/references/tooling-reviewer.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/setup-pstack/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/show-me-your-work/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/swarm/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/technical-writing/SKILL.md"
+    },
+    {
+      "status": "M",
+      "path": "skills/unslop/SKILL.md"
+    }
+  ],
+  "limits": [
+    "Initial lazy Git blob retrieval failed with HTTP 429. Baseline bytes were verified from the previous full pinned checkout. Target bytes come from the new pinned checkout."
+  ]
+}

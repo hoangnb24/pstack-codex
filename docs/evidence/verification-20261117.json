@@ -1,0 +1,72 @@
+{
+  "candidate": "f1ef0288b0cf3db98d704c53c7d2a377b60c170a6caae6427ca71a8f29cbcaae",
+  "date": "2026-11-17",
+  "environment": {
+    "codex": "0.169.0",
+    "node": "22.22.3",
+    "validationPython": "/usr/bin/python3",
+    "newDependencies": false
+  },
+  "pass": {
+    "packaging": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest discover -s tests -p 'test_*.py' -v",
+      "passed": 5,
+      "failed": 0
+    },
+    "helperAndSafety": {
+      "command": "node --test tests/helpers/helpers.test.mjs tests/statechart/safety.test.mjs",
+      "helperPassed": 1,
+      "statechartSafetyPassed": 4,
+      "failed": 0,
+      "skipped": 0
+    },
+    "skillValidators": {
+      "passed": 58,
+      "failed": 0
+    },
+    "standaloneDiscovery": 58,
+    "nativeSmoke": {
+      "enabled": 58,
+      "disabledActive": 0,
+      "reenabled": 58
+    },
+    "sourceFrozenPayloadHashesAndModes": 576,
+    "unchangedInvocationPolicyFiles": 57,
+    "unchangedStatechartFiles": 409,
+    "publicationScan": {
+      "files": 668,
+      "recognizedSecretPatterns": 0,
+      "privateFilenameFindings": 0,
+      "exhaustive": false
+    }
+  },
+  "recoveredFailures": [
+    {
+      "check": "Baseline lazy Git blob fetch",
+      "result": "HTTP 429; used prior full pinned checkout and verified all baseline hashes."
+    },
+    {
+      "check": "Initial poteto validator",
+      "result": "Default Python lacked yaml; system Python passed without installing dependencies."
+    },
+    {
+      "check": "First other-skills candidate",
+      "result": "Rejected malformed relative link and stale retired-workflow prose; corrected candidate accepted."
+    },
+    {
+      "check": "Complete frozen tree equality after documentation updates",
+      "result": "Failed because docs/VALIDATION.md changed after freeze. Explicit comparison confirmed this was the only difference among 664 frozen files; all 576 payload files still match."
+    }
+  ],
+  "skip": [
+    {
+      "check": "Full statechart runtime suite",
+      "reason": "No statechart source/runtime change. Safety checks ran; installed launcher model checks are recorded separately."
+    }
+  ],
+  "unknown": [
+    "Live product workflows and forge connectors were not exercised.",
+    "Pattern scans do not exclude arbitrary secrets.",
+    "Filesystem discovery does not establish running-session reload."
+  ]
+}

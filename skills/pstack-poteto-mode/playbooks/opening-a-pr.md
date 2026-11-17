@@ -2,6 +2,8 @@
 
 Run only when PR delivery is requested or already authorized. Otherwise prepare local changes and a reviewable summary.
 
+Aim for a one-minute PR briefing under 40 lines. Keep necessary evidence even when it needs more space. Name a real symbol in the title when it clarifies the change. Repository templates and user draft/readiness choices take precedence.
+
 1. Inspect repository instructions, current worktree, diff, and intended base. Reuse a suitable isolated worktree. Preserve unrelated changes. Never reset hard, patch out user work, or discard a snarled checkout to fit this workflow.
 2. Review the actual diff for unnecessary code and comments. Use available `pstack-no-comments`, `pstack-unslop`, and `pstack-technical-writing` within scope; cursor-team-kit deslop is not bundled. Run relevant repository checks.
 3. Stage only owned files. Create or reorganize commits according to the task and repository conventions; never force an unsolicited history rewrite. Prefer small coherent units.

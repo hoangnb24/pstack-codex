@@ -1,12 +1,20 @@
 # pstack for Codex
 
-An independent Mac-friendly port of Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7/pstack), pinned upstream version 0.15.42, plugin version 0.6.1. Licensed under MIT; see [LICENSE](LICENSE) and [UPSTREAM.json](UPSTREAM.json). Not an official Cursor or OpenAI release.
+An independent Mac-friendly port of Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/3fa33bb0f927bea2ccacd48a3cfda95145fb6bae/pstack), pinned upstream version 0.15.43, plugin version 0.6.2. Licensed under MIT; see [LICENSE](LICENSE) and [UPSTREAM.json](UPSTREAM.json). Not an official Cursor or OpenAI release.
 
 The source is separate from the installed plugin cache. Editing it does not update an installation automatically. All skill names start with `pstack-` to avoid collisions with existing skills such as `tdd`. The local installation and refresh evidence are recorded in [validation](docs/VALIDATION.md).
 
 ## Native plugin
 
-The pack is one native plugin, `pstack-codex@pstack-local`, with 58 skills and 23 playbooks. See [installation and toggle instructions](docs/PLUGIN.md). Plugin invocation is `$pstack-codex:pstack-poteto-mode`. For guidance without starting work, use `$pstack-codex:pstack-poteto-help`. Do not combine plugin installation with standalone skill copies.
+The pack is one native plugin, `pstack-codex@pstack-local`, with 58 skills and 22 playbooks. See [installation and toggle instructions](docs/PLUGIN.md). Plugin invocation is `$pstack-codex:pstack-poteto-mode`. For guidance without starting work, use `$pstack-codex:pstack-poteto-help`. Do not combine plugin installation with standalone skill copies.
+
+Changed in 0.6.2:
+
+- Poteto-mode routes large or cross-cutting work to `figure-it-out`. The separate `orchestrate` playbook and `check-plan` helper are retired. A bundled worker brief defines bounded delegate work.
+- Architect compares designs without requiring a panel for every task. Reflect proposes useful lessons and waits for approval before skill edits.
+- Babysit does not rebase or force-push. A stale base or conflict is reported with the branch that needs attention.
+- Principles and writing guidance are shorter. All 58 skills remain. Host model settings and invocation policies are unchanged.
+- Statechart code and CLI are unchanged. No new dependencies or external-action permissions are added.
 
 Changed in 0.6.1:
 

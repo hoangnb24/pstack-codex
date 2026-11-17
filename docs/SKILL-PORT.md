@@ -4,9 +4,9 @@ Historical report for the 0.15.9 port. The 0.15.15 refresh adds [pstack-poteto-h
 
 Scope: 49 upstream skill directories excluding poteto-mode, all their references, and show-me-your-work/scripts/log.sh. Source attribution: Lauren Tan, MIT; repository root must retain upstream LICENSE. No global skill installation or Codex configuration changes performed.
 
-## Current changes — upstream 0.15.42
+## Current changes — upstream 0.15.43
 
-The current port is 0.6.1 with 58 skills. Statechart fixes parent-state arrows and SANY diagnostics without changing the 0.6.0 CLI. How uses one read-only explanation pass; why follows commits and PR discussions before expanding to available sources. Ordinary playbooks trace code directly. Sharpen delegates testable choices to experiments in the rewritten prompt, not during rewriting. Setup retains host model settings. See [parity](PARITY.md) and [validation](VALIDATION.md) for evidence and limits. The original file list below is historical; [inventory](INVENTORY.md) lists current files.
+The current port is 0.6.2 with 58 skills and 22 playbooks. Poteto-mode routes large work to figure-it-out and provides a bounded worker brief. The separate orchestrate playbook and check-plan helper are retired. Architect uses a panel only when useful; reflect requires approval before applying lessons. Babysit does not rebase or force-push. Principles and writing instructions are shorter. Setup retains host model settings. Statechart is unchanged. See [parity](PARITY.md) and [validation](VALIDATION.md) for evidence and limits. The original file list below is historical; [inventory](INVENTORY.md) lists current files.
 
 ## Coverage
 

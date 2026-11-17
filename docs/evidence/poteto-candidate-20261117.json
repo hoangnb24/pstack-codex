@@ -1,0 +1,269 @@
+{
+  "base": "4d84e9e751a8c532952209beb443f754ce741882",
+  "upstreamBase": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+  "upstreamTarget": "3fa33bb0f927bea2ccacd48a3cfda95145fb6bae",
+  "records": [
+    {
+      "path": "skills/pstack-poteto-mode/SKILL.md",
+      "sha256": "cb8938c23d7581de6f71cde46789a3a9d775fef1fb5cbace4dfad401f38a39a6",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/agents/openai.yaml",
+      "sha256": "7de1c4f7d22cfc524eecc6abce9fd44b9f6e5792e6a6224eaeec099cca692f1f",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/authoring-a-skill.md",
+      "sha256": "28a7a9a3ade43f73183e5e497d715c8bdfaa8ee7a5874bea64e2ec5dafca9b92",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/autonomous-run.md",
+      "sha256": "1bb26a399ca8b1a700be0a719969a8c2c94be23066f60852ef26c67a848d8c52",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/autopilot-full.md",
+      "sha256": "422ec118352d23c9da592af525336a8c277b78bfdb0d6d3ea3a40198be941aec",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/autopilot-stack.md",
+      "sha256": "e1fba3f8f043f8c566992e2f67af718e88f92c0ac846f6a0d08963bc261dac7e",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/babysit.md",
+      "sha256": "6e7b36c54cae4bbada15d504a853024b653b60a5a662d10777b329cf66ee4c4d",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/bug-fix.md",
+      "sha256": "199be1d08c114a0aff9888172dff95d7afb089403af05320257fdf5b3f6ad0ff",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/eval.md",
+      "sha256": "bac5c20b6b10c524c6882f7addff143a3f75321432a9e4c3cf8be2c0136276e5",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/feature.md",
+      "sha256": "4a8a328943f554ccc9d7d29c2e74ea942b51b1a052c1fc61ac7ad10551d6e7dd",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/hillclimb.md",
+      "sha256": "1ffc46de4e32b6aee03a4c004da8abba775c48c9a7017849521fa40483898a73",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/investigation.md",
+      "sha256": "06c37b03e34796faa651d87e3c32ad124068a7e17b2a635d95eb5c8aea13555d",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/multi-phase-plan.md",
+      "sha256": "ad48bded25d6bfb45952a3a807a4124bc6735b5bb3dcc4c790ea257e1b5cfebf",
+      "mode": "600"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/opening-a-pr.md",
+      "sha256": "d8ddfa752d896199ed12379cfe57d5fe4b69f8886b18ea67279f3da8d9a42ea7",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/orchestrate.md",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/pause-safely.md",
+      "sha256": "9b9c933df4cf9eb891a60fc74d968f15d5830207584fff65bc5c6d293f6bc6b6",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/perf-issue.md",
+      "sha256": "f908738139197fc38de1b64a6dd86759d7af0d4afd254727b7fc14806ffcca74",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/prototype.md",
+      "sha256": "d70d8023625f1d8cf3c5176d9b62a2b19eff09273a2815ce5980b9cc0246ddf2",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/refactoring.md",
+      "sha256": "d2b2e2d5fb64ef44b73c7544ee442113ce7db06f3dc833cd31996a2c6f11bb4b",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/runtime-forensics.md",
+      "sha256": "db0ef6f5f1a9d76d5a33daed79af6e3fbfb2ded0ec8000663bd4fd968a0ba5c7",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/session-pickup.md",
+      "sha256": "efc2c6a1844c94a4384f0a487eea124953221fa39836f4891bb83ef32ba58d11",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/shipping.md",
+      "sha256": "6868b686606f90168fe228a9e75f1283809ce5f29be0ddcd4e435771f3e86e5b",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/trace-forensics.md",
+      "sha256": "278d90eb8bf33c71edd29e3c3a277ef6dccb186ff0f278910e7b5549e0f9c1e7",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/visual-parity.md",
+      "sha256": "b8c3b8c0b5fc6aa1efd24aa061de029d02476ae95681d1290526f012387505fa",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/playbooks/worktree-cleanup.md",
+      "sha256": "3f482684c5e8e42cb9cc6288bb2c905d7f23d37688deffeb6e9b1e28c0691f4c",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/references/agent-briefs.md",
+      "sha256": "36f6096d364db693a9d3edbcc89e2bdbf143ba44eb2e6235096d82b3ec4d5810",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/references/bugbot-triage.md",
+      "sha256": "5fb0893fa2cb3ccbbf19b8f46cf311c247138fb557abbd1bf8f20793bb336f33",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/README.md",
+      "sha256": "fd6c14b2e1c5cf1beb5468f3235e81f4b8dcdcccb259c50dbdcabd9cb89dbf27",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/check-plan.mjs",
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/worktree-audit.mjs",
+      "sha256": "dda84f2844ea735a023ba4cac84f94b66b06a2f6387f54580e8a3df07f96d560",
+      "mode": "644"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/scripts/worktree-audit.sh",
+      "sha256": "eaacc5686adec3e7d368d7203feb19526803c510ac0ec78b5facd9140d7219e6",
+      "mode": "755"
+    },
+    {
+      "path": "skills/pstack-poteto-mode/worker.md",
+      "sha256": "558a532aad78de168d3dae69258064e7d80ff3a9c9aa458096be864033d4e62e",
+      "mode": "600"
+    },
+    {
+      "path": "tests/helpers/helpers.test.mjs",
+      "sha256": "e9fa149313a2b146d1c5a9cda6fff7e17476c76a8de14602896fdd8c8f4e7e0b",
+      "mode": "644"
+    },
+    {
+      "path": "tests/helpers/refresh-20261016.md",
+      "sha256": "9714f346f481c3d39c9eb07a5c8c6caebc0e0797096d0a182f41039b37223fd6",
+      "mode": "600"
+    }
+  ],
+  "dispositions": [
+    {
+      "upstream": "SKILL.md",
+      "disposition": "Adapted worker kickoff and figure-it-out routing; retained local safety contract and host model defaults."
+    },
+    {
+      "upstream": "playbooks/autonomous-run.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/autopilot-full.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/autopilot-stack.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/babysit.md",
+      "disposition": "Adapted conflict branch/drift reporting; retained bounded modes, unknown gates, and mutation limits."
+    },
+    {
+      "upstream": "playbooks/bug-fix.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/eval.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/feature.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/hillclimb.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/multi-phase-plan.md",
+      "disposition": "Replaced scaffold/checker with concise outcome checklist; retained applicability and execution boundaries."
+    },
+    {
+      "upstream": "playbooks/opening-a-pr.md",
+      "disposition": "Adapted concise briefing guidance; retained local worktree protections and user readiness choice."
+    },
+    {
+      "upstream": "playbooks/orchestrate.md",
+      "disposition": "Deleted; route moved to figure-it-out. Cross-scope caller migration integration-owned."
+    },
+    {
+      "upstream": "playbooks/perf-issue.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/refactoring.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/runtime-forensics.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/session-pickup.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/shipping.md",
+      "disposition": "Watcher CLI change not applicable: runtime omitted; local exact-head checks and bounded observation retained."
+    },
+    {
+      "upstream": "playbooks/trace-forensics.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "playbooks/worktree-cleanup.md",
+      "disposition": "Upstream model/speed wording or architect parallel wording only; local host-controlled delegation and design guidance retained unchanged."
+    },
+    {
+      "upstream": "scripts/check-plan.mjs",
+      "disposition": "Retired checker and coupled package tests; historical evidence retained."
+    },
+    {
+      "upstream": "scripts/check-plan.test.ts",
+      "disposition": "Retired checker and coupled package tests; historical evidence retained."
+    },
+    {
+      "upstream": "scripts/package.json",
+      "disposition": "No local package manifest exists; removed checker imports/tests from tests/helpers/helpers.test.mjs."
+    },
+    {
+      "upstream": "worker.md",
+      "disposition": "Adapted bounded delegate guidance; host authority, questions and draft choice preserved."
+    }
+  ]
+}

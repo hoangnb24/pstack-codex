@@ -1,0 +1,845 @@
+{
+  "base": "4d84e9e751a8c532952209beb443f754ce741882",
+  "upstreamBase": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+  "upstreamTarget": "3fa33bb0f927bea2ccacd48a3cfda95145fb6bae",
+  "records": [
+    {
+      "path": "skills/pstack-architect/SKILL.md",
+      "sha256": "ae7ea6de627ccf197f54b2255a6e3e44964d3be486de8d628a5a38e941deacbf",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-figure-it-out/SKILL.md",
+      "sha256": "a4f5afcde56295e50e34662bf38d327ed0b1b1252881c38c285fa4ad643c4015",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-poteto-help/SKILL.md",
+      "sha256": "127989d31e309a87d01ff2f0ff4f7e2e00cd056b0a61b2a7d3beab9236b4e769",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-attack-the-premise/SKILL.md",
+      "sha256": "48666f396c2f560cf81dffbc1836d4fa6fb9e2389f7c135f67b0444721cbf170",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-boundary-discipline/SKILL.md",
+      "sha256": "e0ae001555b856088628a05ed1384323d370b027d37c86421856a97409325a6d",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-build-the-lever/SKILL.md",
+      "sha256": "0dae017cd3f0a367233b965754fcb6d579f84a40c90decf172373e320309aa74",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-explain-the-number/SKILL.md",
+      "sha256": "d0bd6eaa9152afcfcbcfc2871abad7797016b7ff2a260659dde5a2da00dd267b",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-fix-root-causes/SKILL.md",
+      "sha256": "d2a2c06aa8384deea10581b16dc1bb9c6c3bff36c7b6501aef7c0d5d38f79b1a",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-foundational-thinking/SKILL.md",
+      "sha256": "7be2083222ab5ef450a37852536b70cf8e09ca5c5cd37d5745270ccf146ad116",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-make-operations-idempotent/SKILL.md",
+      "sha256": "49d9c54c73ce444843e7f2f25d7db378f8c0183ca0d55700dbce365de747e99c",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-minimize-reader-load/SKILL.md",
+      "sha256": "2cc124c47574b8410f6c2edd19b06e7d88328f8f3b66ab62dba1a9a5fc4a73b4",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-model-the-domain/SKILL.md",
+      "sha256": "97b109a64f26397df0e2f7905650347e3e33d7f465872cd2b792e00d862b6d22",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-prove-it-works/SKILL.md",
+      "sha256": "5970b26193fed246013fc57872f0c9d3b53e14e8c4bf0f00b3a465d2e0a67c1d",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-separate-before-serializing-shared-state/SKILL.md",
+      "sha256": "e2b1072e10f0b1ec3614a6cc0eb32f94ea6cb66548e1363dff1f69e457b2f127",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-sequence-verifiable-units/SKILL.md",
+      "sha256": "44051dc28406acbdebccdd80c56a46451f34a87b90612f1078c91a03a68e8eaf",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-test-behavior-not-implementation/SKILL.md",
+      "sha256": "317d8698089228cfacce40cce102ce61e4f8de1bc9e3bfb78504aa540db161b8",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-principle-type-system-discipline/SKILL.md",
+      "sha256": "ce4ff5ad98e03bb97e2235314cb6fdf4518efe01bba77f02be71433b87ff0068",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-reflect/SKILL.md",
+      "sha256": "0236fd5ad54860285c88c2ab22049d527f10d04f025396cad698ab3c865aae40",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-technical-writing/SKILL.md",
+      "sha256": "9a3ed692b69c095d7e862901eda3b0bca7cf540db80b92b8e7a4e5e7e04542da",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-unslop/SKILL.md",
+      "sha256": "73efa415db583f4c4754a0ee32228e4a04894eaaa83011a5462596b6752c98b7",
+      "mode": "644",
+      "deleted": false
+    },
+    {
+      "path": "skills/pstack-architect/references/design-red-flags.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-architect/references/rationale-template.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-architect/references/runner-prompt.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-reflect/references/divergent-reviewer.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-reflect/references/judgment-reviewer.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-reflect/references/synthesizer.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    },
+    {
+      "path": "skills/pstack-reflect/references/tooling-reviewer.md",
+      "sha256": null,
+      "mode": null,
+      "deleted": true
+    }
+  ],
+  "dispositions": [
+    {
+      "upstream": "skills/architect/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/arena/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/automate-me/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/benchmark-checklist/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/figure-it-out/SKILL.md",
+      "disposition": "Reconcile simplified reasoning guidance and retired callers. Preserve local execution adaptation.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/no-comments/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/poteto-help/SKILL.md",
+      "disposition": "Reconcile simplified reasoning guidance and retired callers. Preserve local execution adaptation.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-attack-the-premise/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-boundary-discipline/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-build-the-lever/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-explain-the-number/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-fix-root-causes/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-foundational-thinking/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-make-operations-idempotent/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-minimize-reader-load/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-model-the-domain/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-prove-it-works/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/principle-type-system-discipline/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/recall/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/reflect/SKILL.md",
+      "disposition": "Condense review. Preserve approval, privacy, source-only edits and external-write boundaries.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/setup-pstack/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/show-me-your-work/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/swarm/SKILL.md",
+      "disposition": "Retain equivalent local host adaptation. Upstream model and speed defaults do not apply.",
+      "changed": false
+    },
+    {
+      "upstream": "skills/technical-writing/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/unslop/SKILL.md",
+      "disposition": "Adapt condensed upstream body. Preserve local frontmatter and execution boundary.",
+      "changed": true
+    },
+    {
+      "upstream": "skills/architect/references/design-red-flags.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    },
+    {
+      "upstream": "skills/architect/references/rationale-template.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    },
+    {
+      "upstream": "skills/architect/references/runner-prompt.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    },
+    {
+      "upstream": "skills/reflect/references/divergent-reviewer.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    },
+    {
+      "upstream": "skills/reflect/references/judgment-reviewer.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    },
+    {
+      "upstream": "skills/reflect/references/synthesizer.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    },
+    {
+      "upstream": "skills/reflect/references/tooling-reviewer.md",
+      "disposition": "Retire reference after migrating its entrypoint. Recoverable from Git and source-before."
+    }
+  ],
+  "validation": {
+    "environment": "macOS; /usr/bin/python3; existing PyYAML; no dependency installation",
+    "results": [
+      {
+        "skill": "architect",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "arena",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "automate-me",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "benchmark-checklist",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "figure-it-out",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "no-comments",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "poteto-help",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-attack-the-premise",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-boundary-discipline",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-build-the-lever",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-explain-the-number",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-fix-root-causes",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-foundational-thinking",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-make-operations-idempotent",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-minimize-reader-load",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-model-the-domain",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-prove-it-works",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-separate-before-serializing-shared-state",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-sequence-verifiable-units",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-test-behavior-not-implementation",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "principle-type-system-discipline",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "recall",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "reflect",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "setup-pstack",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "show-me-your-work",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "swarm",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "technical-writing",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "unslop",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      }
+    ]
+  },
+  "correction": {
+    "supersedes": "dfed86a20a83e3b49347ab5e1971d5453787b32502af43fe0a93efa572de8c87",
+    "scope": [
+      "skills/pstack-principle-explain-the-number/SKILL.md",
+      "skills/pstack-poteto-help/SKILL.md"
+    ],
+    "preFixScan": {
+      "localMarkdownTargets": 55,
+      "broken": 1,
+      "additionalScopeNeeded": false
+    },
+    "tests": [
+      {
+        "skill": "pstack-principle-explain-the-number",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      },
+      {
+        "skill": "pstack-poteto-help",
+        "status": 0,
+        "output": "Skill is valid!\n"
+      }
+    ],
+    "links": [
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "references/prompting.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-help/references/prompting.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "references/recipes.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-help/references/recipes.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-setup-pstack/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-setup-pstack/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-create-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-create-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-create-formal-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-create-formal-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-maintain-formal-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-maintain-formal-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-in-your-own-words/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-in-your-own-words/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-sharpen/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-sharpen/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-how/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-how/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-why/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-why/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-teach/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-teach/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-recall/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-recall/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-ketchup/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-ketchup/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-ketchup-video/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-ketchup-video/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-blast-radius/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-blast-radius/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-architect/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-architect/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-arena/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-arena/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-swarm/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-swarm/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-interrogate/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-interrogate/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-tdd/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-tdd/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-typescript-best-practices/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-typescript-best-practices/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-no-comments/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-no-comments/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-unslop/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-unslop/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-technical-writing/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-technical-writing/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-bro/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-bro/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-create-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-create-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-create-formal-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-create-formal-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-maintain-formal-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-maintain-formal-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-statechart/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-statechart/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-maintain-verification-skill/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-maintain-verification-skill/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-benchmark-checklist/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-benchmark-checklist/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-figure-it-out/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-figure-it-out/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-show-me-your-work/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-show-me-your-work/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-setup-pstack/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-setup-pstack/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-automate-me/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-automate-me/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-reflect/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-reflect/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-correct/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-correct/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-make-bot-ui/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-make-bot-ui/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/babysit.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/babysit.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/babysit.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/babysit.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/shipping.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/shipping.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/session-pickup.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/session-pickup.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/pause-safely.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/pause-safely.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/autopilot-full.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/autopilot-full.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/autopilot-stack.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/autopilot-stack.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/eval.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/eval.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/multi-phase-plan.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/multi-phase-plan.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/authoring-a-skill.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/authoring-a-skill.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-poteto-mode/playbooks/autonomous-run.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-poteto-mode/playbooks/autonomous-run.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-poteto-help/SKILL.md",
+        "target": "../pstack-figure-it-out/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-figure-it-out/SKILL.md",
+        "exists": true
+      },
+      {
+        "source": "skills/pstack-principle-explain-the-number/SKILL.md",
+        "target": "../pstack-benchmark-checklist/SKILL.md",
+        "resolved": "/Users/tubakhuym/projects/prototypes/pstack-codex/skills/pstack-benchmark-checklist/SKILL.md",
+        "exists": true
+      }
+    ],
+    "diffCheck": {
+      "status": 0,
+      "output": ""
+    },
+    "limits": "Checks resolve inline local Markdown file targets. They do not validate heading anchors, remote URLs, or live workflow behavior."
+  }
+}

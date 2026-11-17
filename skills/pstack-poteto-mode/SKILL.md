@@ -27,7 +27,7 @@ Use only the subagent tools actually exposed by this Codex session and only when
 
 If delegation is unavailable or not authorized, execute bounded units serially and say when independent verification was unavailable. Separate analysis passes by one agent are useful but are not independent reviewers. Do not launch `codex exec` as a hidden substitute or incur paid inference without an explicit budget.
 
-For an authorized delegate, pass this file's absolute path, goal, allowed paths, forbidden actions, current user corrections, context pointers, acceptance, verification commands, timebox, and report format. Require the delegate to read this file in full and resolve sibling skills from this copy. If it cannot read the supplied path, it reports the missing input instead of searching unrelated plugin caches or choosing a different version. One writer per worktree or disjoint scope. Inspect the actual diff and receipts yourself. Fresh scoped agents are useful for independent work; preserve an existing worker when its live process or uncommitted state is needed. Reconcile every child on completion or stop. See [agent briefs](references/agent-briefs.md).
+For an authorized delegate, start the brief with `Read <absolute-skill-folder>/worker.md before acting.` Pass this file's absolute path, goal, allowed paths, forbidden actions, current user corrections, context pointers, acceptance, verification commands, timebox, and report format. Require the delegate to read this file in full and resolve sibling skills from this copy. If it cannot read the supplied path, it reports the missing input instead of searching unrelated plugin caches or choosing a different version. One writer per worktree or disjoint scope. Inspect the actual diff and receipts yourself. Fresh scoped agents are useful for independent work; preserve an existing worker when its live process or uncommitted state is needed. Reconcile every child on completion or stop. See [delegate guidance](worker.md) and [agent briefs](references/agent-briefs.md).
 
 There is no portable Cursor `/loop` equivalent here. In-session work is bounded by a declared attempt/time budget and a done predicate. Future execution requires a user-requested supported scheduler and its own successful setup; never claim an active watch after the session ends. Write a durable checkpoint when bounded work stops.
 
@@ -50,7 +50,7 @@ Read only the matching playbook and needed references. Cross-skill names below r
 - [Check or prepare PRs for merge](playbooks/babysit.md).
 - [Verify and land explicitly authorized PRs](playbooks/shipping.md).
 - [Drive one scoped task to a predicate](playbooks/autonomous-run.md).
-- [Coordinate a bounded multi-unit program](playbooks/orchestrate.md).
+- [Design a bounded multi-unit workflow](../pstack-figure-it-out/SKILL.md).
 - [Independent PR queue with separate landing authority](playbooks/autopilot-full.md).
 - [Build a verified PR queue without landing](playbooks/autopilot-stack.md).
 - [Resume from authorized prior evidence](playbooks/session-pickup.md).

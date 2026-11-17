@@ -57,7 +57,7 @@ Use poteto mode for a non-trivial execution task that needs its playbook. Use a 
 | Changes in this chat and every pending item, with enough context to decide | [ketchup](../pstack-ketchup/SKILL.md) |
 | The same catch-up as a subtitled slide video, with pending decisions in text | [ketchup-video](../pstack-ketchup-video/SKILL.md) |
 | Breakage beyond a small diff | [blast-radius](../pstack-blast-radius/SKILL.md) |
-| Types and module design, then implementation | [architect](../pstack-architect/SKILL.md) |
+| Trace systems and compare two designs | [architect](../pstack-architect/SKILL.md) |
 | Competing candidates and synthesis | [arena](../pstack-arena/SKILL.md) |
 | Partitioned coverage or declared races | [swarm](../pstack-swarm/SKILL.md) |
 | Adversarial diff review with run-proven findings, without auto-fixes | [interrogate](../pstack-interrogate/SKILL.md) |
@@ -85,10 +85,9 @@ Close calls:
 
 - `how` explains mechanics. `why` traces reasons. `teach` combines findings into a plain explanation.
 - `arena` repeats a brief and synthesizes candidates. `swarm` covers slices or declared race arms and returns one report. Neither guarantees cloud or model diversity.
-- `architect` proceeds to implementation by default when authorized. Add `with checkpoint` to review the design first. A design-only request still forbids implementation.
 - `interrogate` reviews a diff. `blast-radius` checks risks outside it. Review findings do not authorize edits.
 - `recall` uses current conversation, scoped exposed thread tools, or supplied exports. It does not scan private databases. `ketchup` covers this chat since the user's last message and pending user decisions. One specific prior task belongs to Session pickup.
-- `figure-it-out` designs a rigorous run. Autonomous run drives one scoped task. Orchestrate coordinates a bounded multi-unit program, not a persistent service.
+- `figure-it-out` designs a rigorous run, including a bounded multi-unit program. Autonomous run drives one scoped task. Neither provides a persistent service.
 
 If an adjacent skill is not listed, read its frontmatter and route by its actual description. Do not promise a missing skill. External cleanup, app-control, and authoring tools are not installed by this pack; use available Codex tools or explain the gap.
 
@@ -109,7 +108,7 @@ Playbooks are files inside poteto mode, not separately registered skills. Use `$
 | Plan this migration, do not implement | [Multi-phase plan](../pstack-poteto-mode/playbooks/multi-phase-plan.md): plan is the deliverable |
 | Write a skill for this workflow | [Authoring a skill](../pstack-poteto-mode/playbooks/authoring-a-skill.md): available skill-creator and validation, no global install |
 | Continue one task until checks pass | [Autonomous run](../pstack-poteto-mode/playbooks/autonomous-run.md): bounded in-session work |
-| Coordinate several dependent units | [Orchestrate](../pstack-poteto-mode/playbooks/orchestrate.md): scoped bookkeeping, no live watcher or restart service |
+| Coordinate several dependent units | [figure-it-out](../pstack-figure-it-out/SKILL.md): design a bounded run. |
 
 There is no separate `pstack-orchestrate` or planning skill. Do not invent one. Host planning features are separate from the plan playbook.
 

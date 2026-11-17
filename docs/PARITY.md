@@ -23,7 +23,7 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 | `make-bot-ui` | [`pstack-make-bot-ui`](../skills/pstack-make-bot-ui/SKILL.md) | Unavailable native parity: no Grok Bot / Cursor sender-key webhook; local mock/design only until a real backend is provided. |
 | `no-comments` | [`pstack-no-comments`](../skills/pstack-no-comments/SKILL.md) | Adapted: bundled reviewer brief replaces custom Comment Sicko registration. |
 | `poteto-help` | [`pstack-poteto-help`](../skills/pstack-poteto-help/SKILL.md) | Adapted: informational routing, prompts and recipes; no execution from help, Cursor Custom Mode or model configuration. |
-| `poteto-mode` | [`pstack-poteto-mode`](../skills/pstack-poteto-mode/SKILL.md) | Adapted: 23 Codex playbooks; inherited permission model and bounded delegation. |
+| `poteto-mode` | [`pstack-poteto-mode`](../skills/pstack-poteto-mode/SKILL.md) | Adapted: 22 Codex playbooks; inherited permission model and bounded delegation. |
 | `principle-attack-the-premise` | [`pstack-principle-attack-the-premise`](../skills/pstack-principle-attack-the-premise/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `principle-boundary-discipline` | [`pstack-principle-boundary-discipline`](../skills/pstack-principle-boundary-discipline/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `principle-build-the-lever` | [`pstack-principle-build-the-lever`](../skills/pstack-principle-build-the-lever/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
@@ -80,7 +80,6 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 | [investigation](../skills/pstack-poteto-mode/playbooks/investigation.md) | Adapted: scoped Codex workflow, evidence and verification retained. |
 | [multi-phase-plan](../skills/pstack-poteto-mode/playbooks/multi-phase-plan.md) | Adapted: scoped Codex workflow, evidence and verification retained. |
 | [opening-a-pr](../skills/pstack-poteto-mode/playbooks/opening-a-pr.md) | Adapted; status checks are read-only, mutations require task authorization; live GitHub actions untested. |
-| [orchestrate](../skills/pstack-poteto-mode/playbooks/orchestrate.md) | Adapted bounded session workflow; Cursor /loop, persistent cloud fleet and unattended auto-merge unavailable. |
 | [pause-safely](../skills/pstack-poteto-mode/playbooks/pause-safely.md) | Adapted: scoped Codex workflow, evidence and verification retained. |
 | [perf-issue](../skills/pstack-poteto-mode/playbooks/perf-issue.md) | Adapted: scoped Codex workflow, evidence and verification retained. |
 | [prototype](../skills/pstack-poteto-mode/playbooks/prototype.md) | Adapted: scoped Codex workflow, evidence and verification retained. |

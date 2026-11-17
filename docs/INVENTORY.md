@@ -1,6 +1,6 @@
 # Package inventory
 
-669 source/evidence files, including this inventory. Plugin 0.6.1 contains 58 skills and 23 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
+671 source/evidence files, including this inventory. Plugin 0.6.2 contains 58 skills and 22 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
 
 ```text
 .agents/plugins/marketplace.json
@@ -35,12 +35,14 @@ docs/evidence/delta-disposition-20261022.md
 docs/evidence/delta-disposition-20261024.md
 docs/evidence/delta-disposition-20261030.md
 docs/evidence/delta-disposition-20261116.md
+docs/evidence/delta-disposition-20261117.md
 docs/evidence/discovery-20261009.json
 docs/evidence/discovery-20261016.json
 docs/evidence/discovery-20261022.json
 docs/evidence/discovery-20261024.json
 docs/evidence/discovery-20261030.json
 docs/evidence/discovery-20261116.json
+docs/evidence/discovery-20261117.json
 docs/evidence/discovery.json
 docs/evidence/forward-benny/input.json
 docs/evidence/forward-benny/report.md
@@ -59,13 +61,18 @@ docs/evidence/install-sync-20261022.json
 docs/evidence/install-sync-20261024.json
 docs/evidence/install-sync-20261030.json
 docs/evidence/install-sync-20261116.json
+docs/evidence/install-sync-20261117.json
+docs/evidence/other-skills-candidate-20261117.json
 docs/evidence/plugin-smoke-20261009.json
 docs/evidence/plugin-smoke-20261016.json
 docs/evidence/plugin-smoke-20261022.json
 docs/evidence/plugin-smoke-20261024.json
 docs/evidence/plugin-smoke-20261030.json
 docs/evidence/plugin-smoke-20261116.json
+docs/evidence/plugin-smoke-20261117.json
 docs/evidence/plugin-smoke.json
+docs/evidence/poteto-candidate-20261117.json
+docs/evidence/review-20261117.md
 docs/evidence/statechart-candidate-20261030.json
 docs/evidence/statechart-candidate-20261116.json
 docs/evidence/statechart-dependencies-20261024.json
@@ -80,14 +87,17 @@ docs/evidence/update-payload-20261022.json
 docs/evidence/update-payload-20261024.json
 docs/evidence/update-payload-20261030.json
 docs/evidence/update-payload-20261116.json
+docs/evidence/update-payload-20261117.json
 docs/evidence/update-payload.json
 docs/evidence/upstream-20261016.json
 docs/evidence/upstream-20261022.json
 docs/evidence/upstream-20261024.json
 docs/evidence/upstream-20261030.json
 docs/evidence/upstream-20261116.json
+docs/evidence/upstream-20261117.json
 docs/evidence/verification-20261030.json
 docs/evidence/verification-20261116.json
+docs/evidence/verification-20261117.json
 docs/evidence/workflow-candidate-20261030.json
 docs/evidence/workflow-candidate-20261116.json
 docs/evidence/workflow-disposition-20261030.md
@@ -95,9 +105,6 @@ docs/evidence/workflow-disposition-20261116.json
 docs/evidence/workflow-handoff-20261116.md
 skills/pstack-architect/SKILL.md
 skills/pstack-architect/agents/openai.yaml
-skills/pstack-architect/references/design-red-flags.md
-skills/pstack-architect/references/rationale-template.md
-skills/pstack-architect/references/runner-prompt.md
 skills/pstack-arena/SKILL.md
 skills/pstack-arena/agents/openai.yaml
 skills/pstack-automate-me/SKILL.md
@@ -156,7 +163,6 @@ skills/pstack-poteto-mode/playbooks/hillclimb.md
 skills/pstack-poteto-mode/playbooks/investigation.md
 skills/pstack-poteto-mode/playbooks/multi-phase-plan.md
 skills/pstack-poteto-mode/playbooks/opening-a-pr.md
-skills/pstack-poteto-mode/playbooks/orchestrate.md
 skills/pstack-poteto-mode/playbooks/pause-safely.md
 skills/pstack-poteto-mode/playbooks/perf-issue.md
 skills/pstack-poteto-mode/playbooks/prototype.md
@@ -170,9 +176,9 @@ skills/pstack-poteto-mode/playbooks/worktree-cleanup.md
 skills/pstack-poteto-mode/references/agent-briefs.md
 skills/pstack-poteto-mode/references/bugbot-triage.md
 skills/pstack-poteto-mode/scripts/README.md
-skills/pstack-poteto-mode/scripts/check-plan.mjs
 skills/pstack-poteto-mode/scripts/worktree-audit.mjs
 skills/pstack-poteto-mode/scripts/worktree-audit.sh
+skills/pstack-poteto-mode/worker.md
 skills/pstack-principle-attack-the-premise/SKILL.md
 skills/pstack-principle-attack-the-premise/agents/openai.yaml
 skills/pstack-principle-boundary-discipline/SKILL.md
@@ -225,10 +231,6 @@ skills/pstack-recall/SKILL.md
 skills/pstack-recall/agents/openai.yaml
 skills/pstack-reflect/SKILL.md
 skills/pstack-reflect/agents/openai.yaml
-skills/pstack-reflect/references/divergent-reviewer.md
-skills/pstack-reflect/references/judgment-reviewer.md
-skills/pstack-reflect/references/synthesizer.md
-skills/pstack-reflect/references/tooling-reviewer.md
 skills/pstack-setup-pstack/SKILL.md
 skills/pstack-sharpen/SKILL.md
 skills/pstack-sharpen/agents/openai.yaml

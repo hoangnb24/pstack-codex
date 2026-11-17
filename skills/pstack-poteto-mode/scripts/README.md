@@ -2,7 +2,7 @@
 
 These helpers are adapted from Lauren Tan's pstack under the repository MIT license. They do not install packages, invoke models, change Codex settings, create agents, or confer permission to publish or delete.
 
-- `node check-plan.mjs <plan.md>` checks the multi-phase plan structure. Each verification checkbox names `Evidence:` and `Pass when`; checked verification also names `Observed:`. Inapplicable verification is a block-line `N/A: <specific reason>` of at least ten characters, with no checkbox. It checks syntax, not whether claimed evidence exists or proves behavior.
+- The plan checker is retired. Review `../playbooks/multi-phase-plan.md` directly. Existing plans remain untouched.
 - `bash worktree-audit.sh [repo-path] [local-base-ref]` prints JSON from local Git state only. Default base is `refs/remotes/origin/main`. Missing base or failed reads remain unknown. Untracked and ignored files both cause a hold. Local ancestry can be stale and misses squash merges. No GitHub/chat lookup, fetch, deletion, or `safe` bucket exists. Use Codex managed-worktree tools for managed worktree lifecycle when available.
 The local orchestration ledger helper is no longer bundled. Use the project's existing tracker for bounded ownership and verification records. Existing user ledger data remains untouched. Removing source helpers does not authorize data deletion or migration.
 
