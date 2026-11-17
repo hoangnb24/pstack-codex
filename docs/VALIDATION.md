@@ -1,6 +1,6 @@
 # Validation performed
 
-## Accepted and installed upstream 0.15.43 — 2026-11-17
+## Accepted, installed, and published upstream 0.15.43 — 2026-11-17
 
 The daily update owns integration from port HEAD `4d84e9e751a8c532952209beb443f754ce741882`, upstream `bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7`, to exact upstream `3fa33bb0f927bea2ccacd48a3cfda95145fb6bae`. The pstack tree changed from `ca1f48a4c8565485745aab0e6ce6145b176c4bf8` to `71d8e1d1d718e2149dc43b2535618064f29cba6b`. The previous update is complete. The existing daily schedule remains active at 08:00 Asia/Ho_Chi_Minh.
 
@@ -35,6 +35,10 @@ The launcher now pins cache 0.6.2, SHA-256 `f851f0eba3b03b19478d84d7a6f2311ca51b
 All three Droid links remain correct and unchanged after installation, each exposing 58 pstack and two external readable skills. Fresh Codex and Droid sessions are needed to ensure updated instructions load. No running session was restarted. Nine retired source files remain recoverable from Git and source-before; no user plans or runtime data were deleted. The supported installer removed the previous cache, so install-before and launcher-before remain the rollback inputs. No dependency was installed and toolchain-1 was not changed.
 
 Publication is ready. Origin is `git@github.com:hoangnb24/pstack-codex.git`; fetched main matched baseline `4d84e9e751a8c532952209beb443f754ce741882`, ahead/behind 0/0. Publication includes source, coupled tests and public evidence only. Preserve five existing `.DS_Store` files and the two external skill symlinks outside staging. Recovery, private config, toolchains, and transcripts remain outside publication. A final fetch and exact staged-content scan precede commit and normal push.
+
+Publication confirmed: `85a3dedba8dd22eddc7d1ecb42d5c434b62c3c33` (`refactor(pstack): sync upstream 0.15.43 as 0.6.2`) was normal-pushed to origin/main. `git ls-remote origin refs/heads/main` matched local HEAD; ahead/behind was 0/0. All 576 staged payload blobs matched the accepted receipt before commit. The final 671-file staged package scan found no recognized credential patterns or private filenames. Only the 55 inspected in-scope paths were staged. The scan is bounded, not exhaustive.
+
+All update stages and write scopes are closed. No accepted installation or payload publication remains pending. This documentation-only follow-up records the verified push and does not change payload/cache identity. Remaining unrelated untracked paths: `.DS_Store`, `automations/.DS_Store`, `docs/.DS_Store`, `skills/.DS_Store`, `tests/.DS_Store`, `skills/3d-mesh-optimization`, and `skills/verify-3d-mesh`. Preserve them. The existing daily schedule continues at 08:00 Asia/Ho_Chi_Minh. Next run compares against current UPSTREAM.json and must not repeat completed stages.
 
 ## Accepted, installed, and published upstream 0.15.42 — 2026-11-16
 
