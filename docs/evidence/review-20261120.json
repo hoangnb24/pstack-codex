@@ -1,0 +1,87 @@
+{
+  "status": "REVIEW_COMPLETE",
+  "candidate": "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/candidate-0.6.3",
+  "payload_sha256": "6f77198190cb4926bcd5b9f30ea67c2081dc30ac5eeeb1ddac5ffe91e8fbfa6c",
+  "payload_files": 579,
+  "original_base": "7b8f556f6b8beff7616305320412565241d07811",
+  "upstream_base": "3fa33bb0f927bea2ccacd48a3cfda95145fb6bae",
+  "upstream_target": "0b46ec399d55f2829e88822998f53b84944837d3",
+  "recommendation": "PROCEED_FOR_DOCUMENTED_MAC_TARGET",
+  "acceptance": "Integration retains technical acceptance; this result authorizes no downstream action.",
+  "blocking_findings": [],
+  "residual_findings": [
+    {
+      "id": "R1",
+      "severity": "unverified-platform-risk",
+      "paths": [
+        "skills/pstack-statechart/scripts/statechart.ts:131",
+        "skills/pstack-statechart/scripts/janitor.ts:10",
+        "skills/pstack-statechart/scripts/kill.ts:10"
+      ],
+      "observation": "Windows skips tree-kill after worker exit; taskkill errors and nonzero exit statuses are suppressed.",
+      "consequence": "Native Windows cleanup after worker crash or taskkill failure is not established.",
+      "recommendation": "Keep native Windows explicitly unverified. Require native cleanup tests before claiming Windows support is verified.",
+      "blocks_documented_mac_target": false
+    }
+  ],
+  "independent_tests": {
+    "platform": "darwin-arm64",
+    "node": "22.22.3",
+    "focused_cli": 52,
+    "kill_and_messages": 10,
+    "port_safety": 4,
+    "passed": 66,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "checks": {
+    "payload_bytes_and_modes": "PASS",
+    "writer_manifest_417_records": "PASS",
+    "baseline_payload_576_files": "PASS",
+    "all_15_delta_dispositions": "PASS",
+    "provenance_551_baseline_553_target": "PASS",
+    "license": "PASS",
+    "publication_scan_676_files": "NO_MATCHES",
+    "retained_evidence_hashes": "PASS"
+  },
+  "retained_not_independently_rerun": {
+    "writer_runtime": 409,
+    "writer_safety": 4,
+    "packaging": 5,
+    "helpers": 1,
+    "validators": 58,
+    "standalone_discovery": 58,
+    "native_toggle": [
+      58,
+      0,
+      58
+    ]
+  },
+  "untested": [
+    "native Windows/taskkill",
+    "Linux",
+    "Deno",
+    "Bun",
+    "fast-check 4.5.3",
+    "Pele 1.9.0",
+    "independent real TLC model and rendered-image checks",
+    "installation",
+    "arbitrary model fidelity",
+    "hostile filesystem mutation beyond existing tests"
+  ],
+  "evidence": [
+    "REPORT.md",
+    "audit.mjs",
+    "audit.json",
+    "payload-manifest.json",
+    "snapshot-manifest.json",
+    "test.mjs",
+    "tests.json",
+    "focused-cli.tap",
+    "kill-messages.tap",
+    "port-safety.tap"
+  ],
+  "scope": "Read-only candidate/source inspection plus review scratch only; no dependencies installed or external actions.",
+  "write_ownership": "No repository ownership acquired. Review scratch ownership relinquished."
+}

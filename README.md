@@ -1,12 +1,18 @@
 # pstack for Codex
 
-An independent Mac-friendly port of Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/3fa33bb0f927bea2ccacd48a3cfda95145fb6bae/pstack), pinned upstream version 0.15.43, plugin version 0.6.2. Licensed under MIT; see [LICENSE](LICENSE) and [UPSTREAM.json](UPSTREAM.json). Not an official Cursor or OpenAI release.
+An independent Mac-friendly port of Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/0b46ec399d55f2829e88822998f53b84944837d3/pstack), pinned upstream version 0.15.46, plugin version 0.6.3. Licensed under MIT; see [LICENSE](LICENSE) and [UPSTREAM.json](UPSTREAM.json). Not an official Cursor or OpenAI release.
 
 The source is separate from the installed plugin cache. Editing it does not update an installation automatically. All skill names start with `pstack-` to avoid collisions with existing skills such as `tdd`. The local installation and refresh evidence are recorded in [validation](docs/VALIDATION.md).
 
 ## Native plugin
 
 The pack is one native plugin, `pstack-codex@pstack-local`, with 58 skills and 22 playbooks. See [installation and toggle instructions](docs/PLUGIN.md). Plugin invocation is `$pstack-codex:pstack-poteto-mode`. For guidance without starting work, use `$pstack-codex:pstack-poteto-help`. Do not combine plugin installation with standalone skill copies.
+
+Changed in 0.6.3:
+
+- Statechart reads Windows line endings and uses platform-aware worker cleanup. The command arguments are unchanged. Native Windows execution remains unverified on this Mac.
+- No new skills or dependencies are added. All 58 skills retain their invocation policies. Upstream's Gemini default migration is not imported: this port inherits host model settings.
+- Use `$pstack-codex:pstack-statechart` to check a bounded TLA+ model and show its statechart. Follow the skill's local prerequisite and trusted-input instructions.
 
 Changed in 0.6.2:
 

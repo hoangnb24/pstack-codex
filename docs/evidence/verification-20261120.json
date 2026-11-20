@@ -1,0 +1,113 @@
+{
+  "payload": "6f77198190cb4926bcd5b9f30ea67c2081dc30ac5eeeb1ddac5ffe91e8fbfa6c",
+  "files": 579,
+  "environment": {
+    "platform": "macOS arm64",
+    "codex": "0.171.0",
+    "node": "22.22.3",
+    "java": "17.0.20",
+    "TLC": "1.7.4",
+    "Pele": "1.8.0",
+    "Resvg": "2.6.2",
+    "fastCheck": "4.10.0",
+    "dependenciesInstalled": false
+  },
+  "packaging": {
+    "passed": 5,
+    "failed": 0
+  },
+  "helpers": {
+    "passed": 1,
+    "failed": 0
+  },
+  "skillValidation": {
+    "passed": 58,
+    "failed": 0
+  },
+  "runtime": {
+    "passed": 409,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "safety": {
+    "passed": 4,
+    "failed": 0
+  },
+  "discovery": {
+    "standalone": 58,
+    "nativeEnabled": 58,
+    "nativeDisabled": 0,
+    "nativeReenabled": 58,
+    "errors": 0,
+    "inference": false
+  },
+  "policyFilesUnchanged": 57,
+  "models": {
+    "SafeExit": 0,
+    "UnsafeExit": 1,
+    "unsafePath": "0 -> 1 -> 2",
+    "imagesInspected": true
+  },
+  "logs": [
+    {
+      "name": "packaging",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit": 0,
+      "sha256": "87245903a438f9906c504a5308ddacd38e967432c12f08c963af0fc2965c1398"
+    },
+    {
+      "name": "helpers",
+      "command": [
+        "node",
+        "--test",
+        "tests/helpers/helpers.test.mjs"
+      ],
+      "exit": 0,
+      "sha256": "18f04ceb52b95c7ca6d130d123516ad265c0619fd3404058242f129859f5081d"
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "tools/smoke_discovery.py"
+      ],
+      "exit": 0,
+      "sha256": "464785c0e9c177c02cc1e7de23e371544c4596d46b6fb1acfb6d301ba9fc2f23"
+    },
+    {
+      "name": "native-smoke",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "tools/smoke_plugin.py"
+      ],
+      "exit": 0,
+      "sha256": "4e6db8e9ede844bb7104498b641231ff68c6c9d349abf969bc06d39bd7c5155f"
+    },
+    {
+      "name": "skill-creator",
+      "passed": 58
+    }
+  ],
+  "limits": [
+    "Native Windows/taskkill, Linux, Deno, Bun untested",
+    "fast-check 4.10.0 used, not pinned 4.5.3",
+    "Pele 1.8.0 used, not 1.9.0",
+    "Bounded models do not prove production behavior",
+    "No live workflows or production-model fidelity proof",
+    "No proof running sessions reloaded instructions",
+    "Recognized-pattern credential scans are bounded"
+  ],
+  "preparatoryFailure": "Initial backup check compared the already-version-bumped moving source and failed; corrected immutable-backup/cache check passed all 576 files and modes."
+}

@@ -1,0 +1,30 @@
+{
+  "baseline": "3fa33bb0f927bea2ccacd48a3cfda95145fb6bae",
+  "target": "0b46ec399d55f2829e88822998f53b84944837d3",
+  "baselineVersion": "0.15.43",
+  "targetVersion": "0.15.46",
+  "baselineTree": "71d8e1d1d718e2149dc43b2535618064f29cba6b",
+  "targetTree": "b47cf6d63625b48fd77893233044849935cdae3d",
+  "baselineHashesVerified": 551,
+  "targetHashes": 553,
+  "licenseUnchanged": true,
+  "backupFilesVerified": 576,
+  "backupModesMatch": true,
+  "delta": [
+    "M\tpstack/.cursor-plugin/plugin.json",
+    "M\tpstack/README.md",
+    "M\tpstack/docs/harness/claude-code.md",
+    "M\tpstack/plugin.json",
+    "M\tpstack/skills/arena/SKILL.md",
+    "M\tpstack/skills/poteto-mode/SKILL.md",
+    "M\tpstack/skills/setup-pstack/SKILL.md",
+    "M\tpstack/skills/statechart/SKILL.md",
+    "M\tpstack/skills/statechart/scripts/frontends/dot.ts",
+    "A\tpstack/skills/statechart/scripts/janitor.ts",
+    "A\tpstack/skills/statechart/scripts/kill.ts",
+    "M\tpstack/skills/statechart/scripts/run.ts",
+    "M\tpstack/skills/statechart/scripts/statechart.ts",
+    "M\tpstack/skills/statechart/scripts/test/cli.test.ts",
+    "M\tpstack/skills/statechart/scripts/test/messages.test.ts"
+  ]
+}

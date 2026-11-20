@@ -1,6 +1,6 @@
 # Package inventory
 
-671 source/evidence files, including this inventory. Plugin 0.6.2 contains 58 skills and 22 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
+683 source/evidence files, including this inventory. Plugin 0.6.3 contains 58 skills and 22 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
 
 ```text
 .agents/plugins/marketplace.json
@@ -36,6 +36,7 @@ docs/evidence/delta-disposition-20261024.md
 docs/evidence/delta-disposition-20261030.md
 docs/evidence/delta-disposition-20261116.md
 docs/evidence/delta-disposition-20261117.md
+docs/evidence/delta-disposition-20261120.md
 docs/evidence/discovery-20261009.json
 docs/evidence/discovery-20261016.json
 docs/evidence/discovery-20261022.json
@@ -43,6 +44,7 @@ docs/evidence/discovery-20261024.json
 docs/evidence/discovery-20261030.json
 docs/evidence/discovery-20261116.json
 docs/evidence/discovery-20261117.json
+docs/evidence/discovery-20261120.json
 docs/evidence/discovery.json
 docs/evidence/forward-benny/input.json
 docs/evidence/forward-benny/report.md
@@ -62,6 +64,7 @@ docs/evidence/install-sync-20261024.json
 docs/evidence/install-sync-20261030.json
 docs/evidence/install-sync-20261116.json
 docs/evidence/install-sync-20261117.json
+docs/evidence/install-sync-20261120.json
 docs/evidence/other-skills-candidate-20261117.json
 docs/evidence/plugin-smoke-20261009.json
 docs/evidence/plugin-smoke-20261016.json
@@ -70,9 +73,12 @@ docs/evidence/plugin-smoke-20261024.json
 docs/evidence/plugin-smoke-20261030.json
 docs/evidence/plugin-smoke-20261116.json
 docs/evidence/plugin-smoke-20261117.json
+docs/evidence/plugin-smoke-20261120.json
 docs/evidence/plugin-smoke.json
 docs/evidence/poteto-candidate-20261117.json
 docs/evidence/review-20261117.md
+docs/evidence/review-20261120.json
+docs/evidence/statechart-20261120.json
 docs/evidence/statechart-candidate-20261030.json
 docs/evidence/statechart-candidate-20261116.json
 docs/evidence/statechart-dependencies-20261024.json
@@ -88,6 +94,7 @@ docs/evidence/update-payload-20261024.json
 docs/evidence/update-payload-20261030.json
 docs/evidence/update-payload-20261116.json
 docs/evidence/update-payload-20261117.json
+docs/evidence/update-payload-20261120.json
 docs/evidence/update-payload.json
 docs/evidence/upstream-20261016.json
 docs/evidence/upstream-20261022.json
@@ -95,9 +102,11 @@ docs/evidence/upstream-20261024.json
 docs/evidence/upstream-20261030.json
 docs/evidence/upstream-20261116.json
 docs/evidence/upstream-20261117.json
+docs/evidence/upstream-20261120.json
 docs/evidence/verification-20261030.json
 docs/evidence/verification-20261116.json
 docs/evidence/verification-20261117.json
+docs/evidence/verification-20261120.json
 docs/evidence/workflow-candidate-20261030.json
 docs/evidence/workflow-candidate-20261116.json
 docs/evidence/workflow-disposition-20261030.md
@@ -255,6 +264,8 @@ skills/pstack-statechart/scripts/frontends/value.ts
 skills/pstack-statechart/scripts/frontends/verdict.ts
 skills/pstack-statechart/scripts/frontends/view.ts
 skills/pstack-statechart/scripts/ir.ts
+skills/pstack-statechart/scripts/janitor.ts
+skills/pstack-statechart/scripts/kill.ts
 skills/pstack-statechart/scripts/package.json
 skills/pstack-statechart/scripts/passes/annotate.ts
 skills/pstack-statechart/scripts/passes/label.ts
@@ -638,6 +649,7 @@ skills/pstack-statechart/scripts/test/grid/Grid.cfg
 skills/pstack-statechart/scripts/test/grid/Grid.tla
 skills/pstack-statechart/scripts/test/grid/sany.out
 skills/pstack-statechart/scripts/test/java.ts
+skills/pstack-statechart/scripts/test/kill.test.ts
 skills/pstack-statechart/scripts/test/labels.ts
 skills/pstack-statechart/scripts/test/messages.test.ts
 skills/pstack-statechart/scripts/test/pipeline.test.ts

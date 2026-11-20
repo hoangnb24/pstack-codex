@@ -1,6 +1,6 @@
 {
   "name": "pstack-codex",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Lauren Tan's pstack engineering workflows adapted for Codex, with scoped permissions and concrete verification.",
   "author": {
     "name": "pstack-codex contributors; upstream Lauren Tan"

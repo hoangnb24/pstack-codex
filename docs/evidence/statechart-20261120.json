@@ -1,0 +1,283 @@
+{
+  "candidate": "d0e9b364e14c5c539e52a098b85f8120f33dd9e50c004f00348bd65fb813a8fe",
+  "base": "7b8f556f6b8beff7616305320412565241d07811",
+  "scopeFiles": 417,
+  "changed": [
+    {
+      "path": "skills/pstack-statechart/SKILL.md",
+      "mode": "0600",
+      "sha256": "fe7851c285821c0539ca995831b1155381d85c787246ae802e26611402460222"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/frontends/dot.ts",
+      "mode": "0600",
+      "sha256": "cd2e681ff58c759ddeaa17c2f3d4af1f0c3e71273566be555187b5d0e7767dac"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/janitor.ts",
+      "mode": "0600",
+      "sha256": "defac41e4cbfca3044c5078c544a0667f857a610c500c5ec96cb3bfaeec7120b"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/kill.ts",
+      "mode": "0600",
+      "sha256": "f77ad9593164d178f0d185e46aaee20e7064d23bb08af891457e8ca13636fc4c"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/run.ts",
+      "mode": "0600",
+      "sha256": "297ef43c32cd28ea392c617eaf1ba7a80a295dabf9030ed90d558914dc728a58"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/statechart.ts",
+      "mode": "0600",
+      "sha256": "5d5feff7d78204c828a8e30d531d23419234a81a7149dc3e48efb08dd770d6c1"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/cli.test.ts",
+      "mode": "0600",
+      "sha256": "7201a0eece44078a27f85880e2118c69bbfa072fbb9770af1db64442f03970a7"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/kill.test.ts",
+      "mode": "0600",
+      "sha256": "c476e61e96a57bfde314e2af7cd396a1f5e71916537943fa79cf9010dd968740"
+    },
+    {
+      "path": "skills/pstack-statechart/scripts/test/messages.test.ts",
+      "mode": "0600",
+      "sha256": "70dc23d0a9c76e9949f052c8f426d35463a1416aca2457d09de544654d0f5721"
+    }
+  ],
+  "runtime": {
+    "passed": 409,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "safety": {
+    "passed": 4,
+    "failed": 0
+  },
+  "commands": [
+    {
+      "name": "safety",
+      "command": [
+        "/Users/tubakhuym/.hermes/node/bin/node",
+        "--test",
+        "tests/statechart/safety.test.mjs"
+      ],
+      "cwd": "/Users/tubakhuym/projects/prototypes/pstack-codex",
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "log": "safety.log"
+    },
+    {
+      "name": "validate",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/Users/tubakhuym/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "skills/pstack-statechart"
+      ],
+      "cwd": "/Users/tubakhuym/projects/prototypes/pstack-codex",
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "log": "validate.log"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "/Users/tubakhuym/projects/prototypes/pstack-codex",
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "log": "diff-check.log"
+    },
+    {
+      "name": "Safe",
+      "command": [
+        "/Users/tubakhuym/.hermes/node/bin/node",
+        "--disable-warning=ExperimentalWarning",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/candidate/scripts/statechart.ts",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/models/Safe.tla",
+        "--view",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/models/view.mjs",
+        "--out",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/Safe"
+      ],
+      "cwd": "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7",
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "log": "Safe.log"
+    },
+    {
+      "name": "Unsafe",
+      "command": [
+        "/Users/tubakhuym/.hermes/node/bin/node",
+        "--disable-warning=ExperimentalWarning",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/candidate/scripts/statechart.ts",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/models/Unsafe.tla",
+        "--view",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/models/view.mjs",
+        "--out",
+        "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7/Unsafe"
+      ],
+      "cwd": "/Users/tubakhuym/projects/prototypes/pstack-update-20261120-3dqpB0/statechart-iwHuG7",
+      "status": 1,
+      "signal": null,
+      "error": null,
+      "log": "Unsafe.log"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "suite.tap",
+      "mode": "0600",
+      "sha256": "f898502db51164ea57d304a427be8e626e295ee3d2a0b69662ef33f3bc20bde6"
+    },
+    {
+      "path": "checks.json",
+      "mode": "0600",
+      "sha256": "e11d5e19d0fab2c2e271905539b064c7b738067b13d5118485bef8c4721404ef"
+    },
+    {
+      "path": "safety.log",
+      "mode": "0600",
+      "sha256": "2309f852a4fb76f3f27634bb7aa52c1fa49bb062f46d957120aa91abac1fd261"
+    },
+    {
+      "path": "validate.log",
+      "mode": "0600",
+      "sha256": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0"
+    },
+    {
+      "path": "diff-check.log",
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Safe.log",
+      "mode": "0600",
+      "sha256": "1afcf0a99951c6326502a811538d2d2a02ec0528c2f5a0593ab2753709892f26"
+    },
+    {
+      "path": "Unsafe.log",
+      "mode": "0600",
+      "sha256": "270c63970ddf8e8be3dbf37e4762ef393cbbbd9743df5fd136f055be6b83d24a"
+    },
+    {
+      "path": "Safe/chart.png",
+      "mode": "0600",
+      "sha256": "13fdb1f88ec5e99a3d6ed01f7f3926b97b5809c722a81d93fcb398b547e38e3a"
+    },
+    {
+      "path": "Unsafe/chart.png",
+      "mode": "0600",
+      "sha256": "0e5c2972f689902115784334ea657a113be7e3d6dd7f1a14299e069de6dd6732"
+    },
+    {
+      "path": "manifest.json",
+      "mode": "0600",
+      "sha256": "d2d705b5703a32a4b33dcdbd68dc53c1de9ebed33de9fff0fa3dec76fef03569"
+    },
+    {
+      "path": "disposition.json",
+      "mode": "0600",
+      "sha256": "248e3d56bbca42d056d04aeaa2f5a974159c1167b69bc9893ddd80f2fd6352da"
+    }
+  ],
+  "dispositions": {
+    "base": "7b8f556f6b8beff7616305320412565241d07811",
+    "upstreamBase": "3fa33bb0f927bea2ccacd48a3cfda95145fb6bae",
+    "upstreamTarget": "0b46ec399d55f2829e88822998f53b84944837d3",
+    "paths": [
+      {
+        "upstream_path": "pstack/skills/statechart/SKILL.md",
+        "local_path": "skills/pstack-statechart/SKILL.md",
+        "upstream_sha256": "ca7b3e43b1ddc4fb2425a33960f9390357323a869e1d921b6e2aff4f3004d55e",
+        "local_sha256": "fe7851c285821c0539ca995831b1155381d85c787246ae802e26611402460222",
+        "exact_upstream": false,
+        "disposition": "Adapt exact Windows invocation paragraph. Preserve namespaced frontmatter, existing prerequisites, trusted-view and new-or-empty output rules. No upstream installer."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/frontends/dot.ts",
+        "local_path": "skills/pstack-statechart/scripts/frontends/dot.ts",
+        "upstream_sha256": "cd2e681ff58c759ddeaa17c2f3d4af1f0c3e71273566be555187b5d0e7767dac",
+        "local_sha256": "cd2e681ff58c759ddeaa17c2f3d4af1f0c3e71273566be555187b5d0e7767dac",
+        "exact_upstream": true,
+        "disposition": "Exact upstream. Normalize LF/CRLF and trailing CR through splitLines."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/janitor.ts",
+        "local_path": "skills/pstack-statechart/scripts/janitor.ts",
+        "upstream_sha256": "defac41e4cbfca3044c5078c544a0667f857a610c500c5ec96cb3bfaeec7120b",
+        "local_sha256": "defac41e4cbfca3044c5078c544a0667f857a610c500c5ec96cb3bfaeec7120b",
+        "exact_upstream": true,
+        "disposition": "Exact upstream. Runtime-native cleanup receives worker exit marker; removes only caller-created staging/temp directories. Existing process cleanup tests apply."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/kill.ts",
+        "local_path": "skills/pstack-statechart/scripts/kill.ts",
+        "upstream_sha256": "058df69d1184029e55d7e81b4fd37a6dc8557c9208979fb7032482d5ab0db448",
+        "local_sha256": "f77ad9593164d178f0d185e46aaee20e7064d23bb08af891457e8ca13636fc4c",
+        "exact_upstream": false,
+        "disposition": "Adapt upstream process-group/taskkill helper. Reject non-safe-integer PIDs and PIDs <=1 before calling a kill API. Added two behavioral regression tests."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/run.ts",
+        "local_path": "skills/pstack-statechart/scripts/run.ts",
+        "upstream_sha256": "fb6ec4a1835a15e6e72df28bb932b8df5a4c04c5de6f9c270fd63ff5cd148dc7",
+        "local_sha256": "297ef43c32cd28ea392c617eaf1ba7a80a295dabf9030ed90d558914dc728a58",
+        "exact_upstream": false,
+        "disposition": "Adapt all applicable delta: splitLines in both buffered readers, remove old shell killGroup, windowsHide on runToFiles, UTF-8 JVM flags. Upstream runChild windowsHide hunk does not apply: local-only port has no runChild or installer. Keep findTlc local-only and existing SANY diagnostics."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/statechart.ts",
+        "local_path": "skills/pstack-statechart/scripts/statechart.ts",
+        "upstream_sha256": "5d5feff7d78204c828a8e30d531d23419234a81a7149dc3e48efb08dd770d6c1",
+        "local_sha256": "5d5feff7d78204c828a8e30d531d23419234a81a7149dc3e48efb08dd770d6c1",
+        "exact_upstream": true,
+        "disposition": "Exact upstream. Native janitor runtime; TMPDIR/TEMP/TMP; exited marker and guarded group termination. Preserve all output validation and publication behavior."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/test/cli.test.ts",
+        "local_path": "skills/pstack-statechart/scripts/test/cli.test.ts",
+        "upstream_sha256": "7201a0eece44078a27f85880e2118c69bbfa072fbb9770af1db64442f03970a7",
+        "local_sha256": "7201a0eece44078a27f85880e2118c69bbfa072fbb9770af1db64442f03970a7",
+        "exact_upstream": true,
+        "disposition": "Exact upstream. Add 33 corpus replay checks with mixed Windows line ends. Existing signal/crash/output-safety regressions retained."
+      },
+      {
+        "upstream_path": "pstack/skills/statechart/scripts/test/messages.test.ts",
+        "local_path": "skills/pstack-statechart/scripts/test/messages.test.ts",
+        "upstream_sha256": "70dc23d0a9c76e9949f052c8f426d35463a1416aca2457d09de544654d0f5721",
+        "local_sha256": "70dc23d0a9c76e9949f052c8f426d35463a1416aca2457d09de544654d0f5721",
+        "exact_upstream": true,
+        "disposition": "Exact upstream. Add all-CRLF verdict/plain-text equality regression."
+      }
+    ],
+    "extra": [
+      "skills/pstack-statechart/scripts/test/kill.test.ts"
+    ],
+    "unchanged": [
+      "tests/statechart/**",
+      "skills/pstack-statechart/agents/openai.yaml",
+      "skills/pstack-statechart/scripts/package.json",
+      "skills/pstack-statechart/references/render.md"
+    ]
+  },
+  "limits": [
+    "Native Windows/taskkill, Linux, Deno, Bun untested",
+    "fast-check 4.10.0 used, not pinned 4.5.3",
+    "Pele 1.8.0 used, not 1.9.0",
+    "Bounded models do not prove production behavior"
+  ]
+}
