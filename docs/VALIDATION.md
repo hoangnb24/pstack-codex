@@ -1,6 +1,8 @@
 # Validation performed
 
-## Accepted and installed upstream 0.15.46 — 2026-11-20
+## Accepted, installed, and published upstream 0.15.46 — 2026-11-20
+
+Current status: the update, installation, symlink verification and payload publication are complete. All scopes are closed. No accepted installation or publication remains pending. The paragraphs below retain the verification sequence and its limits.
 
 This run starts at port `7b8f556f6b8beff7616305320412565241d07811` (0.6.2), upstream `3fa33bb0f927bea2ccacd48a3cfda95145fb6bae` (0.15.43). Target upstream is `0b46ec399d55f2829e88822998f53b84944837d3` (0.15.46), pstack tree `b47cf6d63625b48fd77893233044849935cdae3d`. The 15-path delta includes statechart Windows support and model defaults. No prior accepted stage is pending. The existing daily schedule remains active at 08:00 Asia/Ho_Chi_Minh; no duplicate schedule is created.
 
@@ -31,6 +33,10 @@ The launcher pins cache 0.6.3, SHA-256 `5d1e611f9dbc51183bf85f6844babc83d1c32519
 All three Droid role links remain correct and unchanged after installation. Each exposes 58 pstack and two existing external readable skills. Start fresh Codex and Droid sessions to load the updated instructions; no running session was restarted. Filesystem discovery does not prove a running Droid session reloaded skills. The supported installer replaced the previous cache. The verified install-before and launcher-before copies remain rollback inputs. No source file was deleted.
 
 All implementation and inspection scopes are closed. Installation and symlink verification are complete. Publication is the next stage: review exact in-scope content, scan for recognized secrets/private artifacts, fetch the authorized origin/main, then commit and normal-push. Preserve the five `.DS_Store` files and two external skill symlinks outside staging. No dependency install, tag, release, deployment, Benny activation or unrelated configuration change occurred.
+
+Publication confirmed: `f4324fc977ab361c05ea2190451fa67b821c5dfa` (`fix(statechart): sync upstream 0.15.46 as 0.6.3`) was normal-pushed to `origin/main` at `git@github.com:hoangnb24/pstack-codex.git`. `git ls-remote origin refs/heads/main` matched local HEAD; ahead/behind was 0/0. The 24 staged paths were the inspected source, tests and public evidence only. All 579 staged payload blobs matched the accepted receipt. The final 683-file index scan found no known credential patterns or private filenames. This is bounded evidence, not an exhaustive security audit.
+
+This documentation-only follow-up records the verified publication without changing payload/cache identity. Remaining unrelated untracked paths are `.DS_Store`, `automations/.DS_Store`, `docs/.DS_Store`, `skills/.DS_Store`, `tests/.DS_Store`, `skills/3d-mesh-optimization`, and `skills/verify-3d-mesh`. Preserve them. The existing daily schedule remains active at 08:00 Asia/Ho_Chi_Minh. Next run reads current UPSTREAM.json and checks for a new pstack subtree delta; do not repeat these completed stages. The only deferred platform obligation is native Windows cleanup validation before claiming verified Windows support.
 
 ## Accepted, installed, and published upstream 0.15.43 — 2026-11-17
 
