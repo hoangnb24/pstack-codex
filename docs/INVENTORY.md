@@ -1,6 +1,6 @@
 # Package inventory
 
-683 source/evidence files, including this inventory. Plugin 0.6.3 contains 58 skills and 22 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
+692 source/evidence files, including this inventory. Plugin 0.6.4 contains 59 skills and 22 playbooks. Backups, frozen candidates, toolchain, test dependency links, user symlinks, and upstream checkout are outside this package.
 
 ```text
 .agents/plugins/marketplace.json
@@ -37,6 +37,7 @@ docs/evidence/delta-disposition-20261030.md
 docs/evidence/delta-disposition-20261116.md
 docs/evidence/delta-disposition-20261117.md
 docs/evidence/delta-disposition-20261120.md
+docs/evidence/delta-disposition-20261124.md
 docs/evidence/discovery-20261009.json
 docs/evidence/discovery-20261016.json
 docs/evidence/discovery-20261022.json
@@ -45,6 +46,7 @@ docs/evidence/discovery-20261030.json
 docs/evidence/discovery-20261116.json
 docs/evidence/discovery-20261117.json
 docs/evidence/discovery-20261120.json
+docs/evidence/discovery-20261124.json
 docs/evidence/discovery.json
 docs/evidence/forward-benny/input.json
 docs/evidence/forward-benny/report.md
@@ -65,6 +67,7 @@ docs/evidence/install-sync-20261030.json
 docs/evidence/install-sync-20261116.json
 docs/evidence/install-sync-20261117.json
 docs/evidence/install-sync-20261120.json
+docs/evidence/install-sync-20261124.json
 docs/evidence/other-skills-candidate-20261117.json
 docs/evidence/plugin-smoke-20261009.json
 docs/evidence/plugin-smoke-20261016.json
@@ -74,6 +77,7 @@ docs/evidence/plugin-smoke-20261030.json
 docs/evidence/plugin-smoke-20261116.json
 docs/evidence/plugin-smoke-20261117.json
 docs/evidence/plugin-smoke-20261120.json
+docs/evidence/plugin-smoke-20261124.json
 docs/evidence/plugin-smoke.json
 docs/evidence/poteto-candidate-20261117.json
 docs/evidence/review-20261117.md
@@ -95,6 +99,7 @@ docs/evidence/update-payload-20261030.json
 docs/evidence/update-payload-20261116.json
 docs/evidence/update-payload-20261117.json
 docs/evidence/update-payload-20261120.json
+docs/evidence/update-payload-20261124.json
 docs/evidence/update-payload.json
 docs/evidence/upstream-20261016.json
 docs/evidence/upstream-20261022.json
@@ -103,10 +108,12 @@ docs/evidence/upstream-20261030.json
 docs/evidence/upstream-20261116.json
 docs/evidence/upstream-20261117.json
 docs/evidence/upstream-20261120.json
+docs/evidence/upstream-20261124.json
 docs/evidence/verification-20261030.json
 docs/evidence/verification-20261116.json
 docs/evidence/verification-20261117.json
 docs/evidence/verification-20261120.json
+docs/evidence/verification-20261124.json
 docs/evidence/workflow-candidate-20261030.json
 docs/evidence/workflow-candidate-20261116.json
 docs/evidence/workflow-disposition-20261030.md
@@ -240,6 +247,8 @@ skills/pstack-recall/SKILL.md
 skills/pstack-recall/agents/openai.yaml
 skills/pstack-reflect/SKILL.md
 skills/pstack-reflect/agents/openai.yaml
+skills/pstack-reframe/SKILL.md
+skills/pstack-reframe/agents/openai.yaml
 skills/pstack-setup-pstack/SKILL.md
 skills/pstack-sharpen/SKILL.md
 skills/pstack-sharpen/agents/openai.yaml

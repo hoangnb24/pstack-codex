@@ -50,6 +50,7 @@ Use poteto mode for a non-trivial execution task that needs its playbook. Use a 
 | Evidence-led task execution | [poteto-mode](../pstack-poteto-mode/SKILL.md) |
 | Check understanding of the goal before work starts | [in-your-own-words](../pstack-in-your-own-words/SKILL.md) |
 | Rewrite a prompt for a deeper approach without executing its task | [sharpen](../pstack-sharpen/SKILL.md) |
+| Learn expert terms for an unclear problem, compare neighboring fields, and rewrite its description with checked sources | [reframe](../pstack-reframe/SKILL.md) |
 | Current mechanics, placement, or ownership | [how](../pstack-how/SKILL.md) |
 | Reasons, history, or origin of a number | [why](../pstack-why/SKILL.md) |
 | Plain explanation of a change or subsystem | [teach](../pstack-teach/SKILL.md) |

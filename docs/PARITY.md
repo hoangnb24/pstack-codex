@@ -7,6 +7,7 @@ Statuses describe the ported workflow, not a claim of live integration testing. 
 | `in-your-own-words` | [`pstack-in-your-own-words`](../skills/pstack-in-your-own-words/SKILL.md) | Adapted: restate the goal before action; no task expansion. |
 | `ketchup` | [`pstack-ketchup`](../skills/pstack-ketchup/SKILL.md) | Adapted: current-chat catch-up; unavailable history remains a gap. |
 | `sharpen` | [`pstack-sharpen`](../skills/pstack-sharpen/SKILL.md) | Adapted: return a deeper prompt, not task execution; preserve user choices. |
+| `reframe` | [`pstack-reframe`](../skills/pstack-reframe/SKILL.md) | Adapted: teach expert terms, check sources, and rewrite the description without implementation. Explicit-only. |
 | `architect` | [`pstack-architect`](../skills/pstack-architect/SKILL.md) | Ported: engineering guidance retained; namespaced links and Codex execution boundary. |
 | `arena` | [`pstack-arena`](../skills/pstack-arena/SKILL.md) | Adapted: authorized task-agent candidates; no guaranteed multi-model diversity; serial fallback disclosed. |
 | `automate-me` | [`pstack-automate-me`](../skills/pstack-automate-me/SKILL.md) | Adapted: task-scoped history; draft project-local skill only. |

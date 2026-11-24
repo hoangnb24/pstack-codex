@@ -1,0 +1,18 @@
+{
+  "baseline": "0b46ec399d55f2829e88822998f53b84944837d3",
+  "target": "9e278fe4d4ecd8bfe98b1b79bf4be662efb338cc",
+  "tree": "971573532de6714a4ddff8ec39b52d021ebf161a",
+  "baselineFiles": 553,
+  "targetFiles": 554,
+  "delta": [
+    ".cursor-plugin/plugin.json",
+    "README.md",
+    "docs/guide/02-poteto-mode.md",
+    "plugin.json",
+    "skills/poteto-help/SKILL.md",
+    "skills/reframe/SKILL.md"
+  ],
+  "licenseUnchanged": true,
+  "backupPayloadFiles": 579,
+  "backupHashesAndModesMatch": true
+}

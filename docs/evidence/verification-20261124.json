@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "name": "packaging",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "helpers",
+      "command": [
+        "node",
+        "--test",
+        "tests/helpers/helpers.test.mjs"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "python3",
+        "tools/smoke_discovery.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "plugin-smoke",
+      "command": [
+        "python3",
+        "tools/smoke_plugin.py"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "skill-creator",
+      "passed": 59
+    },
+    {
+      "name": "baseline-provenance",
+      "passed": 553
+    }
+  ],
+  "limits": [
+    "No live workflow or web-citation behavioral test.",
+    "Statechart runtime unchanged; full suite not rerun.",
+    "Native Windows and exact optional dependency versions remain unverified."
+  ]
+}

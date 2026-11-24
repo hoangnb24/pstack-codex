@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack: Reframe"
+  short_description: "Learn expert terms and reframe an unclear problem"
+  default_prompt: "Use $pstack-reframe to teach the expert terms for my problem and rewrite its description without implementing it."
+policy:
+  allow_implicit_invocation: false

@@ -1,5 +1,31 @@
 # Validation performed
 
+## Upstream 0.15.48 update — 2026-11-24
+
+Current stage: candidate accepted and installed; publication pending. All implementation and inspection scopes are closed. Publication remains owned by this run. No other writer or unfinished accepted update was found. Prior scheduled startup failures on November 21–22 wrote no update; November 23 completed a no-update check. The existing schedule remains active at 08:00 Asia/Ho_Chi_Minh.
+
+Base port: `170414b29f7dc8c6194a5451a889f5ff62e551b9`, version 0.6.3. Upstream moves from `0b46ec399d55f2829e88822998f53b84944837d3` (0.15.46) to `9e278fe4d4ecd8bfe98b1b79bf4be662efb338cc` (0.15.48), tree `971573532de6714a4ddff8ec39b52d021ebf161a`. Proposed port: 0.6.4, 59 skills. [Complete delta dispositions](evidence/delta-disposition-20261124.md).
+
+Recovery root: `/tmp/pstack-update-20261124-W2Brzm`. It contains source-before, install-before, launcher-before, private config-before.toml, and the exact upstream archive. These backups are outside publication but temporary; preserve them if rollback is needed after system temporary-file cleanup. All 579 accepted baseline payload hashes and modes match both backups and the still-installed cache. License bytes are unchanged. [Provenance](evidence/upstream-20261124.json).
+
+The skill-creator guidance shaped reframe as a small self-contained, read-only workflow. It preserves upstream's explicit-only policy. All old policies and safety fixes remain. No statechart code or dependency changed. Preserve the five untracked `.DS_Store` files and two external skill symlinks.
+
+Frozen candidate: recovery `candidate-0.6.4`, payload `2f68b1d543f6617db74267a37e83a51282c8049bdb368325e31a03d8b3e51401`, 581 files. [Payload manifest](evidence/update-payload-20261124.json). The freeze excludes unrelated user files and dependency links. Packaging passed 5/5, helper passed 1/1, and all 59 skill validations passed. All 553 baseline upstream hashes match the prior pinned checkout. CLI 0.171.0 standalone discovery found 59 skills with zero errors. Temporary native installation passed 59 enabled → 0 active → 59 enabled with matching resources. [Checks and limits](evidence/verification-20261124.json), [discovery](evidence/discovery-20261124.json), [native smoke](evidence/plugin-smoke-20261124.json). No inference ran.
+
+ACCEPT the independent read-only inspection of this exact payload. It recomputed all 581 payload hashes, checked all 554 upstream hashes, inspected the five changed payload paths, and passed three read-only packaging tests. No blocking payload defect was found. Existing runtime, license, dependencies and invocation policies are unchanged. Live invocation and citation quality were not tested. The read-only scope is closed.
+
+ACCEPT payload `2f68b1d543f6617db74267a37e83a51282c8049bdb368325e31a03d8b3e51401` for port 0.6.4. Inspected instructions preserve the upstream outcome and add clear read-only, evidence and authority boundaries. Packaging, discovery and independent provenance checks support acceptance. This permits the authorized supported plugin refresh, launcher path repair, installation checks and normal publication. It does not authorize dependency installation, model/config changes, live product workflows, releases or deployment.
+
+ACCEPT the real installation and launcher. The supported CLI used the accepted candidate with a process-only marketplace source override. All 581 payload hashes and modes match source, candidate and installed cache. Fresh real-home discovery found 59 enabled skills at unique cache paths. Persistent marketplace source still points to this repo. Complete config bytes are unchanged. No cache was edited manually. [Installation, symlink and model receipt](evidence/install-sync-20261124.json).
+
+The launcher now pins cache 0.6.4, SHA-256 `0da4f1db04e58de5eeb0ed11b8b972506bafed0f8ac25a7fc903306fa3338785`, mode 0755. CLI arguments and toolchain-1 are unchanged. Fresh scratch checks through this launcher returned Safe exit 0 and Unsafe exit 1. Safe holds Capacity and NoDeadlock; Unsafe reports the shortest Capacity path `0 → 1 → 2`, with NoDeadlock holding. Both rendered PNGs were visually inspected: labels and arrows are readable; the unsafe final state is red. The unchanged full runtime suite was not rerun. This is bounded launcher compatibility evidence, not a production-model or native Windows claim.
+
+The supervisor, lead and peer Droid symlinks each have the intended readlink and realpath. Each exposes 59 pstack and two existing external readable skills. All links remain unchanged. Filesystem availability does not prove that a running Droid session reloaded instructions. Start fresh Codex and Droid sessions for the new skill. No running session was restarted.
+
+Rollback: the supported installer removed the old cache. Use the verified `install-before` via the supported process-only marketplace override, verify the restored cache, then restore `launcher-before`. Preserve later user work, toolchain-1 and unrelated configuration. Do not manually edit cache files. Source/config backups remain outside publication. No source file was deleted.
+
+Ready for authorized publication: source, tests and public evidence only. Exclude backups, private config, toolchains, transcripts and the seven original untracked paths. No new dependencies, external product workflow, Benny activation, release, deployment or global model change occurred. Live reframe citation quality remains untested. Native Windows cleanup remains deferred until Windows support is requested; it does not block this Mac update.
+
 ## Accepted, installed, and published upstream 0.15.46 — 2026-11-20
 
 Current status: the update, installation, symlink verification and payload publication are complete. All scopes are closed. No accepted installation or publication remains pending. The paragraphs below retain the verification sequence and its limits.
