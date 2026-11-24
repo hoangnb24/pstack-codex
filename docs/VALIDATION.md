@@ -1,8 +1,8 @@
 # Validation performed
 
-## Upstream 0.15.48 update — 2026-11-24
+## Accepted, installed, and published upstream 0.15.48 — 2026-11-24
 
-Current stage: candidate accepted and installed; publication pending. All implementation and inspection scopes are closed. Publication remains owned by this run. No other writer or unfinished accepted update was found. Prior scheduled startup failures on November 21–22 wrote no update; November 23 completed a no-update check. The existing schedule remains active at 08:00 Asia/Ho_Chi_Minh.
+Current status: update, installation, symlink verification and payload publication are complete. All scopes are closed. No accepted installation or publication remains pending. No other writer or unfinished accepted update was found. Prior scheduled startup failures on November 21–22 wrote no update; November 23 completed a no-update check. The existing schedule remains active at 08:00 Asia/Ho_Chi_Minh. The paragraphs below retain the verification sequence.
 
 Base port: `170414b29f7dc8c6194a5451a889f5ff62e551b9`, version 0.6.3. Upstream moves from `0b46ec399d55f2829e88822998f53b84944837d3` (0.15.46) to `9e278fe4d4ecd8bfe98b1b79bf4be662efb338cc` (0.15.48), tree `971573532de6714a4ddff8ec39b52d021ebf161a`. Proposed port: 0.6.4, 59 skills. [Complete delta dispositions](evidence/delta-disposition-20261124.md).
 
@@ -24,7 +24,11 @@ The supervisor, lead and peer Droid symlinks each have the intended readlink and
 
 Rollback: the supported installer removed the old cache. Use the verified `install-before` via the supported process-only marketplace override, verify the restored cache, then restore `launcher-before`. Preserve later user work, toolchain-1 and unrelated configuration. Do not manually edit cache files. Source/config backups remain outside publication. No source file was deleted.
 
-Ready for authorized publication: source, tests and public evidence only. Exclude backups, private config, toolchains, transcripts and the seven original untracked paths. No new dependencies, external product workflow, Benny activation, release, deployment or global model change occurred. Live reframe citation quality remains untested. Native Windows cleanup remains deferred until Windows support is requested; it does not block this Mac update.
+Publication scope was source, tests and public evidence only. Backups, private config, toolchains, transcripts and the seven original untracked paths were excluded. No new dependencies, external product workflow, Benny activation, release, deployment or global model change occurred. Live reframe citation quality remains untested. Native Windows cleanup remains deferred until Windows support is requested; it does not block this Mac update.
+
+Publication confirmed: `4a78228fb0181ed2ca0e0f45bdb4fc7f02cf7abf` (`feat(pstack): port upstream reframe as 0.6.4`) was normal-pushed to `origin/main` at `git@github.com:hoangnb24/pstack-codex.git`. Remote `refs/heads/main` matched local HEAD. All 581 staged payload blobs matched the accepted receipt. The 692-file index scan found no recognized credential patterns or private filenames. This bounded scan is not an exhaustive security audit. All 19 staged paths were reviewed source, tests and public evidence.
+
+This documentation-only follow-up records completed publication without changing payload/cache identity. Remaining untracked paths are `.DS_Store`, `automations/.DS_Store`, `docs/.DS_Store`, `skills/.DS_Store`, `tests/.DS_Store`, `skills/3d-mesh-optimization`, and `skills/verify-3d-mesh`. Preserve them. The next daily run reads current UPSTREAM.json and checks for a new pstack subtree delta; it must not repeat these completed stages.
 
 ## Accepted, installed, and published upstream 0.15.46 — 2026-11-20
 
